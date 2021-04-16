@@ -7,10 +7,10 @@ function Menu(){
         <div className="navbar">
             <img src={logo} alt="LOGO"/>
             <li>PT-BR</li>
-            <li>CONTACT</li>
-            <li>PROJECTS</li>
-            <li>STACKS</li>
-            <li>HOME</li>
+            <li>Contact</li>
+            <li>Projects</li>
+            <li>Stacks</li>
+            <li>Home</li>
         </div>
     )
 }
