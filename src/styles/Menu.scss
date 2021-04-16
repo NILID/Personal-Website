@@ -4,9 +4,14 @@
     height: 50px;
     list-style-type: none;
 
+    img{
+        padding: 10px;
+        float: left;
+    }
+
     li{
         display: inline;
         float: right;
-        padding: 5px;
+        padding: 10px;
     }
 }
