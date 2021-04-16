@@ -3,6 +3,7 @@ import "../styles/Menu.scss"
 import logo from "../assets/f.svg"
 
 function Menu(){
+
     return(
         <div className="navbar">
             <img src={logo} alt="LOGO"/>
