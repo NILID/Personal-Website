@@ -1,0 +1,12 @@
+.navbar{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+
+    li{
+        display: inline;
+        float: right;
+        padding: 5px;
+    }
+}
