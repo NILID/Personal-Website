@@ -1,7 +1,7 @@
 import Menu from "./Menu"
 import Home from "./Home"
 import Stacks from "./Stacks"
-
+import Projects from "./Projects"
 import "../styles/Main.scss"
 
 function Main(){
@@ -10,6 +10,7 @@ function Main(){
             <Menu></Menu>
             <Home></Home>
             <Stacks></Stacks>
+            <Projects></Projects>
         </div>
     )
 }
