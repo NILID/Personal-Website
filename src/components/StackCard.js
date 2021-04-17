@@ -1,8 +1,10 @@
+import "../styles/StackCard.scss";
+
 function StackCard(props) {
   return (
-    <div>
-      <h2>{props.title}</h2>
-      <img src={props.img} alt="stack logo" />
+    <div className="StackCardContainer">
+      <img className="StackCardImage" src={props.img} alt="stack logo" />
+      <h5 className="StackCardImageTitle">{props.title}</h5>
     </div>
   );
 }

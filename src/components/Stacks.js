@@ -1,31 +1,45 @@
 import "../styles/Stacks.scss";
-import htmlCss from "../assets/html-css.svg";
+import html from "../assets/html5.svg";
 import javascript from "../assets/javascript.svg";
 import reactjs from "../assets/react.svg";
 import mongodb from "../assets/mongodb.svg";
 import sass from "../assets/sass.svg";
 import python from "../assets/python.svg";
+import css from "../assets/css-5.svg";
+import git from "../assets/git-icon.svg";
+import redux from "../assets/redux.svg";
+
+import StackCard from "./StackCard";
 
 function Stacks() {
   return (
     <div className="StacksContainer">
-      <div>
-        <img className="img" src={htmlCss} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="html" img={html}></StackCard>
       </div>
-      <div>
-        <img className="img" src={javascript} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="css" img={css}></StackCard>
       </div>
-      <div>
-        <img className="img" src={reactjs} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="ReactJS" img={reactjs}></StackCard>
       </div>
-      <div>
-        <img className="img" src={mongodb} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="javascript" img={javascript}></StackCard>
       </div>
-      <div>
-        <img className="img" src={sass} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="MongoDB" img={mongodb}></StackCard>
       </div>
-      <div>
-        <img className="img" src={python} alt="stack"></img>
+      <div className="StacksCardContainer">
+        <StackCard title="Python" img={python}></StackCard>
+      </div>
+      <div className="StacksCardContainer">
+        <StackCard title="Sass" img={sass}></StackCard>
+      </div>
+      <div className="StacksCardContainer">
+        <StackCard title="git" img={git}></StackCard>
+      </div>
+      <div className="StacksCardContainer">
+        <StackCard title="redux" img={redux}></StackCard>
       </div>
     </div>
   );

@@ -1,0 +1,18 @@
+.StackCardContainer {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border: 1px solid black;
+
+  .StackCardImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 100px;
+  }
+
+  .StackCardImageTitle {
+    text-align: center;
+  }
+}

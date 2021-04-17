@@ -1,19 +1,10 @@
-.StacksContainer{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
+.StacksContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
 
-.StacksContainer > div{
-    width: 200px;
-    height: 200px;
-    margin: auto;
-
-    .img{
-        width: 200px;
-        height: 250px;
-    }
-
-    .img:hover{
-        cursor: pointer;
-    }
+  .StacksCardContainer {
+    background-color: red;
+  }
 }

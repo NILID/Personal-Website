@@ -1,14 +1,19 @@
-import "../styles/Home.scss"
-import coder from "../assets/alternative.svg"
+import "../styles/Home.scss";
+import coder from "../assets/alternative.svg";
+import Menu from "./Menu";
 
-function Home(){
-    return(
-        <div>
-            <h1>Hi! I'm a Software Developer</h1>
-            <h4>Do you hate CSS? Count on me!</h4>
-            <img className="img" src={coder} alt="gif"/>
-        </div>
-    )
+function Home() {
+  return (
+    <div className="HomeContainer">
+      <Menu></Menu>
+      <h1>Hi! My name is Flávio and I'm a Software Engineer</h1>
+      <h4>
+        Coding with passion since 2017! I love to work with frontend
+        applications and AI
+      </h4>
+      <img className="HomeImgContainer" src={coder} alt="gif" />
+    </div>
+  );
 }
 
 export default Home;

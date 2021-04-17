@@ -8,7 +8,6 @@ import "../styles/Main.scss";
 function Main() {
   return (
     <div>
-      <Menu></Menu>
       <Home></Home>
       <Stacks></Stacks>
       <Projects></Projects>
