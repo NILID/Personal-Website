@@ -5,8 +5,9 @@ import "../styles/StacksMainComponent.scss";
 function StacksMainComponent() {
   return (
     <div className="StacksMainComponentContainer">
-      <hr />
-      <h1 href="#stacks">STACKS</h1>
+      <div className="StacksMainComponentText" href="#stacks">
+        <h2>MY SKILLS</h2>
+      </div>
       <Stacks></Stacks>
     </div>
   );

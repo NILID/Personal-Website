@@ -4,7 +4,7 @@ import javascript from "../assets/javascript.svg";
 import reactjs from "../assets/react.svg";
 import mongodb from "../assets/mongodb.svg";
 import sass from "../assets/sass.svg";
-import python from "../assets/python.svg";
+import python from "../assets/python-icon.svg";
 import css from "../assets/css-5.svg";
 import git from "../assets/git-icon.svg";
 import redux from "../assets/redux.svg";
@@ -34,9 +34,6 @@ function Stacks() {
       </div>
       <div className="StacksCardContainer">
         <StackCard title="Sass" img={sass}></StackCard>
-      </div>
-      <div className="StacksCardContainer">
-        <StackCard title="Git" img={git}></StackCard>
       </div>
       <div className="StacksCardContainer">
         <StackCard title="Redux" img={redux}></StackCard>
