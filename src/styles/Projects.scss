@@ -1,0 +1,16 @@
+.ProjectsContainer{
+    background-color: red;
+
+    .ProjectsTitleContainer{
+        background-color: blue;
+        width: 300px;
+        height: 80px;
+        border-radius: 15px;
+        margin: auto;
+    }
+
+    .ProjectsTitleContainer h1{
+        text-align: center;
+    }
+}
+
