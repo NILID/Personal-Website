@@ -15,16 +15,16 @@ function Stacks() {
   return (
     <div className="StacksContainer">
       <div className="StacksCardContainer">
-        <StackCard title="html" img={html}></StackCard>
+        <StackCard title="HTML5" img={html}></StackCard>
       </div>
       <div className="StacksCardContainer">
-        <StackCard title="css" img={css}></StackCard>
+        <StackCard title="CSS3" img={css}></StackCard>
       </div>
       <div className="StacksCardContainer">
         <StackCard title="ReactJS" img={reactjs}></StackCard>
       </div>
       <div className="StacksCardContainer">
-        <StackCard title="javascript" img={javascript}></StackCard>
+        <StackCard title="Javascript ES6" img={javascript}></StackCard>
       </div>
       <div className="StacksCardContainer">
         <StackCard title="MongoDB" img={mongodb}></StackCard>
@@ -36,10 +36,10 @@ function Stacks() {
         <StackCard title="Sass" img={sass}></StackCard>
       </div>
       <div className="StacksCardContainer">
-        <StackCard title="git" img={git}></StackCard>
+        <StackCard title="Git" img={git}></StackCard>
       </div>
       <div className="StacksCardContainer">
-        <StackCard title="redux" img={redux}></StackCard>
+        <StackCard title="Redux" img={redux}></StackCard>
       </div>
     </div>
   );
