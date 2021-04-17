@@ -1,9 +1,10 @@
-function StackCard(){
-    return(
-        <div>
-            <h1>stack card</h1>
-        </div>
-    )
+function StackCard(props) {
+  return (
+    <div>
+      <h2>{props.title}</h2>
+      <img src={props.img} alt="stack logo" />
+    </div>
+  );
 }
 
 export default StackCard;
