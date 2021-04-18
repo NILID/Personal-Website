@@ -6,7 +6,8 @@ function StacksMainComponent() {
   return (
     <div className="StacksMainComponentContainer">
       <div className="StacksMainComponentText" href="#stacks">
-        <h2>MY SKILLS</h2>
+        <h1>Technologies</h1>
+        <p>Here are some techs and programming languages that I use</p>
       </div>
       <Stacks></Stacks>
     </div>
