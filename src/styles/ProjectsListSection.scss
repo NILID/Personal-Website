@@ -1,9 +1,12 @@
 .ProjectsGridContainer {
-  width: 200px;
+  width: 300px;
   height: 200px;
+  grid-gap: 21px;
+  margin: auto;
+  padding: 10px;
 
   .Img {
-    width: 200px;
+    width: 300px;
     height: 200px;
   }
 }
