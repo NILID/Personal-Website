@@ -1,0 +1,16 @@
+.ContactFlexContainer {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  height: 500px;
+  background-color: white;
+}
+
+.ContactFlexContainer > div {
+  width: 50%;
+  background-color: brown;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}

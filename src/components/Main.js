@@ -1,8 +1,7 @@
-import Menu from "./Menu";
-import Home from "./Home";
-import StacksMainComponent from "./StacksMainComponent";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Home from "./Home/Home";
+import StacksMainComponent from "./About/StacksMainComponent";
+import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 import "../styles/Main.scss";
 
 function Main() {
