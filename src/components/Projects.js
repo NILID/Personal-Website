@@ -1,14 +1,15 @@
-import React from 'react'
-import "../styles/Projects.scss"
+import React from "react";
+import ProjectList from "./ProjectsList";
+import "../styles/Projects.scss";
 
 function Projects() {
-    return (
-        <div className="ProjectsContainer">
-            <div className="ProjectsTitleContainer">
-                <h1>Projects</h1>
-            </div>
-        </div>
-    )
+  return (
+    <div className="ProjectsContainer">
+      <h1>Projects </h1>
+      <h4>Here are some of my most recent projects</h4>
+      <ProjectList></ProjectList>
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;
