@@ -1,13 +1,13 @@
 import React from "react";
 import "../../styles/AboutMe.scss";
+import AboutMeGrid from "./AboutMeGrid";
 
 function AboutMe() {
   return (
     <div className="AboutMeContainer">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      <h1>Technologies</h1>
+      <h4>Here are some techs and programming languages that I use</h4>
+      <AboutMeGrid></AboutMeGrid>
     </div>
   );
 }
