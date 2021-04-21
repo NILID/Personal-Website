@@ -1,3 +1,4 @@
+import Menu from "./Home/Menu";
 import Home from "./Home/Home";
 import StacksMainComponent from "./About/StacksMainComponent";
 import Projects from "./Projects/Projects";
