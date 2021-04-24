@@ -6,9 +6,9 @@ import uk from "../../assets/united-kingdom.svg";
 function Menu() {
   return (
     <header>
-      <div className="container">
+      <div className="container container-nav">
         <div className="side-title">
-          <h1>Flavio</h1>
+          <img src={logo} alt="" />
         </div>
         <nav>
           <ul>

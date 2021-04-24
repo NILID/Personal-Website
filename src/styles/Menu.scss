@@ -1,21 +1,40 @@
 /* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+/* Layout */
+
+.container {
+  width: 90%;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-family: "Basic", sans-serif;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 header {
-  background: pink;
-  text-align: center;
-  padding: 2em 0;
+  background: #fafafa;
+  padding: 1em 0;
+}
+
+.side-title img {
+  width: 10%;
 }
 
 nav ul {
-  border: 1px solid magenta;
   list-style: none;
   display: flex;
-  justify-content: center;
 }
 
 nav li {
-  margin: 0 1em;
+  padding: 1em;
 }
 
 nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0.25em;
 }

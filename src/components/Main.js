@@ -10,6 +10,7 @@ function Main() {
   return (
     <div>
       <Menu></Menu>
+      <Home></Home>
       {/* <AboutMe></AboutMe>
       <Projects></Projects>
       <Contact></Contact> */}
