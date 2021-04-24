@@ -14,9 +14,13 @@ function Menu() {
     <header>
       <div className="container container-nav">
         <div className="logo">
-          <img src={logo} alt="" />
+          <img
+            className={`logo${showMenu ? " logoHidden" : null}`}
+            src={logo}
+            alt=""
+          />
         </div>
-        <nav className={`topnav${showMenu ? " responsive" : null}`}>
+        <nav className={`topnav${showMenu ? " responsive" : "logo"}`}>
           <ul>
             <li className="icon">
               <img
