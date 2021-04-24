@@ -1,42 +1,21 @@
-.NavbarContainer {
-  width: 100%;
-  height: 80px;
-  list-style-type: none;
-  border-bottom: 1px solid #9a9898;
-  font-size: 18px;
+/* Fonts */
+
+header {
+  background: pink;
+  text-align: center;
+  padding: 2em 0;
 }
 
-.NavbarIcon {
-  padding: 10px;
-  float: left;
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
+nav ul {
+  border: 1px solid magenta;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
-.NavbarFlag {
-  width: 50px;
-  height: 50px;
-  margin: -15px 0px 0px 0px;
+nav li {
+  margin: 0 1em;
 }
 
-li {
-  display: inline;
-  float: right;
-  margin: 15px 10px 0px 0px;
-  padding: 10px;
-}
-
-li:hover {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-a:hover {
-  color: #00b8ff;
+nav a {
 }

@@ -9,10 +9,10 @@ import AboutMe from "./About/AboutMe";
 function Main() {
   return (
     <div>
-      <Home></Home>
-      <AboutMe></AboutMe>
+      <Menu></Menu>
+      {/* <AboutMe></AboutMe>
       <Projects></Projects>
-      <Contact></Contact>
+      <Contact></Contact> */}
     </div>
   );
 }
