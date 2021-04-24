@@ -1,5 +1,4 @@
 import "../../styles/Home.scss";
-import Menu from "./Menu";
 import coder from "../../assets/alternative.svg";
 
 function Home() {
