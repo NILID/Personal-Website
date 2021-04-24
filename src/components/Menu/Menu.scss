@@ -7,6 +7,7 @@
   width: 95%;
   margin: 0 auto;
   font-family: "Basic", sans-serif;
+  background-color: pink;
 }
 
 .container-nav {
@@ -15,7 +16,7 @@
 }
 
 header {
-  background: #fafafa;
+  background: red;
   padding: 1em 0;
 }
 
@@ -39,6 +40,10 @@ nav img {
 
 nav li {
   padding: 1em 0.2em;
+}
+
+nav li:hover {
+  cursor: pointer;
 }
 
 nav a {
