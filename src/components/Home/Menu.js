@@ -1,17 +1,29 @@
 import React from "react";
 import "../../styles/Menu.scss";
 import logo from "../../assets/f.svg";
-import uk from "../../assets/united-kingdom.svg";
+import burgerMenu from "../../assets/burger-menu.svg";
 
 function Menu() {
+  function burger() {
+    let x = document.querySelector(".container");
+    if (x.className === "container") {
+      x.className += "responsive";
+    } else {
+      x.className = "container";
+    }
+  }
+
   return (
     <header>
       <div className="container container-nav">
-        <div className="side-title">
+        <div className="logo">
           <img src={logo} alt="" />
         </div>
         <nav>
           <ul>
+            <li>
+              <img src={burgerMenu} alt="" />
+            </li>
             <li>
               <a href="">Home</a>
             </li>
