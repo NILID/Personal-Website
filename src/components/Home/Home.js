@@ -7,16 +7,20 @@ function Home() {
     <div className="Container">
       <Menu></Menu>
       <div className="HomeContainer">
-        <div className="col col-1">
-          <h1>
-            Hello! I'm <span>Flávio</span>
-          </h1>
-          <p>
-            Welcome to my Portfolio.<br></br> You can find some of my projects
-            here and get in touch
-          </p>
-          <button>ABOUT ME</button>
-          <button>CONTACT ME</button>
+        <div className="col">
+          <div className="col-1">
+            <h1>
+              Hello! I'm <span>Flávio</span>
+            </h1>
+            <p>
+              Welcome to my Portfolio.<br></br> You can find some of my projects
+              here and get in touch
+            </p>
+            <button>
+              <a href="#">ABOUT ME</a>
+            </button>
+            <button className="btn-2">CONTACT ME</button>
+          </div>
         </div>
         <div className="col col-2">
           <img className="colImg" src={image} alt="" />
