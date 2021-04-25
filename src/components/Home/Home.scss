@@ -16,13 +16,14 @@
   margin: auto;
   border-radius: 15px;
   color: black;
-  //   border: 1px solid black;
-  //   background-color: #fafafa;
+  //   border: 3px dotted black;
+  background-color: #f1f1f1;
+  padding-top: 2em;
 }
 
 .col {
   width: 50%;
-  //   border: 3px solid red;
+  //   border: 3px dotted red;
 }
 
 .col-2 {
@@ -37,7 +38,7 @@
 }
 
 .col-1 {
-  //   padding: 4em 2em 2em 2em;
+  padding: 4em 2em 2em 2em;
   width: 80%;
   margin: auto;
   //   border: 3px dotted orange;
@@ -46,15 +47,20 @@
 .col-1 button {
   margin-top: 3em;
   padding: 1em;
+  background-color: #318de7;
+  border-radius: 15px;
+  border: none;
 }
 
-button a {
+.col-1 button a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .col-1 button:hover {
   cursor: pointer;
+  background-color: #4f2d87;
 }
 
 .btn-2 {

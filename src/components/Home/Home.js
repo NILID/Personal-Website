@@ -19,7 +19,6 @@ function Home() {
             <button>
               <a href="#">ABOUT ME</a>
             </button>
-            <button className="btn-2">CONTACT ME</button>
           </div>
         </div>
         <div className="col col-2">
