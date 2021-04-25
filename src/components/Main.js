@@ -9,7 +9,6 @@ import AboutMe from "./About/AboutMe";
 function Main() {
   return (
     <div>
-      <Menu></Menu>
       <Home></Home>
       {/* <AboutMe></AboutMe>
       <Projects></Projects>

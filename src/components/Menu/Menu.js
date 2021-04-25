@@ -28,7 +28,8 @@ function Menu() {
                   display();
                 }}
                 src={burgerMenu}
-                alt=""
+                alt="logo"
+                className="img"
               />
             </li>
             <li>
