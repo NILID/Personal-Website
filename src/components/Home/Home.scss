@@ -3,7 +3,7 @@
 
 /* Layout */
 
-.MenuContainer {
+.Container {
   width: 100%;
   height: 100vh;
   font-family: "Basic", Arial, Helvetica, sans-serif;
@@ -11,22 +11,46 @@
 
 .HomeContainerImg {
   width: 50%;
+  margin: 2em;
+  border: 1px solid black;
 }
 
 .HomeContainer {
+  display: flex;
   width: 80%;
   height: 70vh;
   margin: auto;
   border-radius: 15px;
-  background-color: #8ea3ff;
-  color: #fff;
+  color: black;
+  background-color: #fafafa;
+  //   background: rgb(2, 0, 36);
+  //   background: linear-gradient(
+  //     90deg,
+  //     rgba(2, 0, 36, 1) 0%,
+  //     rgba(9, 9, 121, 1) 14%,
+  //     rgba(11, 122, 184, 1) 77%,
+  //     rgba(101, 123, 226, 1) 95%
+  //   );
+}
+
+.col {
+  width: 50%;
+  //   border: 1px solid black;
+}
+
+.col-2 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colImg {
+  width: 90%;
 }
 
 .col-1 {
-  width: 60%;
-  padding: 10em 2em 2em 2em;
-  border: 1px solid black;
+  padding: 7em 2em 2em 2em;
+  //   border: 1px solid black;
 }
 
 .col-1 button {
@@ -36,4 +60,8 @@
 
 .col-1 button:hover {
   cursor: pointer;
+}
+
+.col-2 {
+  //   border: 1px solid black;
 }

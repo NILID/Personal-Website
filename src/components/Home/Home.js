@@ -4,10 +4,10 @@ import image from "../../assets/dev.png";
 
 function Home() {
   return (
-    <div className="MenuContainer">
+    <div className="Container">
       <Menu></Menu>
       <div className="HomeContainer">
-        <div className="col-1">
+        <div className="col col-1">
           <h1>
             Hello! I'm <span>Flávio</span>
           </h1>
@@ -16,9 +16,10 @@ function Home() {
             here and get in touch
           </p>
           <button>ABOUT ME</button>
+          <button>CONTACT ME</button>
         </div>
-        <div className="col-2">
-          <img className="HomeContainerImg" src={image} alt="" />
+        <div className="col col-2">
+          <img className="colImg" src={image} alt="" />
         </div>
       </div>
     </div>
