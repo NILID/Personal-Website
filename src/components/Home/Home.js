@@ -4,24 +4,19 @@ import image from "../../assets/dev.png";
 
 function Home() {
   return (
-    <div className="Container">
+    <div className="container-home">
       <Menu></Menu>
-      <div className="HomeContainer">
+      <div className="flex-container">
         <div className="col">
-          <div className="col-1">
-            <h1>
-              Hello! I'm <span>Flávio</span>
-            </h1>
-            <p>
-              Welcome to my Portfolio.<br></br> You can find some of my projects
-              here and get in touch
-            </p>
-            <button>
-              <a href="#">ABOUT ME</a>
-            </button>
-          </div>
+          <h1>
+            Hello! I'm <span>Flávio</span>
+          </h1>
+          <p>I'm a Brazilian Software Engineer based in Russia</p>
+          <button className="btn">
+            <a href="#">About me</a>
+          </button>
         </div>
-        <div className="col col-2">
+        <div className="col">
           <img className="colImg" src={image} alt="" />
         </div>
       </div>

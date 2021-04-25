@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Menu.scss";
-import logo from "../../assets/f.svg";
+import logo from "../../assets/logo.svg";
 import burgerMenu from "../../assets/burger-menu.svg";
 
 function Menu() {
@@ -12,7 +12,7 @@ function Menu() {
 
   return (
     <header>
-      <div className="container container-nav">
+      <div className="container-menu container-nav">
         <div className="logo">
           <img
             className={`logo${showMenu ? " logoHidden" : null}`}
