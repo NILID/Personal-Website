@@ -15,13 +15,16 @@ function AboutMe() {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
           sunt labore similique ut earum nam nihil voluptas hic quasi id? Libero
           iste corrupti recusandae! Autem voluptatem aperiam perferendis ut
-          quasi?
+          quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cupiditate possimus deleniti distinctio error. Odit ab iure culpa
+          molestias reiciendis totam minus consectetur. Illum esse laborum a
+          libero consequatur iste inventore?
         </p>
       </div>
       <div className="grid-3 flex-abt">
         <Tabs />
       </div>
-      <div className="grid-4 flex-abt">container 4</div>
+      <div className="grid-4 flex-abt"></div>
     </div>
   );
 }
