@@ -82,10 +82,27 @@ function Tabs() {
           </div>
         </div>
         <div className={tab === 2 ? "content active-tab" : "content"}>
-          <p>2</p>
+          <h2>ReactJS Freelancer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            distinctio minima debitis error adipisci cupiditate ratione,
+            corporis culpa quidem repellendus fugit dignissimos eius! Atque
+            consequuntur voluptatum dignissimos, rem eaque praesentium?
+          </p>
+          <h2>Team Manager at TeamWhale</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            minus ipsum soluta amet, alias voluptas iusto ut incidunt id sunt
+            eaque quia rem suscipit reprehenderit rerum error et unde
+            laboriosam?
+          </p>
         </div>
         <div className={tab === 3 ? "content active-tab" : "content"}>
-          <p>3</p>
+          <h2>Software Engineering</h2>
+          <p>
+            Siberian Federal University <br />
+            2017 - 2022
+          </p>
         </div>
       </div>
     </div>
