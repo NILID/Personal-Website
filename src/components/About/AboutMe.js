@@ -24,7 +24,6 @@ function AboutMe() {
       <div className="grid-3 flex-abt">
         <Tabs />
       </div>
-      <div className="grid-4 flex-abt"></div>
     </div>
   );
 }

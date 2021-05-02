@@ -4,10 +4,10 @@
 /* Layout */
 
 .container-menu {
+  // border: 3px dotted black;
   width: 80%;
   margin: 0 auto;
   font-family: "Basic", sans-serif;
-  // border: 3px dotted black;
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
@@ -46,7 +46,20 @@ nav a {
 }
 
 nav a:hover {
-  color: #318de7;
+  color: #3c6aef;
+}
+
+.border {
+  // border: 1px solid black;
+  border-radius: 5px;
+  background-color: #3c6aef;
+  a {
+    color: white;
+  }
+}
+
+.border a:hover {
+  color: white;
 }
 
 @media (max-width: 600px) {
