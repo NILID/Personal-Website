@@ -103,6 +103,10 @@ function Tabs() {
             Siberian Federal University <br />
             2017 - 2022
           </p>
+          <h3>Russian - Advanced</h3>
+          <p>Siberian Federal University</p>
+          <h3>English - Advanced</h3>
+          <p>UFES - Centro de Línguas</p>
         </div>
       </div>
     </div>
