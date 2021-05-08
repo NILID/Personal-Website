@@ -102,7 +102,15 @@ function Tabs() {
           </p>
         </div>
         <div className={tab === 3 ? "content active-tab" : "content"}>
-          <p>3</p>
+          <h2>Software Engineering</h2>
+          <p>
+            Siberian Federal University <br />
+            2017 - 2022
+          </p>
+          <h3>Russian - Advanced</h3>
+          <p>Siberian Federal University</p>
+          <h3>English - Advanced</h3>
+          <p>UFES - Centro de Línguas</p>
         </div>
       </div>
     </div>
