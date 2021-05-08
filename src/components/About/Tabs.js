@@ -82,7 +82,24 @@ function Tabs() {
           </div>
         </div>
         <div className={tab === 2 ? "content active-tab" : "content"}>
-          <p>2</p>
+          <h3>TeamWhale</h3>
+          <p className="exp-desc">Customer Support Coordinator</p>
+          <p className="exp-desc">
+            Managed two teams simultaneously of 25 specialists providing
+            customer support to clients in Africa, India, and Latin America.
+            Over 29,000 chats answered and 15,000 emails closed monthly. •
+            Worked with Quality Assurance providing full training and feedback
+            to all specialists hired. • Helped to develop a claim management
+            system, helping solve any issue fast and helping the client feel
+            embraced by our support.
+          </p>
+          <h3>EconoCargo</h3>
+          <p>Web Developer</p>
+          <p>
+            I've helped to develop and maintain a system of freight quotes using
+            C#, Javascript and MySQL database to provide precise freight prices
+            to over 5,000 locations in Brazil
+          </p>
         </div>
         <div className={tab === 3 ? "content active-tab" : "content"}>
           <p>3</p>
