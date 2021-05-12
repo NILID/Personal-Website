@@ -1,6 +1,7 @@
 import Home from "./Home/Home";
 import AboutMe from "./About/AboutMe";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 import "../styles/Main.scss";
 
@@ -10,6 +11,7 @@ function Main() {
       <Home></Home>
       <AboutMe></AboutMe>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 }

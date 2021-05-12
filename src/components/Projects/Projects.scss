@@ -2,6 +2,11 @@
   border: 1px solid black;
   width: 80%;
   height: 50vh;
-  display: flex;
   margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.projects-grid {
+  border: 1px solid black;
 }
