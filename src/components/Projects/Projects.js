@@ -3,36 +3,34 @@ import "./Projects.scss";
 
 function Projects() {
   return (
-    <div className="projects-container">
-      <div className="projects-grid">
-        <div className="img">
-          <img
-            className="img2"
-            src="https://dummyimage.com/600x400/000/fff"
-            alt=""
-          />
-        </div>
-        <div className="desc">
-          <h4>AI faces</h4>
-        </div>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-256-thumb/artificial-intelligence-2342301-1956433.png"
+          alt=""
+        />
+        <h2>AI built with Javascript</h2>
       </div>
-      <div className="projects-grid">
-        <div className="img">1</div>
-        <div className="desc">
-          <h4>AI faces</h4>
-        </div>
+      <div class="grid-item">
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-256-thumb/artificial-intelligence-2342301-1956433.png"
+          alt=""
+        />
+        <h2>AI built with Javascript</h2>
       </div>
-      <div className="projects-grid">
-        <div className="img">1</div>
-        <div className="desc">
-          <h4>AI faces</h4>
-        </div>
+      <div class="grid-item">
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-256-thumb/artificial-intelligence-2342301-1956433.png"
+          alt=""
+        />
+        <h2>AI built with Javascript</h2>
       </div>
-      <div className="projects-grid">
-        <div className="img">1</div>
-        <div className="desc">
-          <h4>AI faces</h4>
-        </div>
+      <div class="grid-item">
+        <img
+          src="https://cdn.iconscout.com/icon/premium/png-256-thumb/artificial-intelligence-2342301-1956433.png"
+          alt=""
+        />
+        <h2>AI built with Javascript</h2>
       </div>
     </div>
   );
