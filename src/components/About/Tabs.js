@@ -24,7 +24,7 @@ function Tabs() {
             setTab(1);
           }}
         >
-          Skills
+          Technologies
         </h4>
         <h4
           className={tab === 2 ? "tabs active-tabs" : "tabs"}

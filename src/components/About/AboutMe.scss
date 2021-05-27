@@ -1,26 +1,27 @@
 .about-container {
   width: 80%;
   margin: auto;
-  border: 1px solid black;
+  // border: 1px solid black;
   height: 80vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10% 40% 50%;
-  grid-gap: 5px;
+  grid-template-rows: 10% auto auto auto auto auto;
   grid-template-areas:
     "t t t t t t t t t t t t"
     "p p p p d d d d d d d d"
+    "p p p p s s s s s s s s"
+    "p p p p s s s s s s s s"
     "p p p p s s s s s s s s";
 }
 
 .title-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: t;
   text-align: center;
 }
 
 .photo-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: p;
   img {
     width: 100%;
@@ -29,12 +30,13 @@
 }
 
 .description-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: d;
+  padding: 0em 0em 0em 2em;
 }
 
 .skill-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: s;
 }
 
