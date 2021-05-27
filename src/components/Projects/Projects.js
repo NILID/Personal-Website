@@ -8,8 +8,18 @@ function Projects() {
       <div className="title">
         <h1>PROJECTS</h1>
       </div>
-      <div className="project-one">2</div>
-      <div className="project-two">3</div>
+      <div className="project-one">
+        <img src={placeholder} alt="" />
+        <h2>AI dev</h2>
+        <p>small lorem ipsum</p>
+        <button>CLICK HERE</button>
+      </div>
+      <div className="project-two">
+        <img src={placeholder} alt="" />
+        <h2>AI dev</h2>
+        <p>small lorem ipsum</p>
+        <button>CLICK HERE</button>
+      </div>
     </div>
   );
 }

@@ -9,6 +9,7 @@
     "t t t t"
     "p1 p1 p2 p2"
     "p1 p1 p2 p2";
+  text-align: center;
 }
 
 .title {
@@ -20,9 +21,27 @@
 .project-one {
   grid-area: p1;
   border: 1px dotted black;
+  img {
+    width: 50%;
+  }
 }
 
 .project-two {
   grid-area: p2;
   border: 1px dotted black;
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .project-container {
+    margin-top: 50%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "t t t t"
+      "p1 p1 p1 p1"
+      "p2 p2 p2 p2";
+  }
 }
