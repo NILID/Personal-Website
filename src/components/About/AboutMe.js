@@ -6,7 +6,19 @@ import "./AboutMe.scss";
 function AboutMe() {
   return (
     <div className="about-container">
-      <div className="grid-1 flex-abt">
+      <div className="title-container">
+        <h1>TITLE</h1>
+      </div>
+      <div className="photo-container">
+        <h1>PHOTO</h1>
+      </div>
+      <div className="description-container">
+        <h1>DESCRIPTION</h1>
+      </div>
+      <div className="skill-container">
+        <h1>SKILL GRID</h1>
+      </div>
+      {/* <div className="grid-1 flex-abt">
         <img src={flavio} alt="" />
       </div>
       <div className="grid-2 flex-abt">
@@ -23,7 +35,7 @@ function AboutMe() {
       </div>
       <div className="grid-3 flex-abt">
         <Tabs />
-      </div>
+      </div> */}
     </div>
   );
 }
