@@ -1,27 +1,28 @@
-.grid-container {
+.project-container {
   width: 80%;
-  height: 100vh;
+  height: 80vh;
   margin: auto;
   display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: #2196f3;
-  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10% auto auto;
+  grid-template-areas:
+    "t t t t"
+    "p1 p1 p2 p2"
+    "p1 p1 p2 p2";
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+.title {
+  grid-area: t;
+  border: 1px dotted black;
   text-align: center;
 }
 
-@media (max-width: 800px) {
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-  }
+.project-one {
+  grid-area: p1;
+  border: 1px dotted black;
+}
 
-  .grid-item {
-  }
+.project-two {
+  grid-area: p2;
+  border: 1px dotted black;
 }

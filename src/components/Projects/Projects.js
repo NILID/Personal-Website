@@ -4,15 +4,12 @@ import placeholder from "../../assets/placeholder.svg";
 
 function Projects() {
   return (
-    <div class="grid-container">
-      {/* <div class="grid-item">
-        <img src={placeholder} alt="placeholder" />
-        <h2>AI built with Javascript</h2>
+    <div class="project-container">
+      <div className="title">
+        <h1>PROJECTS</h1>
       </div>
-      <div class="grid-item">
-        <img src={placeholder} alt="placeholder" />
-        <h2>AI built with Javascript</h2>
-      </div> */}
+      <div className="project-one">2</div>
+      <div className="project-two">3</div>
     </div>
   );
 }
