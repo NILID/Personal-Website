@@ -7,13 +7,18 @@ function AboutMe() {
   return (
     <div className="about-container">
       <div className="title-container">
-        <h1>TITLE</h1>
+        <h1>ABOUT</h1>
       </div>
       <div className="photo-container">
-        <h1>PHOTO</h1>
+        <img src={flavio} alt="" />
       </div>
       <div className="description-container">
-        <h1>DESCRIPTION</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+          sunt labore similique ut earum nam nihil voluptas hic quasi id? Libero
+          iste corrupti recusandae! Autem voluptatem aperiam perferendis ut
+          quasi? Lorem ipsum dolor sit amet.
+        </p>
       </div>
       <div className="skill-container">
         <h1>SKILL GRID</h1>
