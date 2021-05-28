@@ -14,34 +14,12 @@ function Projects() {
         <button className="button button1">VIEW PROJECT</button>
       </div>
       <div className="project-two item">
-        <img src={placeholder} alt="" />
-        <h2>AI dev</h2>
-        <p>small lorem ipsum</p>
-        <button>CLICK HERE</button>
+        <h2>Face Recognition</h2>
+        <button className="button button1">VIEW PROJECT</button>
       </div>
       <div className="project-three item">
-        <img src={placeholder} alt="" />
-        <h2>AI dev</h2>
-        <p>small lorem ipsum</p>
-        <button>CLICK HERE</button>
-      </div>
-      <div className="project-four item">
-        <img src={placeholder} alt="" />
-        <h2>AI dev</h2>
-        <p>small lorem ipsum</p>
-        <button>CLICK HERE</button>
-      </div>
-      <div className="project-five item">
-        <img src={placeholder} alt="" />
-        <h2>AI dev</h2>
-        <p>small lorem ipsum</p>
-        <button>CLICK HERE</button>
-      </div>
-      <div className="project-six item">
-        <img src={placeholder} alt="" />
-        <h2>AI dev</h2>
-        <p>small lorem ipsum</p>
-        <button>CLICK HERE</button>
+        <h2>Face Recognition</h2>
+        <button className="button button1">VIEW PROJECT</button>
       </div>
     </div>
   );

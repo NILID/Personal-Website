@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,GAAG;CAChB",
+    "sources": [
+        "Bottom.scss"
+    ],
+    "names": [],
+    "file": "Bottom.css"
+}
