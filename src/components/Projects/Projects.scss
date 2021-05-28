@@ -1,37 +1,70 @@
 .project-container {
   width: 80%;
-  height: 80vh;
+  height: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 10% auto auto;
+  grid-gap: 2em;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto auto;
   grid-template-areas:
-    "t t t t"
-    "p1 p1 p2 p2"
-    "p1 p1 p2 p2";
+    "t t t t t t "
+    "p1 p1 p2 p2 p3 p3"
+    "p1 p1 p2 p2 p3 p3 "
+    "p4 p4 p5 p5 p6 p6"
+    "p4 p4 p5 p5 p6 p6";
   text-align: center;
+}
+
+.item {
+  border: 1px dotted black;
+  text-align: center;
+  width: 90%;
+  transition: all 0.2s ease-in-out;
+  h2 {
+    color: white;
+  }
+}
+
+.item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .title {
   grid-area: t;
-  border: 1px dotted black;
   text-align: center;
 }
 
 .project-one {
   grid-area: p1;
-  border: 1px dotted black;
-  img {
-    width: 50%;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(254, 254, 254, 0.5)
+    ),
+    url("../../assets/AI.jpg");
+  button {
+    padding: 0.8em;
   }
 }
 
 .project-two {
   grid-area: p2;
-  border: 1px dotted black;
-  img {
-    width: 50%;
-  }
+}
+
+.project-three {
+  grid-area: p3;
+}
+
+.project-four {
+  grid-area: p4;
+}
+
+.project-five {
+  grid-area: p5;
+}
+
+.project-six {
+  grid-area: p6;
 }
 
 @media (max-width: 800px) {

@@ -12,8 +12,8 @@ function Main() {
       <Home></Home>
       <AboutMe></AboutMe>
       <Projects></Projects>
-      {/* <Contact></Contact> */}
-      {/* <Bottom></Bottom> */}
+      <Contact></Contact>
+      <Bottom></Bottom>
     </div>
   );
 }
