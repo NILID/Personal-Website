@@ -11,7 +11,7 @@ function Projects() {
       </div>
       <div className="project-one item">
         <h2>Face Recognition</h2>
-        <button>VIEW PROJECT</button>
+        <button className="button button1">VIEW PROJECT</button>
       </div>
       <div className="project-two item">
         <img src={placeholder} alt="" />
