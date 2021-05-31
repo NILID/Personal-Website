@@ -13,11 +13,26 @@
     "p1 p1 p2 p2 p3 p3";
 }
 
+// .item:before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   height: 0%;
+//   width: 100%;
+//   bottom: 0;
+//   transition: height 0.1s ease-out;
+//   background: linear-gradient(to top, transparent 0%, rgb(158, 143, 237) 100%);
+// }
+
+// .item:hover:before {
+//   height: 100%;
+// }
+
 .item {
-  border: 1px dotted black;
   width: 90%;
   transition: all 0.2s ease-in-out;
   text-align: center;
+  color: white;
 }
 
 .item h2 {
@@ -28,6 +43,15 @@
   background-color: transparent;
   padding: 1em;
   margin-top: 5%;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.item button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(18, 139, 232);
 }
 
 .item:hover {
@@ -38,20 +62,21 @@
 .title {
   grid-area: t;
   text-align: center;
-  border: 1px dotted blue;
 }
 
 .project-one {
   grid-area: p1;
-  // background-image: url("../../assets/AI.jpg");
+  background-image: url("https://source.unsplash.com/weekly?japan");
 }
 
 .project-two {
   grid-area: p2;
+  background-image: url("https://source.unsplash.com/weekly?city");
 }
 
 .project-three {
   grid-area: p3;
+  background-image: url("https://source.unsplash.com/weekly?sea");
 }
 
 @media (max-width: 800px) {
@@ -60,8 +85,8 @@
     height: 100vh;
     display: grid;
     grid-template-areas:
-      "t t t t"
-      "p1 p1 p1 p1"
-      "p2 p2 p2 p2";
+      "t t t"
+      "p1 p1 p1 "
+      "p2 p2 p2";
   }
 }
