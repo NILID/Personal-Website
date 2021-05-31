@@ -4,29 +4,13 @@
   margin: auto;
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(6, 2fr);
+  grid-template-columns: repeat(3, 2fr);
   grid-template-areas:
-    "t t t t t t "
-    "p1 p1 p2 p2 p3 p3"
-    "p1 p1 p2 p2 p3 p3 "
-    "p1 p1 p2 p2 p3 p3"
-    "p1 p1 p2 p2 p3 p3";
+    "t t t"
+    "p1 p2 p3"
+    "p1 p2 p3"
+    "p1 p2 p3";
 }
-
-// .item:before {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   height: 0%;
-//   width: 100%;
-//   bottom: 0;
-//   transition: height 0.1s ease-out;
-//   background: linear-gradient(to top, transparent 0%, rgb(158, 143, 237) 100%);
-// }
-
-// .item:hover:before {
-//   height: 100%;
-// }
 
 .item {
   width: 90%;
@@ -36,7 +20,7 @@
 }
 
 .item h2 {
-  margin-top: 120%;
+  margin-top: 100%;
 }
 
 .item button {
@@ -81,12 +65,20 @@
 
 @media (max-width: 800px) {
   .project-container {
-    margin-top: 50%;
-    height: 100vh;
+    // border: 1px solid black;
+    margin: auto;
+    height: 100%;
     display: grid;
     grid-template-areas:
       "t t t"
-      "p1 p1 p1 "
-      "p2 p2 p2";
+      "p1 p1 p1"
+      "p2 p2 p2"
+      "p3 p3 p3";
+  }
+  .title {
+    margin-top: 20%;
+  }
+  .item {
+    margin: auto;
   }
 }
