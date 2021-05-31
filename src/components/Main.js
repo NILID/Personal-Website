@@ -13,7 +13,7 @@ function Main() {
       <AboutMe></AboutMe>
       <Projects></Projects>
       <Contact></Contact>
-      {/* <Bottom></Bottom> */}
+      <Bottom></Bottom>
     </div>
   );
 }
