@@ -2,6 +2,14 @@
   width: 80%;
   margin: auto;
   height: 20vh;
-  background-color: black;
   margin-top: 5em;
+  border: 1px solid pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icons img {
+    width: 50px;
+    border: 1px solid pink;
+  }
 }
