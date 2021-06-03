@@ -14,10 +14,8 @@ function AboutMe() {
       </div>
       <div className="description-container">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-          sunt labore similique ut earum nam nihil voluptas hic quasi id? Libero
-          iste corrupti recusandae! Autem voluptatem aperiam perferendis ut
-          quasi? Lorem ipsum dolor sit amet.
+          I'm a dev that really enjoy working not only with code, but also with
+          people, financial market and crypto.
         </p>
       </div>
       <div className="skill-container">
