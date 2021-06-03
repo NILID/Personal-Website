@@ -3,13 +3,18 @@
   margin: auto;
   height: 20vh;
   margin-top: 5em;
-  border: 1px solid pink;
+  // border: 1px solid pink;
   display: flex;
-  align-items: center;
   justify-content: center;
 
   .icons img {
     width: 50px;
-    border: 1px solid pink;
+    // border: 1px solid pink;
+    margin: 2px;
+  }
+
+  .icons img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
   }
 }
