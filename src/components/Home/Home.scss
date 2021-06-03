@@ -1,5 +1,7 @@
 /* Typography */
 @import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 /* Layout */
 
@@ -14,7 +16,7 @@
   width: 80%;
   height: 80vh;
   margin: auto;
-  border-radius: 15px;
+  // border-radius: 15px;
   color: black;
   // border: 3px dotted black;
   background-color: #f1f1f1;
@@ -51,15 +53,18 @@
   .btn {
     padding: 1em;
     margin-top: 2em;
-    border-radius: 15px;
+    // border-radius: 15px;
     background-color: #318de7;
     border: none;
+    width: 30%;
   }
 
   .btn a {
     text-decoration: none;
     color: #fff;
     font-weight: 700;
+    font-size: 1em;
+    font-family: "Luto", sans-serif;
   }
 
   .btn:hover {
