@@ -5,7 +5,7 @@
   margin: auto;
   margin-top: 50px; //comment later
   display: grid;
-  border: 1px solid pink;
+  // border: 1px solid pink;
   grid-column-gap: 4em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 20% auto;
@@ -20,13 +20,13 @@
   // transition: all 0.2s ease-in-out;
   text-align: center;
   color: white;
-  border: 1px solid pink;
+  // border: 1px solid pink;
 }
 
 .title {
   grid-area: t;
   text-align: center;
-  border: 1px solid pink;
+  // border: 1px solid pink;
   // height: 10vh;
 }
 
@@ -84,9 +84,10 @@
     flex-direction: column;
   }
   .item {
-    width: 60%;
+    width: 90%;
     height: 80vh;
     margin: 2em auto auto auto;
+    border: 1px solid pink;
   }
   .title {
     margin-top: 5em;

@@ -1,7 +1,7 @@
 .about-container {
   width: 80%;
   margin: auto;
-  border: 1px solid pink;
+  // border: 1px solid pink;
   height: 80vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,13 +13,13 @@
 }
 
 .title-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: t;
   text-align: center;
 }
 
 .photo-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: p;
   img {
     width: 100%;
@@ -29,33 +29,24 @@
 }
 
 .description-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: d;
   padding: 0em 0em 0em 2em;
 }
 
 .skill-container {
-  border: 1px dotted pink;
+  // border: 1px dotted pink;
   grid-area: s;
 }
 
 @media (max-width: 800px) {
   .about-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height: 100%;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 10% auto 50%;
-    grid-gap: 5px;
-    grid-template-areas:
-      "t t t t t t t t t t t t"
-      "p p p p d d d d d d d d"
-      "s s s s s s s s s s s s";
-    border: 1px solid pink;
   }
-  .description-container {
-    height: 100%;
-    p {
-      word-wrap: break-word;
-    }
+  .photo-container {
+    display: none;
   }
 }
