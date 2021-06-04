@@ -1,11 +1,12 @@
 .project-container {
   width: 80%;
-  height: 80vh;
+  height: 100vh;
+  max-height: 100%;
   margin: auto;
   margin-top: 50px; //comment later
   display: grid;
   border: 1px solid pink;
-  // grid-gap: 4em;
+  grid-column-gap: 4em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 20% auto;
   grid-template-areas:
@@ -29,66 +30,65 @@
   // height: 10vh;
 }
 
-// .item h2 {
-//   // margin-top: 100%;
-//   font-family: "Lato", sans-serif;
-// }
+.item h2 {
+  // margin-top: 100%;
+  font-family: "Lato", sans-serif;
+}
 
-// .item button {
-//   font-family: "Lato", sans-serif;
-//   font-weight: bolder;
-//   font-size: 1em;
-//   background-color: white;
-//   padding: 1em;
-//   border: none;
-//   // transition: all 0.2s ease-in-out;
-//   margin-top: 1em;
-//   width: 50%;
-//   // margin-left: 2em;
-// }
+.item button {
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  font-size: 1em;
+  background-color: white;
+  padding: 1em;
+  border: none;
+  // transition: all 0.2s ease-in-out;
+  margin-top: 1em;
+  width: 50%;
+  // margin-left: 2em;
+}
 
-// .item button:hover {
-//   cursor: pointer;
-//   transform: scale(1.05);
-//   background-color: rgb(18, 139, 232);
-// }
+.item button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(18, 139, 232);
+}
 
-// .item:hover {
-//   transform: scale(1.05);
-//   cursor: pointer;
-// }
+.item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 
-// .project-one {
-//   grid-area: p1;
-//   background-image: url("https://source.unsplash.com/weekly?japan");
-// }
+.project-one {
+  grid-area: p1;
+  background-image: url("https://source.unsplash.com/weekly?japan");
+}
 
-// .project-two {
-//   grid-area: p2;
-//   background-image: url("https://source.unsplash.com/weekly?city");
-// }
+.project-two {
+  grid-area: p2;
+  background-image: url("https://source.unsplash.com/weekly?city");
+}
 
-// .project-three {
-//   grid-area: p3;
-//   background-image: url("https://source.unsplash.com/weekly?sea");
-// }
+.project-three {
+  grid-area: p3;
+  background-image: url("https://source.unsplash.com/weekly?sand");
+}
 
-// @media (max-width: 800px) {
-//   .project-container {
-//     // border: 1px solid black;
-//     margin: auto;
-//     height: 100%;
-//     display: grid;
-//     grid-template-areas:
-//       "t t t"
-//       "p1 p1 p1"
-//       "p2 p2 p2"
-//       "p3 p3 p3";
-//   }
-//   .title {
-//     margin-top: 20%;
-//   }
-//   .item {
-//     margin: auto;
-//   }
-// }
+@media (max-width: 800px) {
+  .project-container {
+    width: 80%;
+    height: 100%;
+    // max-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .item {
+    width: 60%;
+    height: 80vh;
+    margin: 2em auto auto auto;
+  }
+  .title {
+    margin-top: 5em;
+  }
+}
