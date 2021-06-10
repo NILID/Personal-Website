@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 .tab-container {
   display: flex;
   flex-direction: column;
   // background-color: blue;
   height: 100%;
+  font-family: "Lato", Arial, sans-serif;
 }
 
 .tab-label {
   display: flex;
+  h4 {
+    font-size: 1.1rem;
+  }
 }
 
 .tabs {
@@ -17,6 +23,19 @@
   cursor: pointer;
 }
 
+.tab-content {
+  // border: 1px solid pink;
+  padding: 2em;
+  h3 {
+    font-size: 1rem;
+    margin-top: 1%;
+  }
+  p {
+    font-size: 1rem;
+    margin-top: 1%;
+  }
+}
+
 .active-tabs {
   // background: blue;
   border-bottom: 1px solid transparent;
@@ -24,7 +43,7 @@
 
 .content {
   // background: rgb(183, 81, 81);
-  padding: 2em;
+  // padding: 2em;
   height: 100%;
   display: none;
 }
@@ -55,5 +74,5 @@
 }
 
 .exp-desc {
-  margin-top: 0.5em;
+  // margin-top: 0.5em;
 }

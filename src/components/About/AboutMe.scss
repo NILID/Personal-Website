@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 .about-container {
   width: 80%;
   margin: auto;
@@ -15,6 +17,9 @@
   // border: 1px dotted pink;
   grid-area: t;
   text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .photo-container {
@@ -31,6 +36,9 @@
   // border: 1px dotted pink;
   grid-area: d;
   padding: 0em 0em 0em 2em;
+  p {
+    font-size: 1rem;
+  }
 }
 
 .skill-container {
