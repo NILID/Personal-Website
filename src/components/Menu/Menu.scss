@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
+  font-size: 1;
 }
 
 nav ul {
@@ -49,16 +50,18 @@ nav a:hover {
   color: #3c6aef;
 }
 
-.border {
-  // border: 1px solid black;
-  // border-radius: 5px;
+.contact {
   background-color: #3c6aef;
   a {
     color: white;
   }
 }
 
-.border a:hover {
+.contact:hover {
+  background-color: #881f6d;
+}
+
+.contact a:hover {
   color: white;
 }
 

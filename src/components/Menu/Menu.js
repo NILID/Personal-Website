@@ -38,7 +38,7 @@ function Menu() {
             <li>
               <a href="">Projects</a>
             </li>
-            <li className="border">
+            <li className="contact">
               <a href="">Contact</a>
             </li>
           </ul>
