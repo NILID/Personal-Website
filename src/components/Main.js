@@ -6,14 +6,23 @@ import Bottom from "./Bottom/Bottom";
 
 import "../styles/Main.scss";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function Main() {
   return (
     <div>
-      <Home></Home>
+      <Router>
+        <Home></Home>
+        <AboutMe></AboutMe>
+        <Projects></Projects>
+        <Contact></Contact>
+        <Bottom></Bottom>
+      </Router>
+      {/* <Home></Home>
       <AboutMe></AboutMe>
       <Projects></Projects>
       <Contact></Contact>
-      <Bottom></Bottom>
+      <Bottom></Bottom> */}
     </div>
   );
 }

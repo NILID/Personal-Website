@@ -13,7 +13,7 @@ function Home() {
           </h1>
           <p>I'm a Brazilian Software Engineer based in Russia</p>
           <button className="btn">
-            <a href="#">ABOUT ME</a>
+            <a href="/about">ABOUT ME</a>
           </button>
         </div>
         <div className="col">

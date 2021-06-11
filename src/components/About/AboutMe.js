@@ -1,5 +1,5 @@
 import React from "react";
-import flavio from "../../assets/flavio.jpg";
+import flavio from "../../assets/profile.jpg";
 import Tabs from "./Tabs";
 import "./AboutMe.scss";
 

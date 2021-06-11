@@ -82,16 +82,16 @@ function Tabs() {
           </div>
         </div>
         <div className={tab === 2 ? "content active-tab" : "content"}>
-          <h3>TeamWhale</h3>
+          <h3>OlympTrade</h3>
           <p className="exp-desc">Customer Support Coordinator</p>
           <p className="exp-desc">
             Managed two teams simultaneously of 25 specialists providing
             customer support to clients in Africa, India, and Latin America.
-            Over 29,000 chats answered and 15,000 emails closed monthly. •
-            Worked with Quality Assurance providing full training and feedback
-            to all specialists hired. • Helped to develop a claim management
-            system, helping solve any issue fast and helping the client feel
-            embraced by our support.
+            Over 29,000 chats answered and 15,000 emails closed monthly. <br />
+            <p>
+              Worked with Quality Assurance providing full training and feedback
+              to all specialists hired.
+            </p>
           </p>
           <h3>EconoCargo</h3>
           <p>Web Developer</p>
