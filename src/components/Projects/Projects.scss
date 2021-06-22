@@ -60,18 +60,21 @@
 }
 
 .project-one {
+  border: 1px solid pink;
   grid-area: p1;
-  background-image: url("https://source.unsplash.com/weekly?japan");
+  // background-image: url("https://source.unsplash.com/weekly?japan");
 }
 
 .project-two {
+  border: 1px solid pink;
   grid-area: p2;
-  background-image: url("https://source.unsplash.com/weekly?city");
+  // background-image: url("https://source.unsplash.com/weekly?city");
 }
 
 .project-three {
+  border: 1px solid pink;
   grid-area: p3;
-  background-image: url("https://source.unsplash.com/weekly?sand");
+  // background-image: url("https://source.unsplash.com/weekly?sand");
 }
 
 @media (max-width: 800px) {
