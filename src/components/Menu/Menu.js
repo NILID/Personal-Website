@@ -33,13 +33,13 @@ function Menu() {
               />
             </li>
             <li>
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li className="contact">
-              <a href="">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </nav>
