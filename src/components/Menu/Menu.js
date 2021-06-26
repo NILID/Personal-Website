@@ -3,6 +3,8 @@ import "./Menu.scss";
 import logo from "../../assets/logo.svg";
 import burgerMenu from "../../assets/burger-menu.svg";
 
+import { Link } from "react-scroll";
+
 function Menu() {
   const [showMenu, setMenu] = useState();
 
@@ -33,13 +35,16 @@ function Menu() {
               />
             </li>
             <li>
+              <Link></Link>
               <a href="/">Home</a>
             </li>
             <li>
               <a href="/projects">Projects</a>
             </li>
             <li className="contact">
-              <a href="/contact">Contact</a>
+              <Link to="contact">
+                <a>Contact</a>
+              </Link>
             </li>
           </ul>
         </nav>
