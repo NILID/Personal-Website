@@ -16,11 +16,12 @@ function Menu() {
     <header>
       <div className="container-menu container-nav">
         <div className="logo">
-          <img
+          <p>Flávio</p>
+          {/* <img
             className={`logo${showMenu ? " logoHidden" : null}`}
             src={logo}
             alt=""
-          />
+          /> */}
         </div>
         <nav className={`topnav${showMenu ? " responsive" : "logo"}`}>
           <ul>

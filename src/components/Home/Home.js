@@ -11,9 +11,13 @@ function Home() {
       <div className="flex-container">
         <div className="col">
           <h1>
-            Hello! I'm <span>Flávio</span>
+            Think the <span>Design</span>, <br></br> and I design the
+            <span> Code</span>.
           </h1>
-          <p>I'm a Brazilian Software Engineer based in Russia</p>
+          <p>
+            I will come up with a beautiful looking modern website for your
+            needs
+          </p>
           <button className="btn">
             <Link to="about" smooth={true} duration={1000}>
               <a>ABOUT ME</a>
