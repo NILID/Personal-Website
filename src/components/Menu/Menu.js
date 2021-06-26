@@ -48,6 +48,9 @@ function Menu() {
                 <a>Contact</a>
               </Link>
             </li>
+            <li className="lang">
+              <p>en-US</p>
+            </li>
           </ul>
         </nav>
       </div>
