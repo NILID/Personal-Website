@@ -5,7 +5,7 @@ import AI from "../../assets/AI.jpg";
 
 function Projects() {
   return (
-    <div class="project-container">
+    <div class="project-container" id="projects">
       <div className="title">
         <h1>PROJECTS</h1>
       </div>

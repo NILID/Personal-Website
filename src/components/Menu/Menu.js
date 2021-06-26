@@ -35,14 +35,15 @@ function Menu() {
               />
             </li>
             <li>
-              <Link></Link>
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <Link to="projects" smooth={true} duration={1000}>
+                <a>Projects</a>
+              </Link>
             </li>
             <li className="contact">
-              <Link to="contact">
+              <Link to="contact" smooth={true} duration={1000}>
                 <a>Contact</a>
               </Link>
             </li>

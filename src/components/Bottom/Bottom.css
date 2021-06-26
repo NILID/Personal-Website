@@ -1,7 +1,24 @@
 .bottom-container {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   height: 20vh;
-  background-color: black;
-  margin-top: 2vh;
+  margin-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom-container .icons img {
+  width: 50px;
+  margin: 2px;
+}
+
+.bottom-container .icons img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=Bottom.css.map */

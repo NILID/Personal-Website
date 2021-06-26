@@ -1,29 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 .about-container {
   width: 80%;
   margin: auto;
-  height: 80vh;
+  height: 90vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: 10% auto auto auto auto auto;
-      grid-template-rows: 10% auto auto auto auto auto;
-      grid-template-areas: "t t t t t t t t t t t t" "p p p p d d d d d d d d" "p p p p s s s s s s s s" "p p p p s s s s s s s s" "p p p p s s s s s s s s";
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 10% 20% 70%;
+      grid-template-rows: 10% 20% 70%;
+      grid-template-areas: "t t t" "p d d" "p s s";
 }
 
 .title-container {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 12;
+  -ms-grid-column-span: 3;
   grid-area: t;
   text-align: center;
 }
 
+.title-container h1 {
+  font-size: 2rem;
+}
+
 .photo-container {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 4;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
   grid-area: p;
 }
 
@@ -35,36 +39,37 @@
 
 .description-container {
   -ms-grid-row: 2;
-  -ms-grid-column: 5;
-  -ms-grid-column-span: 8;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: d;
   padding: 0em 0em 0em 2em;
 }
 
+.description-container p {
+  font-size: 1rem;
+}
+
 .skill-container {
   -ms-grid-row: 3;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 5;
-  -ms-grid-column-span: 8;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   grid-area: s;
 }
 
 @media (max-width: 800px) {
   .about-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[12];
-        grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: 10% auto 50%;
-        grid-template-rows: 10% auto 50%;
-    grid-gap: 5px;
-        grid-template-areas: "t t t t t t t t t t t t" "p p p p d d d d d d d d" "s s s s s s s s s s s s";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    height: 100%;
   }
-  .description-container {
-    max-height: 100%;
-  }
-  .description-container p {
-    word-wrap: break-word;
+  .photo-container {
+    display: none;
   }
 }
 /*# sourceMappingURL=AboutMe.css.map */
