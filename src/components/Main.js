@@ -12,11 +12,11 @@ function Main() {
   return (
     <div>
       <Router>
-        <Home></Home>
+        {/* <Home></Home>
         <AboutMe></AboutMe>
         <Projects></Projects>
         <Contact></Contact>
-        <Bottom></Bottom>
+        <Bottom></Bottom> */}
       </Router>
       {/* <Home></Home>
       <AboutMe></AboutMe>
