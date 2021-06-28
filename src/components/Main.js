@@ -1,4 +1,5 @@
 import Home from "./Home/Home";
+import Menu from "./Menu/Menu";
 import AboutMe from "./About/AboutMe";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
@@ -12,7 +13,9 @@ function Main() {
   return (
     <div>
       <Router>
-        {/* <Home></Home>
+        <Menu></Menu>
+        {/* 
+        <Home></Home>
         <AboutMe></AboutMe>
         <Projects></Projects>
         <Contact></Contact>

@@ -2,8 +2,17 @@ import React from "react";
 import "./Menu.scss";
 
 function Menu() {
+  const burgerMenu = document.getElementById("burger");
+  const navbarMenu = document.getElementById("menu");
+
+  // // Responsive Navbar Toggle
+  // burgerMenu.addEventListener("click", function () {
+  //   navbarMenu.classList.toggle("active");
+  //   burgerMenu.classList.toggle("active");
+  // });
+
   return (
-    <div>
+    <nav className="navbar">
       <div class="navbrand">
         <h1>
           <a href="#" class="brand">
@@ -48,19 +57,19 @@ function Menu() {
       </ul>
       <div class="social">
         <a href="#" class="social-item">
-          <i class="fab fa-facebook"></i>
+          <i class="fab fa-facebook">A</i>
         </a>
         <a href="#" class="social-item">
-          <i class="fab fa-twitter"></i>
+          <i class="fab fa-twitter">B</i>
         </a>
         <a href="#" class="social-item">
-          <i class="fab fa-instagram"></i>
+          <i class="fab fa-instagram">C</i>
         </a>
         <a href="#" class="social-item">
-          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-pinterest">D</i>
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
 
