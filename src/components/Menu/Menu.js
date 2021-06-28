@@ -1,60 +1,65 @@
-import React, { useState } from "react";
-import "./Menu.scss";
-import logo from "../../assets/logo.svg";
-import burgerMenu from "../../assets/burger-menu.svg";
-
-import { Link } from "react-scroll";
+import React from "react";
 
 function Menu() {
-  const [showMenu, setMenu] = useState();
-
-  function display() {
-    setMenu((value) => !value);
-  }
-
   return (
-    <header>
-      <div className="container-menu container-nav">
-        <div className="logo">
-          <p>Flávio</p>
-          {/* <img
-            className={`logo${showMenu ? " logoHidden" : null}`}
-            src={logo}
-            alt=""
-          /> */}
-        </div>
-        <nav className={`topnav${showMenu ? " responsive" : "logo"}`}>
-          <ul>
-            <li className="icon">
-              <img
-                onClick={() => {
-                  display();
-                }}
-                src={burgerMenu}
-                alt="logo"
-                className="img"
+    <div>
+      <div class="navbrand">
+        <h1>
+          <a href="#" class="brand">
+            Flávio
+          </a>
+        </h1>
+        <div class="burger" id="burger">
+          <span class="burger-open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+              <g fill="#252a32" fill-rule="evenodd">
+                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+              </g>
+            </svg>
+          </span>
+          <span class="burger-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path
+                fill="#252a32"
+                fill-rule="evenodd"
+                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
               />
-            </li>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <Link to="projects" smooth={true} duration={1000}>
-                <a>Projects</a>
-              </Link>
-            </li>
-            <li className="contact">
-              <Link to="contact" smooth={true} duration={1000}>
-                <a>Contact</a>
-              </Link>
-            </li>
-            <li className="lang">
-              <p>en-US</p>
-            </li>
-          </ul>
-        </nav>
+            </svg>
+          </span>
+        </div>
       </div>
-    </header>
+      <ul class="menu" id="menu">
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            About
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Projects
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <div class="social">
+        <a href="#" class="social-item">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="social-item">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-item">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-item">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
   );
 }
 
