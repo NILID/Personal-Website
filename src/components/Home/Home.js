@@ -1,5 +1,5 @@
 import "./Home.scss";
-import Menu from "../Menu/Menu";
+// import Menu from "../Menu/Menu";
 import image from "../../assets/dev.png";
 
 import { Link } from "react-scroll";
@@ -7,7 +7,6 @@ import { Link } from "react-scroll";
 function Home() {
   return (
     <div className="container-home">
-      <Menu></Menu>
       <div className="flex-container">
         <div className="col">
           <h1>
