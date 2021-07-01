@@ -20,6 +20,10 @@ export const Nav = styled.nav`
   margin: auto;
   /* padding: 0.5rem calc((100vw - 1000px) / 2); */
   /* z-index: 10; */
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const MenuLink = styled.div`
@@ -48,6 +52,10 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
   }
+`;
+
+export const MobileMenuShow = styled.div`
+  color: blue;
 `;
 
 export const NavMenu = styled.div`
