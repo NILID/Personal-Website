@@ -74,20 +74,9 @@ export const NavBtnFlag = styled.div`
   width: 2em;
   margin-left: 0.5em;
 
-  /* border-radius: 4px;
-  background: #256ce1;
-  padding: 10px 22px;
-  color: #fff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  /* Second Nav */
-  /* margin-left: 24px; */
-  /* &:hover {
+  &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-  }  */
+    transform: scale(1.5);
+    cursor: pointer;
+  }
 `;
