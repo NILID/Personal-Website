@@ -5,7 +5,7 @@ import {
   Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink,
+  NavBtnFlag,
 } from "./NavbarElements";
 
 const Navbar = () => {
@@ -21,19 +21,19 @@ const Navbar = () => {
             About
           </NavLink>
           <NavLink to="/services" activeStyle>
-            Services
+            Projects
           </NavLink>
           <NavLink to="/contact-us" activeStyle>
-            Contact Us
-          </NavLink>
-          <NavLink to="/sign-up" activeStyle>
-            Sign Up
+            Contact
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/signin">Sign In</NavBtnLink>
+          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
+          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
+          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
+          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
         </NavBtn>
       </Nav>
     </>
