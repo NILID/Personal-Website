@@ -1,39 +1,51 @@
 import React from "react";
+import Enflag from "../../assets/united-states.svg";
+
 import {
   Nav,
-  NavLink,
+  MenuLink,
   Bars,
   NavMenu,
   NavBtn,
   NavBtnFlag,
+  English,
+  Japanese,
+  Russian,
+  Portuguese,
 } from "./NavbarElements";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">
+        <MenuLink to="/">
           <h1>Flávio</h1>
-        </NavLink>
+        </MenuLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
+          <MenuLink to="/about" activeStyle>
             About
-          </NavLink>
-          <NavLink to="/services" activeStyle>
+          </MenuLink>
+          <MenuLink to="/services" activeStyle>
             Projects
-          </NavLink>
-          <NavLink to="/contact-us" activeStyle>
+          </MenuLink>
+          <MenuLink to="/contact-us" activeStyle>
             Contact
-          </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+          </MenuLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
-          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
-          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
-          <NavBtnFlag to="/signin">Sign In</NavBtnFlag>
+          <NavBtnFlag>
+            <img src={English} alt="EN" />
+          </NavBtnFlag>
+          <NavBtnFlag>
+            <img src={Portuguese} alt="BR" />
+          </NavBtnFlag>
+          <NavBtnFlag>
+            <img src={Japanese} alt="JP" />
+          </NavBtnFlag>
+          <NavBtnFlag>
+            <img src={Russian} alt="RU" />
+          </NavBtnFlag>
         </NavBtn>
       </Nav>
     </>

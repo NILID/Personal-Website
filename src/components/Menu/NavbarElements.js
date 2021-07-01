@@ -1,6 +1,14 @@
 import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
+// import { MenuLink as Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+
+import English from "../../assets/eua.svg";
+import Portuguese from "../../assets/brazil.svg";
+import Japanese from "../../assets/japan.svg";
+import Russian from "../../assets/russia.svg";
+
+// EXPORTING FLAGS
+export { English, Portuguese, Japanese, Russian };
 
 export const Nav = styled.nav`
   background: #fff;
@@ -14,7 +22,7 @@ export const Nav = styled.nav`
   /* z-index: 10; */
 `;
 
-export const NavLink = styled(Link)`
+export const MenuLink = styled.div`
   color: #2e186a;
   display: flex;
   align-items: center;
@@ -67,8 +75,9 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnFlag = styled(Link)`
-  border-radius: 4px;
+export const NavBtnFlag = styled.div`
+  width: 50px;
+  /* border-radius: 4px;
   background: #256ce1;
   padding: 10px 22px;
   color: #fff;
@@ -78,10 +87,10 @@ export const NavBtnFlag = styled(Link)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
-  &:hover {
+  /* margin-left: 24px; */
+  /* &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
-  }
+  }  */
 `;

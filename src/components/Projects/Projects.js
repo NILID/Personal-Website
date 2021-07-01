@@ -1,8 +1,5 @@
 import React from "react";
 import "./Projects.scss";
-import placeholder from "../../assets/placeholder.svg";
-import AI from "../../assets/AI.jpg";
-
 function Projects() {
   return (
     <div class="project-container" id="projects">
