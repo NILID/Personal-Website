@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Menu.scss";
 
 function Menu() {
   const burgerMenu = document.getElementById("burger");
   const navbarMenu = document.getElementById("menu");
 
-  // // Responsive Navbar Toggle
-  // burgerMenu.addEventListener("click", function () {
-  //   navbarMenu.classList.toggle("active");
-  //   burgerMenu.classList.toggle("active");
-  // });
+  const handleClick = () => {
+    navbarMenu.classList.toggle("active");
+    burgerMenu.classList.toggle("active");
+  };
+
+  console.log(navbarMenu, burgerMenu);
 
   return (
     <nav className="navbar">
@@ -19,7 +20,7 @@ function Menu() {
             Flávio
           </a>
         </h1>
-        <div class="burger" id="burger">
+        <div class="burger" id="burger" onClick={handleClick}>
           <span class="burger-open">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
               <g fill="#252a32" fill-rule="evenodd">
