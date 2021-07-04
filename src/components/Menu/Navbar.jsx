@@ -1,5 +1,6 @@
 import Burger from "./Burger";
 import { Nav, Logo } from "./NavbarElements";
+import Lang from "./Languages";
 
 const Navbar = () => {
   return (

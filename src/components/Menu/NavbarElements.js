@@ -1,6 +1,4 @@
 import styled from "styled-components";
-// import { MenuLink as Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
 
 import English from "../../assets/eua.svg";
 import Portuguese from "../../assets/brazil.svg";
@@ -11,7 +9,6 @@ import Russian from "../../assets/russia.svg";
 export { English, Portuguese, Japanese, Russian };
 
 // LOGO
-
 export const Logo = styled.div`
   border: 1px solid pink;
   display: inline;
@@ -30,7 +27,7 @@ export const Logo = styled.div`
 export const Nav = styled.nav`
   width: 80%;
   height: 10vh;
-  border: 1px dotted pink;
+  border: 1px dotted blue;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -41,7 +38,6 @@ export const Nav = styled.nav`
 `;
 
 // RIGHT NAV COMPONENT
-
 export const Ul = styled.ul`
   border: 1px solid pink;
   list-style: none;
@@ -111,6 +107,26 @@ export const StyledBurger = styled.div`
 `;
 
 //LANGUAGES COMPONENT
+export const Lang = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const LangFlag = styled.div`
+  width: 2em;
+  margin-left: 0.5em;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+`;
 
 // export const Nav = styled.nav`
 //   background: #fff;
