@@ -8,7 +8,7 @@ const RightNav = ({ open }) => {
         <li>About</li>
         <li>Projects</li>
         <li>Contacts</li>
-        <Lang />
+        {/* <Lang /> */}
       </Ul>
     </>
   );

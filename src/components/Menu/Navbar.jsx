@@ -10,6 +10,7 @@ const Navbar = () => {
           <h1>Flávio</h1>
         </Logo>
         <Burger />
+        <Lang></Lang>
       </Nav>
     </>
   );
