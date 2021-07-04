@@ -1,12 +1,16 @@
 import Burger from "./Burger";
-import { Nav } from "./NavbarElements";
+import { Nav, Logo } from "./NavbarElements";
 
 const Navbar = () => {
   return (
-    <Nav>
-      <div className="logo">Flávio</div>
-      <Burger />
-    </Nav>
+    <>
+      <Nav>
+        <Logo>
+          <h1>Flávio</h1>
+        </Logo>
+        <Burger />
+      </Nav>
+    </>
   );
 };
 

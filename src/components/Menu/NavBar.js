@@ -15,25 +15,25 @@ import {
 } from "./NavbarElements";
 
 const Navbar = () => {
-  const [showMenu, setMenu] = useState(false);
+  // const [showMenu, setMenu] = useState(false);
 
-  let menu;
+  // let menu;
 
-  if (showMenu) {
-    menu = (
-      <MobileMenuShow>
-        <MenuLink to="/about" activeStyle>
-          About
-        </MenuLink>
-        <MenuLink to="/services" activeStyle>
-          Projects
-        </MenuLink>
-        <MenuLink to="/contact-us" activeStyle>
-          Contact
-        </MenuLink>
-      </MobileMenuShow>
-    );
-  }
+  // if (showMenu) {
+  //   menu = (
+  //     <MobileMenuShow>
+  //       <MenuLink to="/about" activeStyle>
+  //         About
+  //       </MenuLink>
+  //       <MenuLink to="/services" activeStyle>
+  //         Projects
+  //       </MenuLink>
+  //       <MenuLink to="/contact-us" activeStyle>
+  //         Contact
+  //       </MenuLink>
+  //     </MobileMenuShow>
+  //   );
+  // }
 
   return (
     <>
