@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { StyledBurger } from "./NavbarElements";
 import RightNav from "./RightNav";
+import Lang from "./Languages";
 
 const Burger = () => {
   const [open, setOpen] = useState(false);

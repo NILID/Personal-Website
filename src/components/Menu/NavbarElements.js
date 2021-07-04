@@ -44,6 +44,8 @@ export const Ul = styled.ul`
   list-style: none;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  color: #2e186a;
   /* flex-flow: row nowrap; */
 
   li {
@@ -52,7 +54,7 @@ export const Ul = styled.ul`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0d2538;
+    background-color: #2e186a;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
@@ -91,6 +93,7 @@ export const StyledBurger = styled.div`
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
+    cursor: pointer;
 
     &:nth-child(1) {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
@@ -128,88 +131,3 @@ export const LangFlag = styled.div`
     cursor: pointer;
   }
 `;
-
-// export const Nav = styled.nav`
-//   background: #fff;
-//   height: 10vh;
-//   display: flex;
-//   justify-content: space-between;
-//   border: 1px dotted pink;
-//   width: 80%;
-//   margin: auto;
-//   /* padding: 0.5rem calc((100vw - 1000px) / 2); */
-//   /* z-index: 10; */
-
-//   @media screen and (max-width: 768px) {
-//     width: 100%;
-//   }
-// `;
-
-// export const MenuLink = styled.div`
-//   border: 1px solid;
-//   display: inline;
-//   color: #2e186a;
-//   display: flex;
-//   align-items: center;
-//   text-decoration: none;
-//   /* padding: 0 1rem; */
-//   height: 100%;
-//   cursor: pointer;
-//   &.active {
-//     color: #2e186a;
-//   }
-// `;
-
-// export const Bars = styled(FaBars)`
-//   display: none;
-//   color: #000;
-
-//   @media screen and (max-width: 768px) {
-//     display: block;
-//     /* position: absolute; */
-//     top: 0;
-//     right: 0;
-//     transform: translate(-100%, 75%);
-//     font-size: 1.8rem;
-//     cursor: pointer;
-//   }
-// `;
-
-// export const MobileMenuShow = styled.div`
-//   color: blue;
-//   width: 50%;
-//   height: 100%;
-//   border: 1px solid black;
-//   /* display: fixed; */
-// `;
-
-// export const NavMenu = styled.div`
-//   display: flex;
-//   align-items: center;
-//   margin-right: -24px;
-
-//   @media screen and (max-width: 768px) {
-//     display: none;
-//   }
-// `;
-
-// export const NavBtn = styled.nav`
-//   display: flex;
-//   align-items: center;
-//   margin-right: 24px;
-
-//   @media screen and (max-width: 768px) {
-//     display: none;
-//   }
-// `;
-
-// export const NavBtnFlag = styled.div`
-//   width: 2em;
-//   margin-left: 0.5em;
-
-//   &:hover {
-//     transition: all 0.2s ease-in-out;
-//     transform: scale(1.5);
-//     cursor: pointer;
-//   }
-// `;
