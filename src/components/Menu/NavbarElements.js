@@ -40,7 +40,7 @@ export const Nav = styled.nav`
 // RIGHT NAV COMPONENT
 export const Ul = styled.ul`
   border: 1px solid pink;
-  margin: auto;
+  /* margin: auto; */
   list-style: none;
   display: flex;
   justify-content: center;
