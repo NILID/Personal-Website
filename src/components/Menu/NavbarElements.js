@@ -49,7 +49,7 @@ export const Ul = styled.ul`
   /* flex-flow: row nowrap; */
 
   li {
-    padding: 18px 10px;
+    padding: 1rem;
   }
 
   @media (max-width: 768px) {
@@ -60,7 +60,7 @@ export const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width: 70%;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
