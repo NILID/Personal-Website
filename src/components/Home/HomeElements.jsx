@@ -4,19 +4,23 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-    font-family: 'Lato', Helvetica, Sans-Serif;
+    /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+    font-family: 'Qahiri', sans-serif;
   }
 `;
 
 export default GlobalStyle;
 
 export const Container = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+
   margin: auto;
   width: 80%;
   height: 90vh;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   display: flex;
+  font-family: "Qahiri", sans-serif;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -26,9 +30,14 @@ export const Container = styled.div`
 export const ContentOne = styled.div`
   width: 50%;
   height: 100%;
-  border: 1px dotted pink;
-  font-size: 4em;
+  /* border: 1px dotted pink; */
+  font-size: 3rem;
   color: #2e186a;
+
+  p {
+    /* border: 1px solid pink; */
+    margin-top: 30%;
+  }
 
   span {
     color: #fe7624;
@@ -68,6 +77,6 @@ export const Button = styled.div`
     color: white;
     background: linear-gradient(135deg, #fe7624, #fe7624);
     padding: 0.3rem 2rem;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
 `;

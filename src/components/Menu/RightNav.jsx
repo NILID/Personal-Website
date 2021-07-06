@@ -5,9 +5,9 @@ const RightNav = ({ open }) => {
   return (
     <>
       <Ul open={open}>
-        <li>ABOUT</li>
-        <li>PROJECTS</li>
-        <li>CONTACT</li>
+        <li>about</li>
+        <li>projects</li>
+        <li>contact</li>
         <li className="image">
           <img src={English} alt="EN" />
         </li>

@@ -10,7 +10,7 @@ function Home() {
           <p>
             Think the <span>Design</span>,
           </p>
-          and I design the <span>Code</span>
+          and I design the <span>Code</span>.
           <br />
           <Button>
             <a href="">Learn more</a>
