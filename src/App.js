@@ -6,6 +6,8 @@ import Contact from "./components/Contact/Contact";
 import PageNotFound from "./PageNotFound";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+import GlobalStyle from "./components/Home/HomeElements";
+
 function App() {
   return (
     <div className="App">
