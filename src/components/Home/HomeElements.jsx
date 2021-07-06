@@ -51,49 +51,17 @@ export const ContentTwo = styled.div`
 
 // BUTTON
 export const Button = styled.div`
+  width: 100%;
+  border: 1px solid pink;
+  font-size: 2.2rem;
+  margin-top: 10%;
+
   a {
     text-decoration: none;
     text-align: center;
     cursor: pointer;
     color: white;
-  }
-
-  a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 50px;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-    color: white;
-    font-size: 0.5em;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background: linear-gradient(135deg, #2e186a, #2e186a);
-      border-radius: 4px;
-      transition: box-shadow 0.5s ease, transform 0.2s ease;
-      will-change: transform;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-      transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0))
-        rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
-    }
-
-    &:hover::before {
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    }
-
-    &::after {
-      position: relative;
-      display: inline-block;
-      content: attr(data-title);
-      transition: transform 0.2s ease;
-    }
+    background: linear-gradient(135deg, #fe7624, #fe7624);
+    padding: 0.3rem 2rem;
   }
 `;

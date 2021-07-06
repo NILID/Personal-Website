@@ -12,7 +12,7 @@ function Home() {
           and I design the <span>Code</span>
           <br />
           <Button>
-            <a href="" data-title="Learn more"></a>
+            <a href="">Learn more</a>
           </Button>
         </ContentOne>
         <ContentTwo>
