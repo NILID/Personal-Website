@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, ContentOne, ContentTwo, Button } from "./HomeElements";
+import dev from "../../assets/dev.svg";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
           </Button>
         </ContentOne>
         <ContentTwo>
-          <h1>LOREM IPSUM TWO</h1>
+          <img src={dev} alt="" />
         </ContentTwo>
       </Container>
     </>

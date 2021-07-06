@@ -52,9 +52,9 @@ export const ContentTwo = styled.div`
 // BUTTON
 export const Button = styled.div`
   width: 100%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   font-size: 2.2rem;
-  margin-top: 10%;
+  margin-top: 5%;
 
   a {
     text-decoration: none;
@@ -63,5 +63,6 @@ export const Button = styled.div`
     color: white;
     background: linear-gradient(135deg, #fe7624, #fe7624);
     padding: 0.3rem 2rem;
+    border-radius: 5px;
   }
 `;
