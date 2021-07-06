@@ -6,11 +6,21 @@ import Contact from "./components/Contact/Contact";
 import PageNotFound from "./PageNotFound";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import GlobalStyle from "./components/Home/HomeElements";
+import "./styles/Main.css";
+
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+  @import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+  body {
+    font-family: "Qahiri", sans-serif;
+  }
+`;
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyles />
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/about" exact component={About} />

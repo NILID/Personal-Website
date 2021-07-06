@@ -1,26 +1,11 @@
 import styled from "styled-components";
 
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
-    @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
-    font-family: 'Qahiri', sans-serif;
-  }
-`;
-
-export default GlobalStyle;
-
 export const Container = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
-
   margin: auto;
   width: 80%;
   height: 90vh;
   /* border: 1px solid pink; */
   display: flex;
-  font-family: "Qahiri", sans-serif;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -36,6 +21,7 @@ export const ContentOne = styled.div`
 
   p {
     /* border: 1px solid pink; */
+    font-family: "Qahiri", sans-serif;
     margin-top: 30%;
   }
 
