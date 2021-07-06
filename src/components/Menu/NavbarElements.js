@@ -67,6 +67,10 @@ export const Ul = styled.ul`
     li {
       color: #fff;
     }
+
+    img {
+      width: 30px;
+    }
   }
 `;
 
