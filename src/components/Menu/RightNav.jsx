@@ -5,19 +5,19 @@ const RightNav = ({ open }) => {
   return (
     <>
       <Ul open={open}>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contacts</li>
-        <li>
+        <li>ABOUT</li>
+        <li>PROJECTS</li>
+        <li>CONTACT</li>
+        <li className="image">
           <img src={English} alt="EN" />
         </li>
-        <li>
+        <li className="image">
           <img src={Japanese} alt="JP" />
         </li>
-        <li>
+        <li className="image">
           <img src={Russian} alt="RU" />
         </li>
-        <li>
+        <li className="image">
           <img src={Portuguese} alt="PT-BR" />
         </li>
       </Ul>
