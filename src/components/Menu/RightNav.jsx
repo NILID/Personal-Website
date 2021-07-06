@@ -8,10 +8,18 @@ const RightNav = ({ open }) => {
         <li>About</li>
         <li>Projects</li>
         <li>Contacts</li>
-        <img src={English} alt="EN" />
-        <img src={Japanese} alt="JP" />
-        <img src={Russian} alt="RU" />
-        <img src={Portuguese} alt="PT-BR" />
+        <li>
+          <img src={English} alt="EN" />
+        </li>
+        <li>
+          <img src={Japanese} alt="JP" />
+        </li>
+        <li>
+          <img src={Russian} alt="RU" />
+        </li>
+        <li>
+          <img src={Portuguese} alt="PT-BR" />
+        </li>
       </Ul>
     </>
   );

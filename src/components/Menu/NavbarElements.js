@@ -53,7 +53,7 @@ export const Ul = styled.ul`
   }
 
   @media (max-width: 768px) {
-    flex-flow: column nowrap;
+    /* flex-flow: column nowrap; */
     background-color: #2e186a;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
@@ -61,15 +61,18 @@ export const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width: 70%;
-    padding-top: 3.5rem;
+    /* padding-top: 3.5rem; */
     transition: transform 0.3s ease-in-out;
+    display: block;
 
     li {
       color: #fff;
+      display: flex;
+      justify-content: center;
     }
 
     img {
-      width: 30px;
+      width: 15%;
     }
   }
 `;
