@@ -40,6 +40,7 @@ export const ContentTwo = styled.div`
   img {
     width: 90%;
     max-width: 100%;
+    max-height: 100%;
   }
 
   @media (max-width: 768px) {
