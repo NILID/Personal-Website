@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 80%;
   height: 90vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: auto;
   display: flex;
 `;
@@ -13,17 +13,17 @@ export const Techs = styled.div`
   border: 1px solid pink;
 `;
 
-export const ContainerTwo = styled.div``;
+export const ContainerTwo = styled.div`
+  border: 1px solid black;
+  width: 50%;
+`;
 
 export const Description = styled.div`
-  border: 1px solid pink;
   height: 50%;
-  width: 50%;
-  flex-direction: column;
+  border: 1px dotted blue;
 `;
 
 export const Tabs = styled.div`
-  border: 1px solid pink;
   height: 50%;
-  flex-direction: column;
+  border: 1px dotted blue;
 `;
