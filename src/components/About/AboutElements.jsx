@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 // IMPORT AND EXPORT TECHS IMGS
-import react from "../../assets/react.svg";
-import javascript from "../../assets/javascript.svg";
-import html from "../../assets/html.svg";
-import css from "../../assets/css.svg";
-import sass from "../../assets/sass.svg";
-import node from "../../assets/react.svg";
+import react from "../../assets/about/react.svg";
+import javascript from "../../assets/about/javascript.svg";
+import html from "../../assets/about/html.svg";
+import css from "../../assets/about/css.svg";
+import sass from "../../assets/about/sass.svg";
+import node from "../../assets/about/nodejs.svg";
 
 export { react, javascript, html, css, sass, node };
 

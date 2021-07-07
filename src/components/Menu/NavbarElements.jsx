@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import English from "../../assets/eua.svg";
-import Portuguese from "../../assets/brazil.svg";
-import Japanese from "../../assets/japan.svg";
-import Russian from "../../assets/russia.svg";
+import English from "../../assets/menu/eua.svg";
+import Portuguese from "../../assets/menu/brazil.svg";
+import Japanese from "../../assets/menu/japan.svg";
+import Russian from "../../assets/menu/russia.svg";
 
 // EXPORTING FLAGS
 export { English, Portuguese, Japanese, Russian };

@@ -6,9 +6,9 @@ import {
   Techs,
   Description,
   Tabs,
-} from "./AboutElements";
+} from "./AboutElements.jsx";
 
-import { javascript, react, html, css, sass, node } from "./AboutElements";
+import { javascript, react, html, css, sass, node } from "./AboutElements.jsx";
 
 function About() {
   return (
