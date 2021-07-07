@@ -13,7 +13,6 @@ export { react, javascript, html, css, sass, node };
 export const Container = styled.div`
   width: 80%;
   height: 90vh;
-  /* border: 1px solid black; */
   margin: auto;
   display: flex;
 `;
@@ -21,6 +20,12 @@ export const Container = styled.div`
 export const Techs = styled.div`
   width: 50%;
   border: 1px solid pink;
+
+  img {
+    width: 40px;
+    height: 40px;
+    border: 1px dotted blue;
+  }
 `;
 
 export const ContainerTwo = styled.div`
