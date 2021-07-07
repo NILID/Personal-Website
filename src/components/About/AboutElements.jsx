@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const Techs = styled.div`
-  width: 40%;
+  width: 50%;
   border: 1px solid pink;
   display: flex;
   flex-wrap: wrap;
@@ -33,15 +33,25 @@ export const Techs = styled.div`
 `;
 
 export const ContainerTwo = styled.div`
-  width: 60%;
+  width: 50%;
 `;
 
 export const Description = styled.div`
-  height: 50%;
+  height: 100%;
   border: 1px dotted blue;
 `;
 
-export const Tabs = styled.div`
-  height: 50%;
-  border: 1px dotted blue;
+// export const Tabs = styled.div`
+//   height: 50%;
+//   border: 1px dotted blue;
+// `;
+
+// TAB TEST
+export const Tabs2 = styled.div``;
+
+export const Wrapper = styled.div``;
+
+export const Button = styled.div`
+  width: 100px;
+  height: 20px;
 `;

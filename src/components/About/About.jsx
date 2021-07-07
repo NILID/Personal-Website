@@ -5,7 +5,9 @@ import {
   ContainerTwo,
   Techs,
   Description,
-  Tabs,
+  Tabs2,
+  Wrapper,
+  Button,
 } from "./AboutElements.jsx";
 
 import { javascript, react, html, css, sass, node } from "./AboutElements.jsx";
@@ -32,9 +34,15 @@ function About() {
             I've dedicated my time to gaining proficiency in development to
             better myself as a developer and problem solver. I am able to create
             clean and functional websites and confidently deliver products to my
-            clients knowing that they are of high quality.{" "}
+            clients knowing that they are of high quality.
+            <Tabs2>
+              <Wrapper>
+                <Button>Experience</Button>
+                <Button>Education</Button>
+              </Wrapper>
+            </Tabs2>
           </Description>
-          <Tabs>tabs</Tabs>
+          {/* <Tabs>tabs</Tabs> */}
         </ContainerTwo>
       </Container>
     </>
