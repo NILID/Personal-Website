@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+// IMPORT AND EXPORT TECHS IMGS
+import react from "../../assets/react.svg";
+import javascript from "../../assets/javascript.svg";
+import html from "../../assets/html.svg";
+import css from "../../assets/css.svg";
+import sass from "../../assets/sass.svg";
+import node from "../../assets/react.svg";
+
+export { react, javascript, html, css, sass, node };
+
 export const Container = styled.div`
   width: 80%;
   height: 90vh;
@@ -14,7 +24,6 @@ export const Techs = styled.div`
 `;
 
 export const ContainerTwo = styled.div`
-  border: 1px solid black;
   width: 50%;
 `;
 
