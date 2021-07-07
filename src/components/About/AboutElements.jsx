@@ -18,18 +18,22 @@ export const Container = styled.div`
 `;
 
 export const Techs = styled.div`
-  width: 50%;
+  width: 40%;
   border: 1px solid pink;
+  display: flex;
+  flex-wrap: wrap;
 
   img {
-    width: 40px;
-    height: 40px;
+    margin: auto;
+    width: 40%;
+    height: 20vh;
     border: 1px dotted blue;
+    cursor: pointer;
   }
 `;
 
 export const ContainerTwo = styled.div`
-  width: 50%;
+  width: 60%;
 `;
 
 export const Description = styled.div`
