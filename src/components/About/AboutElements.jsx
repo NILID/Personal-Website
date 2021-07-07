@@ -5,10 +5,25 @@ export const Container = styled.div`
   height: 90vh;
   border: 1px solid black;
   margin: auto;
+  display: flex;
 `;
 
-export const Techs = styled.div``;
+export const Techs = styled.div`
+  width: 50%;
+  border: 1px solid pink;
+`;
 
-export const Description = styled.div``;
+export const ContainerTwo = styled.div``;
 
-export const Tabs = styled.div``;
+export const Description = styled.div`
+  border: 1px solid pink;
+  height: 50%;
+  width: 50%;
+  flex-direction: column;
+`;
+
+export const Tabs = styled.div`
+  border: 1px solid pink;
+  height: 50%;
+  flex-direction: column;
+`;

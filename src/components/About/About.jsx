@@ -1,14 +1,22 @@
 import React from "react";
 
-import { Container, Techs, Description, Tabs } from "./AboutElements";
+import {
+  Container,
+  ContainerTwo,
+  Techs,
+  Description,
+  Tabs,
+} from "./AboutElements";
 
 function About() {
   return (
     <>
       <Container>
-        <Techs></Techs>
-        <Description></Description>
-        <Tabs></Tabs>
+        <Techs>tech</Techs>
+        <ContainerTwo>
+          <Description>desc</Description>
+          <Tabs>tabs</Tabs>
+        </ContainerTwo>
       </Container>
     </>
   );
