@@ -15,11 +15,18 @@ export const Container = styled.div`
   height: 90vh;
   margin: auto;
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin: 2px solid black;
+  }
 `;
 
 export const Techs = styled.div`
   width: 50%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   display: flex;
   flex-wrap: wrap;
 
@@ -27,18 +34,31 @@ export const Techs = styled.div`
     margin: auto;
     width: 40%;
     height: 20vh;
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: auto;
   }
 `;
 
 export const ContainerTwo = styled.div`
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Description = styled.div`
   height: 100%;
   border: 1px dotted blue;
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: auto;
+  }
 `;
 
 // export const Tabs = styled.div`
@@ -47,11 +67,23 @@ export const Description = styled.div`
 // `;
 
 // TAB TEST
-export const Tabs2 = styled.div``;
+export const Tabs2 = styled.div`
+  width: 100%;
+  border: 1px dotted pink;
+  margin-top: 20px;
+`;
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  display: flex;
+  border: 1px solid blue;
+`;
 
 export const Button = styled.div`
   width: 100px;
+  height: 20px;
+`;
+
+export const TabDesc = styled.div`
+  width: 100%;
   height: 20px;
 `;

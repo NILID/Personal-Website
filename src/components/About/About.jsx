@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Tab from "../Tabs/Tab";
 
 import {
   Container,
@@ -8,11 +10,14 @@ import {
   Tabs2,
   Wrapper,
   Button,
+  TabDesc,
 } from "./AboutElements.jsx";
 
 import { javascript, react, html, css, sass, node } from "./AboutElements.jsx";
 
 function About() {
+  const [description, setDescription] = useState(false);
+
   return (
     <>
       <Container>
@@ -40,6 +45,7 @@ function About() {
                 <Button>Experience</Button>
                 <Button>Education</Button>
               </Wrapper>
+              <Tab></Tab>
             </Tabs2>
           </Description>
           {/* <Tabs>tabs</Tabs> */}
