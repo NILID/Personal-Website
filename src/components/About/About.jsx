@@ -40,13 +40,7 @@ function About() {
             better myself as a developer and problem solver. I am able to create
             clean and functional websites and confidently deliver products to my
             clients knowing that they are of high quality.
-            <Tabs2>
-              <Wrapper>
-                <Button>Experience</Button>
-                <Button>Education</Button>
-              </Wrapper>
-              <Tab></Tab>
-            </Tabs2>
+            <Tabs2></Tabs2>
           </Description>
           {/* <Tabs>tabs</Tabs> */}
         </ContainerTwo>
