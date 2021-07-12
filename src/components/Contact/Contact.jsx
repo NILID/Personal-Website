@@ -8,7 +8,7 @@ import {
   Form,
 } from "./ContactElements";
 
-import { facebook, github, linkedin } from "./ContactElements";
+import { facebook, github, linkedin, email } from "./ContactElements";
 
 function Contact() {
   return (
@@ -23,7 +23,9 @@ function Contact() {
           <img src={linkedin} alt="Linkedin" />
         </Icons>
         <Container>
-          <Illustration></Illustration>
+          <Illustration>
+            <img src={email} alt="" />
+          </Illustration>
           <Form></Form>
         </Container>
       </Contacts>

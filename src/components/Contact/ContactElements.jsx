@@ -4,8 +4,9 @@ import styled from "styled-components";
 import facebook from "../../assets/contact/facebook.svg";
 import github from "../../assets/contact/github.svg";
 import linkedin from "../../assets/contact/linkedin.svg";
+import email from "../../assets/contact/email.svg";
 
-export { facebook, github, linkedin };
+export { facebook, github, linkedin, email };
 
 // Styling
 export const Contacts = styled.div`
