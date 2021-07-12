@@ -9,21 +9,26 @@ export { facebook, github, linkedin };
 
 // Styling
 export const Contacts = styled.div`
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 80%;
   height: 70vh;
   margin: auto;
 `;
+
 export const Title = styled.div`
   display: flex;
   justify-content: center;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
+
+  h1:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Icons = styled.div`
   display: flex;
   justify-content: center;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 
   img {
     width: 4vh;
@@ -37,6 +42,17 @@ export const Icons = styled.div`
   }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  height: 100%;
+`;
 
-export const Grid = styled.div``;
+export const Illustration = styled.div`
+  width: 50%;
+  border: 1px dotted black;
+`;
+
+export const Form = styled.div`
+  width: 50%;
+  border: 1px dotted black;
+`;

@@ -1,5 +1,12 @@
 import React from "react";
-import { Contacts, Container, Title, Grid, Icons } from "./ContactElements";
+import {
+  Contacts,
+  Container,
+  Title,
+  Illustration,
+  Icons,
+  Form,
+} from "./ContactElements";
 
 import { facebook, github, linkedin } from "./ContactElements";
 
@@ -16,7 +23,8 @@ function Contact() {
           <img src={linkedin} alt="Linkedin" />
         </Icons>
         <Container>
-          <Grid></Grid>
+          <Illustration></Illustration>
+          <Form></Form>
         </Container>
       </Contacts>
     </>
