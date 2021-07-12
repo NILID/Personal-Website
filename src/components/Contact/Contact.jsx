@@ -1,14 +1,17 @@
 import React from "react";
-import { Projects, Container, Grid } from "./ContactElements";
+import { Contacts, Container, Title, Grid } from "./ContactElements";
 
 function Contact() {
   return (
     <>
-      <Projects>
+      <Contacts>
+        <Title>
+          <h1>Contact</h1>
+        </Title>
         <Container>
           <Grid></Grid>
         </Container>
-      </Projects>
+      </Contacts>
     </>
   );
 }

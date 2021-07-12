@@ -12,7 +12,15 @@ function Projects() {
             <h1>Projects</h1>
           </Title>
           <Card>
-            <Images></Images>
+            {/* {data.projects.map((project, index) => (
+                <Images
+                  key={index}
+                  heading={project.title}
+                  paragraph={project.para}
+                  imgUrl={project.imageSrc}
+                  projectLink={project.url}
+                ></Images>
+              ))} */}
           </Card>
         </Container>
       </Project>
@@ -35,6 +43,15 @@ function Projects() {
     //     <button className="button button1">VIEW PROJECT</button>
     //   </div>
     // </div>
+    // {data.projects.map((project, index) => (
+    //   <Images
+    //     key={index}
+    //     heading={project.title}
+    //     paragraph={project.para}
+    //     imgUrl={project.imageSrc}
+    //     projectLink={project.url}
+    //   ></Images>
+    // ))}
   );
 }
 
