@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin: auto;
   width: 80%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
 
   @media (max-width: 768px) {
     flex-direction: column;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 `;
 

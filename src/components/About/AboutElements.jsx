@@ -12,10 +12,10 @@ export { react, javascript, html, css, sass, node };
 
 export const Container = styled.div`
   width: 80%;
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -52,7 +52,12 @@ export const ContainerTwo = styled.div`
 
 export const Description = styled.div`
   height: 100%;
-  border: 1px dotted blue;
+  /* border: 1px dotted blue; */
+
+  p {
+    font-family: "Qahiri", sans-serif;
+  }
+
   @media (max-width: 768px) {
     width: 80%;
     margin: auto;
@@ -62,13 +67,11 @@ export const Description = styled.div`
 // TAB TEST
 export const Tabs2 = styled.div`
   width: 100%;
-  border: 1px dotted pink;
   margin-top: 20px;
 `;
 
 export const Wrapper = styled.div`
   display: flex;
-  border: 1px solid blue;
 `;
 
 export const Button = styled.div`
