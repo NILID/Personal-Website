@@ -27,15 +27,12 @@ export const Container = styled.div`
 
 export const Techs = styled.div`
   width: 50%;
-  /* border: 1px solid pink; */
   display: flex;
   flex-wrap: wrap;
-
   img {
     margin: auto;
     width: 40%;
     height: 20vh;
-    /* border: 1px dotted blue; */
     cursor: pointer;
   }
 
@@ -61,11 +58,6 @@ export const Description = styled.div`
     margin: auto;
   }
 `;
-
-// export const Tabs = styled.div`
-//   height: 50%;
-//   border: 1px dotted blue;
-// `;
 
 // TAB TEST
 export const Tabs2 = styled.div`
