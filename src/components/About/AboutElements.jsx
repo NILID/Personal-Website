@@ -58,6 +58,7 @@ export const Description = styled.div`
 
   p {
     font-family: "Qahiri", sans-serif;
+    margin-top: 1em;
   }
 
   @media (max-width: 768px) {
