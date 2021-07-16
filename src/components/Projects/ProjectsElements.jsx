@@ -13,6 +13,7 @@ export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
+  color: #2e186a;
 `;
 
 export const Card = styled.div``;

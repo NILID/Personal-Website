@@ -54,8 +54,7 @@ export const ContainerTwo = styled.div`
 
 export const Description = styled.div`
   height: 100%;
-
-  /* border: 1px dotted blue; */
+  color: #2e186a;
 
   p {
     font-family: "Qahiri", sans-serif;

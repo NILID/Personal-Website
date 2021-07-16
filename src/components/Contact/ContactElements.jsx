@@ -19,6 +19,7 @@ export const Contacts = styled.div`
 export const Title = styled.div`
   display: flex;
   justify-content: center;
+  color: #2e186a;
   /* border: 1px solid pink; */
 
   h1:hover {
@@ -46,14 +47,34 @@ export const Icons = styled.div`
 export const Container = styled.div`
   display: flex;
   height: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+  }
 `;
 
 export const Illustration = styled.div`
   width: 50%;
   border: 1px dotted black;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
 `;
 
 export const Form = styled.div`
   width: 50%;
   border: 1px dotted black;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
 `;

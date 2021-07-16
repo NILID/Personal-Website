@@ -17,7 +17,7 @@ function About() {
       <Container>
         <Techs>
           <img src={javascript} alt="JavaScript" />
-          <img src={react} alt="Reac" />
+          <img src={react} alt="React" />
           <img src={html} alt="Html" />
           <img src={css} alt="CSS" />
           <img src={sass} alt="Sass" />
