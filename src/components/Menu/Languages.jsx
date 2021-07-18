@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  English,
-  Japanese,
-  Russian,
-  Portuguese,
-  Lang,
-  LangFlag,
-} from "./NavbarElements";
+import { English, Japanese, Russian, Portuguese, Lang } from "./NavbarElements";
 
 const languages = {
   en: {
@@ -49,18 +42,21 @@ function Languages() {
   return (
     <>
       <Lang>
-        <LangFlag>
+        <li>{languages[language].about}</li>
+        <li>{languages[language].project}</li>
+        <li>{languages[language].contact}</li>
+        <li className="image">
           <img src={English} alt="EN" onClick={handleLanguage("en")} />
-        </LangFlag>
-        <LangFlag>
-          <img src={Portuguese} alt="PT-BR" onClick={handleLanguage("en")} />
-        </LangFlag>
-        <LangFlag>
-          <img src={Japanese} alt="JP" />
-        </LangFlag>
-        <LangFlag>
-          <img src={Russian} alt="RU" />
-        </LangFlag>
+        </li>
+        <li className="image">
+          <img src={Japanese} alt="JP" onClick={handleLanguage("jp")} />
+        </li>
+        <li className="image">
+          <img src={Russian} alt="RU" onClick={handleLanguage("ru")} />
+        </li>
+        <li className="image">
+          <img src={Portuguese} alt="PT-BR" onClick={handleLanguage("ptbr")} />
+        </li>
       </Lang>
     </>
   );
