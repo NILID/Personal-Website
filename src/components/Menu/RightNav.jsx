@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Ul } from "./NavbarElements";
 import { English, Japanese, Russian, Portuguese } from "./NavbarElements";
-import { IntlProvider, FormattedMessage, FormattedDate } from "react-intl";
 
 const languages = {
   en: {
@@ -35,29 +34,29 @@ const languages = {
 };
 
 const RightNav = ({ open }) => {
-  const [locale, setLocale] = useState("en");
+  const [language, setLanguage] = useState("en");
 
-  const handleChange = (e) => {
-    setLocale(e.taget.value);
+  const handleLanguage = (language) => (event) => {
+    setLanguage(language);
   };
 
   return (
     <>
       <Ul open={open}>
-        <li>about</li>
-        <li>projects</li>
-        <li>contact</li>
+        <li>{languages[language].about}</li>
+        <li>{languages[language].project}</li>
+        <li>{languages[language].contact}</li>
         <li className="image">
-          <img src={English} alt="EN" />
+          <img src={English} alt="EN" onClick={handleLanguage("en")} />
         </li>
         <li className="image">
-          <img src={Japanese} alt="JP" />
+          <img src={Japanese} alt="JP" onClick={handleLanguage("jp")} />
         </li>
         <li className="image">
-          <img src={Russian} alt="RU" />
+          <img src={Russian} alt="RU" onClick={handleLanguage("ru")} />
         </li>
         <li className="image">
-          <img src={Portuguese} alt="PT-BR" />
+          <img src={Portuguese} alt="PT-BR" onClick={handleLanguage("ptbr")} />
         </li>
       </Ul>
     </>
