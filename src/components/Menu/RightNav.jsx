@@ -1,7 +1,15 @@
+import { useState } from "react";
 import { Ul } from "./NavbarElements";
 import { English, Japanese, Russian, Portuguese } from "./NavbarElements";
+import { IntlProvider, FormattedMessage, FormattedDate } from "react-intl";
 
 const RightNav = ({ open }) => {
+  const [locale, setLocale] = useState("en");
+
+  const handleChange = (e) => {
+    setLocale(e.taget.value);
+  };
+
   return (
     <>
       <Ul open={open}>

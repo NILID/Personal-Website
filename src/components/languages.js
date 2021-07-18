@@ -6,7 +6,25 @@ const text = {
     slogan: "Think the Design, and I design the Code.",
     button: "Learn more",
   },
-  ptbr: {},
-  jp: {},
-  ru: {},
+  ptbr: {
+    about: "sobre",
+    project: "projetos",
+    contact: "contatos",
+    slogan: "Think the Design, and I design the Code.",
+    button: "Learn more",
+  },
+  jp: {
+    about: "nihon",
+    project: "nihon",
+    contact: "nihon",
+    slogan: "nihon",
+    button: "nihon",
+  },
+  ru: {
+    about: "руский",
+    project: "руский",
+    contact: "руский",
+    slogan: "руский",
+    button: "руский",
+  },
 };
