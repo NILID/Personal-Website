@@ -4,21 +4,11 @@ export const Lang = styled.div`
   display: flex;
   justify-content: space-between;
   margin: auto;
-  border: 1px dotted pink;
   width: 100%;
 
   li:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.5);
-  }
-
-  img {
-    width: 30px;
-    height: 30px;
-    margin: auto;
-  }
-
-  .languageIcons {
   }
 
   @media (max-width: 768px) {
@@ -45,6 +35,19 @@ export const ItemsMenu = styled.ul`
     display: inline-block;
     color: #2e186a;
     cursor: pointer;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+  }
+`;
+
+export const LanguageIcon = styled.div`
+  img {
+    height: 2em;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
   }
 `;

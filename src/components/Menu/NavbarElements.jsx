@@ -8,22 +8,8 @@ import Russian from "../../assets/menu/russia.svg";
 // EXPORTING FLAGS
 export { English, Portuguese, Japanese, Russian };
 
-// LOGO
-// export const Logo = styled.div`
-//   display: inline;
-//   color: #2e186a;
-//   display: flex;
-//   align-items: center;
-//   cursor: pointer;
-
-//   h1 {
-//     font-size: 2rem;
-//   }
-// `;
-
 // NAVBAR COMPONENT
 export const Nav = styled.nav`
-  border: 1px solid black;
   width: 80%;
   height: 10vh;
   display: flex;
@@ -66,7 +52,7 @@ export const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     display: block;
 
-    li {
+    /* li {
       color: #fff;
       display: flex;
       justify-content: center;
@@ -79,7 +65,7 @@ export const Ul = styled.ul`
     .image {
       display: flex;
       justify-content: center;
-    }
+    } */
   }
 `;
 
@@ -122,14 +108,3 @@ export const StyledBurger = styled.div`
     }
   }
 `;
-
-//LANGUAGES COMPONENT
-// export const Lang = styled.div`
-//   display: flex;
-//   align-items: center;
-//   margin-right: 24px;
-
-//   @media screen and (max-width: 768px) {
-//     display: none;
-//   }
-// `;
