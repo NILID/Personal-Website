@@ -31,6 +31,13 @@ export const Lang = styled.div`
 
   .languageIcons {
   }
+
+  @media (max-width: 768px) {
+    .languageText,
+    .languageIcons {
+      display: none;
+    }
+  }
 `;
 
 export const Logo = styled.div`
