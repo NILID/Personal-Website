@@ -3,6 +3,37 @@ import { Ul } from "./NavbarElements";
 import { English, Japanese, Russian, Portuguese } from "./NavbarElements";
 import { IntlProvider, FormattedMessage, FormattedDate } from "react-intl";
 
+const languages = {
+  en: {
+    about: "about",
+    project: "project",
+    contact: "contact",
+    slogan: "Think the Design, and I design the Code.",
+    button: "Learn more",
+  },
+  ptbr: {
+    about: "sobre",
+    project: "projetos",
+    contact: "contatos",
+    slogan: "Think the Design, and I design the Code.",
+    button: "Learn more",
+  },
+  jp: {
+    about: "nihon",
+    project: "nihon",
+    contact: "nihon",
+    slogan: "nihon",
+    button: "nihon",
+  },
+  ru: {
+    about: "руский",
+    project: "руский",
+    contact: "руский",
+    slogan: "руский",
+    button: "руский",
+  },
+};
+
 const RightNav = ({ open }) => {
   const [locale, setLocale] = useState("en");
 
