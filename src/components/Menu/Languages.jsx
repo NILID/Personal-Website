@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Lang, Logo } from "./LanguagesElements";
+import { Lang, Logo, ItemsMenu } from "./LanguagesElements";
 import { English, Japanese, Russian, Portuguese } from "./NavbarElements";
 
 const languages = {
@@ -46,11 +46,11 @@ function Languages() {
         <Logo>
           <h1>Flávio</h1>
         </Logo>
-        <div className="languageText">
+        <ItemsMenu>
           <li>{languages[language].about}</li>
           <li>{languages[language].project}</li>
           <li>{languages[language].contact}</li>
-        </div>
+        </ItemsMenu>
         <div className="languageIcons">
           <img src={English} alt="EN" onClick={handleLanguage("en")} />
 
