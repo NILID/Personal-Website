@@ -53,9 +53,7 @@ function Languages() {
         </ItemsMenu>
         <LanguageIcon>
           <img src={English} alt="EN" onClick={handleLanguage("en")} />
-
           <img src={Japanese} alt="JP" onClick={handleLanguage("jp")} />
-
           <img src={Russian} alt="RU" onClick={handleLanguage("ru")} />
           <img src={Portuguese} alt="PT-BR" onClick={handleLanguage("ptbr")} />
         </LanguageIcon>

@@ -10,13 +10,6 @@ export const Lang = styled.div`
     transition: all 0.2s ease-in-out;
     transform: scale(1.5);
   }
-
-  @media (max-width: 768px) {
-    .languageText,
-    .languageIcons {
-      display: none;
-    }
-  }
 `;
 
 export const Logo = styled.div`
@@ -37,9 +30,17 @@ export const ItemsMenu = styled.ul`
     cursor: pointer;
     padding-left: 1.5rem;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const LanguageIcon = styled.div`
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   img {
     height: 2em;
     margin-left: 1em;
