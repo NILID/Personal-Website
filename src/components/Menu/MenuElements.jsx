@@ -11,7 +11,12 @@ export const MainContainer = styled.div`
   width: 100%;
   border: 1px dotted pink;
 `;
-export const Navbar = styled.div``;
+
+export const Navbar = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
 export const Logo = styled.div``;
 export const NavLink = styled.ul`
   display: inline-flex;
@@ -19,4 +24,5 @@ export const NavLink = styled.ul`
   border: 1px dotted blue;
 `;
 export const NavFlags = styled.div``;
+
 export const NavIcon = styled.div``;

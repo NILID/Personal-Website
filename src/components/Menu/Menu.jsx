@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { FaBars, FaTimes } from "react-icons/fa";
+
 import {
   Container,
   MainContainer,
@@ -26,21 +28,25 @@ function Menu() {
             <Logo>
               <h1>Flávio</h1>
             </Logo>
+
+            <NavLink className={click ? "nav-menu active" : "nav-menu"}>
+              <li className="nav-item">about</li>
+              <li className="nav-item">projects</li>
+              <li className="nav-item">contact</li>
+            </NavLink>
+
+            <NavFlags>
+              <img src="" alt="en" />
+              <img src="" alt="pt" />
+              <img src="" alt="ru" />
+            </NavFlags>
+
+            <NavIcon onClick={handleClick}>
+              <i className={click ? "FaBars" : "FaBars"}>
+                <FaBars />
+              </i>
+            </NavIcon>
           </Navbar>
-
-          <NavLink>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-          </NavLink>
-
-          <NavFlags>
-            <img src="" alt="en" />
-            <img src="" alt="pt" />
-            <img src="" alt="ru" />
-          </NavFlags>
-
-          <NavIcon onClick={handleClick}>Icon</NavIcon>
         </MainContainer>
       </Container>
     </>
