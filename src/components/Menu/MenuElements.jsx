@@ -1,3 +1,4 @@
+import { withWidth } from "@material-ui/core";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -18,11 +19,26 @@ export const Navbar = styled.div`
   width: 100%;
 `;
 export const Logo = styled.div``;
+
 export const NavLink = styled.ul`
   display: inline-flex;
   list-style-type: none;
   border: 1px dotted blue;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    width: 100%;
+  }
 `;
-export const NavFlags = styled.div``;
+
+export const NavFlags = styled.div`
+  @media (max-width: 768px) {
+    img {
+      display: none;
+    }
+  }
+`;
 
 export const NavIcon = styled.div``;
