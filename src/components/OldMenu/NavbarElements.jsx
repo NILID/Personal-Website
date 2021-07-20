@@ -51,21 +51,6 @@ export const Ul = styled.ul`
     width: 70%;
     transition: transform 0.3s ease-in-out;
     display: block;
-
-    /* li {
-      color: #fff;
-      display: flex;
-      justify-content: center;
-    }
-
-    img {
-      width: 15%;
-    }
-
-    .image {
-      display: flex;
-      justify-content: center;
-    } */
   }
 `;
 

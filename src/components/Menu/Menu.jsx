@@ -11,30 +11,39 @@ function Menu() {
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
+
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <div exact to="/" className="nav-logo">
-            CodeBucks
+            Flávio
             <i className="fa fa-code"></i>
           </div>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <a href="" ctiveClassName="active" className="nav-links">
-                ABOUT
+                about
               </a>
             </li>
             <li className="nav-item">
               <a href="" ctiveClassName="active" className="nav-links">
-                PROJECTS
+                projects
               </a>
             </li>
             <li className="nav-item">
               <a href="" ctiveClassName="active" className="nav-links">
-                CONTACT
+                contact
               </a>
             </li>
           </ul>
+
+          <div>
+            <img src="" alt="en" />
+            <img src="" alt="ptbr" />
+            <img src="" alt="ru" />
+            <img src="" alt="jp" />
+          </div>
+
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"}>A</i>
           </div>
