@@ -7,21 +7,23 @@
 
 .navbar {
   background-color: #fff;
-  height: 80px;
+  width: 80%;
+  margin: auto;
+  height: 10vhpx;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  // position: sticky;
+  // top: 0;
+  // z-index: 20;
   border: 1px solid black;
 }
 
 .nav-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  // align-items: center;
   width: 80%;
   height: 10vh;
   max-width: 1500px;
@@ -38,12 +40,13 @@
 
 .nav-logo {
   color: #2e186a;
-  align-items: center;
-  margin-left: 20px;
+  // align-items: center;
+  // margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  flex-grow: 1;
+  // flex-grow: 1;
+  border: 1px dotted pink;
 }
 
 .nav-menu {

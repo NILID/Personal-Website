@@ -19,23 +19,25 @@ function Menu() {
             <i className="fa fa-code"></i>
           </div>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <a href="" ctiveClassName="active" className="nav-links">
-                about
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="" ctiveClassName="active" className="nav-links">
-                projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="" ctiveClassName="active" className="nav-links">
-                contact
-              </a>
-            </li>
-          </ul>
+          <div>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <li className="nav-item">
+                <a href="" ctiveClassName="active" className="nav-links">
+                  about
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="" ctiveClassName="active" className="nav-links">
+                  projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="" ctiveClassName="active" className="nav-links">
+                  contact
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <div>
             <img src="" alt="en" />
