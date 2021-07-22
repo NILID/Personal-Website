@@ -19,7 +19,7 @@ function Menu() {
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <div exact to="/" className="nav-logo">
-            Flávio
+            <h1>Flávio</h1>
           </div>
 
           <div className="links">
