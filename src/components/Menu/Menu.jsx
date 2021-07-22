@@ -1,6 +1,10 @@
 import React, { useState } from "react";
-
 import "./MenuStyle.scss";
+
+import br from "../../assets/menu/brazil.svg";
+import en from "../../assets/menu/eua.svg";
+import ru from "../../assets/menu/russia.svg";
+import jp from "../../assets/menu/japan.svg";
 
 function Menu() {
   const [click, setClick] = useState(false);
@@ -39,11 +43,11 @@ function Menu() {
             </ul>
           </div>
 
-          <div>
-            <img src="" alt="en" />
-            <img src="" alt="ptbr" />
-            <img src="" alt="ru" />
-            <img src="" alt="jp" />
+          <div className="flags">
+            <img src={en} alt="en" />
+            <img src={br} alt="ptbr" />
+            <img src={ru} alt="ru" />
+            <img src={jp} alt="jp" />
           </div>
 
           <div className="nav-icon" onClick={handleClick}>

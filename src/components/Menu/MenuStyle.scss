@@ -1,17 +1,21 @@
-.pages {
-  color: #316685;
-  text-align: center;
-  font-size: calc(1.5rem + 2vw);
-  margin-top: 10%;
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
   background-color: #fff;
   width: 80%;
   margin: auto;
-  height: 10vhpx;
-  display: flex;
-  justify-content: center;
+  height: 10vh;
+  // display: flex;
+  // justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   // position: sticky;
@@ -26,16 +30,7 @@
   // align-items: center;
   width: 80%;
   height: 10vh;
-  max-width: 1500px;
-}
-
-.main-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  // max-width: 1500px;
 }
 
 .nav-logo {
@@ -53,22 +48,11 @@
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 2rem;
-}
-
-.nav-links {
-  color: #2e186a;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  height: 100%;
-  border-bottom: 3px solid transparent;
-}
-.fa-code {
-  margin-left: 1rem;
+  // margin-right: 2rem;
 }
 
 .nav-item {
-  margin-right: 1rem;
+  // margin-right: 1rem;
 }
 
 .nav-item:after {
@@ -90,8 +74,34 @@
   border: 1px solid #fe7624;
 }
 
+.pages {
+  color: #316685;
+  text-align: center;
+  font-size: calc(1.5rem + 2vw);
+  margin-top: 10%;
+}
+
+.nav-links {
+  color: #2e186a;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+
 .nav-icon {
   display: none;
+  border: 1px solid black;
+}
+
+.fa-code {
+  // margin-left: 1rem;
+}
+
+.flags {
+  img {
+    width: 5%;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -101,8 +111,8 @@
     width: 100%;
     border-top: 1px solid #fff;
     position: absolute;
-    top: 80px;
-    left: -110%;
+    // top: 80px;
+    // left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
   }
@@ -126,9 +136,9 @@
 
   .nav-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
