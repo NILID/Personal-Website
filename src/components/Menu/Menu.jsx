@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./MenuStyle.scss";
 
+import { FaBars } from "react-icons/fa";
+
 import br from "../../assets/menu/brazil.svg";
 import en from "../../assets/menu/eua.svg";
 import ru from "../../assets/menu/russia.svg";
@@ -20,10 +22,9 @@ function Menu() {
         <div className="nav-container">
           <div exact to="/" className="nav-logo">
             Flávio
-            <i className="fa fa-code"></i>
           </div>
 
-          <div>
+          <div className="links">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <a href="" ctiveClassName="active" className="nav-links">
@@ -51,7 +52,9 @@ function Menu() {
           </div>
 
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"}>A</i>
+            <i className={click ? "fa fa-times" : "fa fa-bars"}>
+              <FaBars />
+            </i>
           </div>
         </div>
       </nav>
