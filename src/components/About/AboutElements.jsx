@@ -57,7 +57,7 @@ export const Description = styled.div`
   color: #2e186a;
 
   p {
-    font-family: "Qahiri", sans-serif;
+    font-family: sans-serif;
     margin-top: 1em;
   }
 

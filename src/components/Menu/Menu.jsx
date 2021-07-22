@@ -39,11 +39,20 @@ function Menu() {
                   contact
                 </a>
               </li>
+
               <div className="flags-desktop">
-                <img src={en} alt="en" />
-                <img src={br} alt="ptbr" />
-                <img src={ru} alt="ru" />
-                <img src={jp} alt="jp" />
+                <li>
+                  <img src={en} alt="en" />
+                </li>
+                <li>
+                  <img src={br} alt="ptbr" />
+                </li>
+                <li>
+                  <img src={ru} alt="ru" />
+                </li>
+                <li>
+                  <img src={jp} alt="jp" />
+                </li>
               </div>
             </ul>
           </div>
