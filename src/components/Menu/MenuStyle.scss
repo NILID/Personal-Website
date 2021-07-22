@@ -28,7 +28,7 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  // align-items: center;
+  align-items: center;
   width: 100%;
   height: 10vh;
   // max-width: 1500px;
@@ -116,6 +116,10 @@
   }
 }
 
+.flags-desktop {
+  display: none;
+}
+
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;
@@ -151,7 +155,7 @@
     // position: absolute;
     // top: 0;
     // right: 0;
-    transform: translate(-100%, 60%);
+    // transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
     color: #ffdd40;

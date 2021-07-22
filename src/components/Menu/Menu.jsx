@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./MenuStyle.scss";
-
 import { FaBars } from "react-icons/fa";
-
 import br from "../../assets/menu/brazil.svg";
 import en from "../../assets/menu/eua.svg";
 import ru from "../../assets/menu/russia.svg";
@@ -41,6 +39,12 @@ function Menu() {
                   contact
                 </a>
               </li>
+              <div className="flags-desktop">
+                <img src={en} alt="en" />
+                <img src={br} alt="ptbr" />
+                <img src={ru} alt="ru" />
+                <img src={jp} alt="jp" />
+              </div>
             </ul>
           </div>
 
