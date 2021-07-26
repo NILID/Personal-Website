@@ -6,11 +6,16 @@ import en from "../../assets/menu/eua.svg";
 import ru from "../../assets/menu/russia.svg";
 import jp from "../../assets/menu/japan.svg";
 
-function Menu() {
-  const [click, setClick] = useState(false);
+import { useIdiom } from "../../provider/Language.jsx";
 
+function Menu() {
+  // burger menu
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+
+  // tradution
+  const idiom = useIdiom();
 
   return (
     <div>
