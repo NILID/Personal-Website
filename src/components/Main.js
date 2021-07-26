@@ -25,7 +25,7 @@ function Main() {
 
   return (
     <div>
-      <LanguagesContext.Provider>
+      <LanguagesContext.Provider value={[language, setLanguage]}>
         <Router>
           <Menu></Menu>
           <Home></Home>
