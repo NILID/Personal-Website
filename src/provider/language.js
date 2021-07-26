@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useState } from "react";
 
 const languages = {
   en: {
@@ -31,8 +31,16 @@ const languages = {
   },
 };
 
+export const LanguagesContext = React.createContext(languages);
+
+const [language, setLanguage] = useState("en");
+
 function language() {
-  return <div></div>;
+  return (
+    <LanguagesContext.Provider value={{ language, setLanguage }}>
+      {children}
+    </LanguagesContext.Provider>
+  );
 }
 
 export default language;

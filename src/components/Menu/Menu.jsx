@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./MenuStyle.scss";
 import { FaBars } from "react-icons/fa";
 import br from "../../assets/menu/brazil.svg";
