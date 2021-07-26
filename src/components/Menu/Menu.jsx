@@ -8,6 +8,8 @@ import jp from "../../assets/menu/japan.svg";
 
 import { useIdiom } from "../../provider/Language.jsx";
 
+import LanguagesProvider from "../../provider/Language";
+
 function Menu() {
   // burger menu
   const [click, setClick] = useState(false);
@@ -30,19 +32,13 @@ function Menu() {
           <div className="links">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <a href="" ctiveClassName="active" className="nav-links">
-                  about
-                </a>
+                <a href="" activeClassName="active" className="nav-links"></a>
               </li>
               <li className="nav-item">
-                <a href="" ctiveClassName="active" className="nav-links">
-                  projects
-                </a>
+                <a href="" activeClassName="active" className="nav-links"></a>
               </li>
               <li className="nav-item">
-                <a href="" ctiveClassName="active" className="nav-links">
-                  contact
-                </a>
+                <a href="" activeClassName="active" className="nav-links"></a>
               </li>
 
               <div className="flags-desktop">
