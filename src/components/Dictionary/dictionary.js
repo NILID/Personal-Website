@@ -6,7 +6,7 @@ const dictionary = {
       contact: "contact",
       slogan: "Think the Design and I Design the code",
       button: "Learn more",
-      titleAboutMe: "About me",
+      titleAboutMe: "About Me",
       messageAboutMe: "I'm myself",
       titleProjects: "Projects",
       titleContact: "Contact",
