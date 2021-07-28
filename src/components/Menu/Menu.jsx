@@ -8,6 +8,8 @@ import jp from "../../assets/menu/japan.svg";
 
 import { LanguageContext } from "../../App";
 
+import dictionary from "../Dictionary/dictionary";
+
 function Menu() {
   const languages = {
     en: {

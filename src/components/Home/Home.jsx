@@ -1,29 +1,32 @@
 import React, { useContext } from "react";
 import { Container, ContentOne, ContentTwo, Button } from "./HomeElements";
 import dev from "../../assets/dev.svg";
-
+import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
 
 function Home() {
-  const [language, setLanguage] = useContext(LanguageContext);
+  const [language] = useContext(LanguageContext);
 
   return (
     <>
-      <Container>
-        <ContentOne>
-          <p>
-            Think the <span>Design</span>,
-          </p>
-          and I design the <span>Code</span>.
-          <br />
-          <Button>
-            <a href="">Learn more</a>
-          </Button>
-        </ContentOne>
-        <ContentTwo>
-          <img src={dev} alt="" />
-        </ContentTwo>
-      </Container>
+      {dictionary[language].map(({ slogan, button }) => (
+        <Container>
+          <ContentOne>
+            <p>{slogan}</p>
+            {/* <p>
+              Think the <span>Design</span>,
+            </p>
+            and I design the <span>Code</span>.
+            <br /> */}
+            <Button>
+              <a href="">{button}</a>
+            </Button>
+          </ContentOne>
+          <ContentTwo>
+            <img src={dev} alt="" />
+          </ContentTwo>
+        </Container>
+      ))}
     </>
   );
 }
