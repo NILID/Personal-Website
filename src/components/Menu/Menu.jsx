@@ -6,18 +6,48 @@ import en from "../../assets/menu/eua.svg";
 import ru from "../../assets/menu/russia.svg";
 import jp from "../../assets/menu/japan.svg";
 
-import { useIdiom } from "../../provider/Language.jsx";
-
-import LanguagesProvider from "../../provider/Language";
+import { LanguageContext } from "../../App";
 
 function Menu() {
+  const languages = {
+    en: {
+      about: "about",
+      project: "project",
+      contact: "contact",
+      slogan: "Think the Design, and I design the Code.",
+      button: "Learn more",
+    },
+    ptbr: {
+      about: "sobre",
+      project: "projetos",
+      contact: "contatos",
+      slogan: "Portugues",
+      button: "Portugues",
+    },
+    jp: {
+      about: "nihon",
+      project: "nihon",
+      contact: "nihon",
+      slogan: "nihon",
+      button: "nihon",
+    },
+    ru: {
+      about: "руский",
+      project: "руский",
+      contact: "руский",
+      slogan: "руский",
+      button: "руский",
+    },
+  };
+
   // burger menu
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
 
-  // tradution
-  const idiom = useIdiom();
+  // translation
+  const [language, setLanguage] = useContext(LanguageContext);
+  console.log("language", language);
 
   return (
     <div>
@@ -32,13 +62,19 @@ function Menu() {
           <div className="links">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links"></a>
+                <a href="" activeClassName="active" className="nav-links">
+                  {languages[language].about}
+                </a>
               </li>
               <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links"></a>
+                <a href="" activeClassName="active" className="nav-links">
+                  {languages[language].project}
+                </a>
               </li>
               <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links"></a>
+                <a href="" activeClassName="active" className="nav-links">
+                  {languages[language].contact}
+                </a>
               </li>
 
               <div className="flags-desktop">
@@ -59,10 +95,34 @@ function Menu() {
           </div>
 
           <div className="flags">
-            <img src={en} alt="en" />
-            <img src={br} alt="ptbr" />
-            <img src={ru} alt="ru" />
-            <img src={jp} alt="jp" />
+            <img
+              src={en}
+              alt="en"
+              onClick={() => {
+                setLanguage("en");
+              }}
+            />
+            <img
+              src={br}
+              alt="ptbr"
+              onClick={() => {
+                setLanguage("ptbr");
+              }}
+            />
+            <img
+              src={ru}
+              alt="ru"
+              onClick={() => {
+                setLanguage("ru");
+              }}
+            />
+            <img
+              src={jp}
+              alt="jp"
+              onClick={() => {
+                setLanguage("jp");
+              }}
+            />
           </div>
 
           <div className="nav-icon" onClick={handleClick}>
