@@ -53,6 +53,7 @@ function Menu() {
 
   return (
     <div>
+      {dictionary[language].map((about, project, contract) => {})}
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
 
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>

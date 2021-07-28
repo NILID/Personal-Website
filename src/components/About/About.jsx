@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 
 import {
   Container,
@@ -9,12 +9,43 @@ import {
 
 import { javascript, react, html, css, sass, node } from "./AboutElements.jsx";
 
+import dictionary from "../Dictionary/dictionary";
+import { LanguageContext } from "../../App";
+
 function About() {
+  const [language] = useContext(LanguageContext);
+
   const [description, setDescription] = useState(false);
 
   return (
     <>
-      <Container>
+      {dictionary[language].map(({ titleAboutMe, messageAboutMe }) => (
+        <Container>
+          <Techs>
+            <img src={javascript} alt="JavaScript" />
+            <img src={react} alt="React" />
+            <img src={html} alt="Html" />
+            <img src={css} alt="CSS" />
+            <img src={sass} alt="Sass" />
+            <img src={node} alt="Node" />
+          </Techs>
+          <ContainerTwo>
+            <Description>
+              <h1>{titleAboutMe}</h1>
+              <p>{messageAboutMe}</p>
+            </Description>
+            {/* <Tabs>tabs</Tabs> */}
+          </ContainerTwo>
+        </Container>
+      ))}
+    </>
+  );
+}
+
+export default About;
+
+{
+  /* <Container>
         <Techs>
           <img src={javascript} alt="JavaScript" />
           <img src={react} alt="React" />
@@ -41,11 +72,7 @@ function About() {
               quality.
             </p>
           </Description>
-          {/* <Tabs>tabs</Tabs> */}
+        
         </ContainerTwo>
-      </Container>
-    </>
-  );
+      </Container> */
 }
-
-export default About;
