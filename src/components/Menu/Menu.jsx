@@ -79,16 +79,40 @@ function Menu() {
 
               <div className="flags-desktop">
                 <li>
-                  <img src={en} alt="en" />
+                  <img
+                    src={en}
+                    alt="en"
+                    onClick={() => {
+                      setLanguage("en");
+                    }}
+                  />
                 </li>
                 <li>
-                  <img src={br} alt="ptbr" />
+                  <img
+                    src={br}
+                    alt="ptbr"
+                    onClick={() => {
+                      setLanguage("ptbr");
+                    }}
+                  />
                 </li>
                 <li>
-                  <img src={ru} alt="ru" />
+                  <img
+                    src={ru}
+                    alt="ru"
+                    onClick={() => {
+                      setLanguage("ru");
+                    }}
+                  />
                 </li>
                 <li>
-                  <img src={jp} alt="jp" />
+                  <img
+                    src={jp}
+                    alt="jp"
+                    onClick={() => {
+                      setLanguage("jp");
+                    }}
+                  />
                 </li>
               </div>
             </ul>

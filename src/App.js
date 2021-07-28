@@ -23,8 +23,6 @@ function App() {
     <div className="App">
       <LanguageContext.Provider value={[language, setLanguage]}>
         <Main></Main>
-        <Menu></Menu>
-        <Home></Home>
       </LanguageContext.Provider>
     </div>
   );

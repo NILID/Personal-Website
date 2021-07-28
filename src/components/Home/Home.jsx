@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container, ContentOne, ContentTwo, Button } from "./HomeElements";
 import dev from "../../assets/dev.svg";
 
+import { LanguageContext } from "../../App";
+
 function Home() {
+  const [language, setLanguage] = useContext(LanguageContext);
+
   return (
     <>
       <Container>
