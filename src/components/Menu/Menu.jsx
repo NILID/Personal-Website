@@ -10,6 +10,8 @@ import { LanguageContext } from "../../App";
 
 import dictionary from "../Dictionary/dictionary";
 
+import { Link } from "react-scroll";
+
 function Menu() {
   const languages = {
     en: {
@@ -76,7 +78,9 @@ function Menu() {
               </li>
               <li className="nav-item">
                 <a href="" activeClassName="active" className="nav-links">
-                  {languages[language].contact}
+                  <Link to="contact" smooth={true} duration={1000}>
+                    {languages[language].contact}
+                  </Link>
                 </a>
               </li>
 

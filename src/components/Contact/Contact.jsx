@@ -19,7 +19,7 @@ function Contact() {
   return (
     <>
       {dictionary[language].map(({ titleContact }) => (
-        <Contacts>
+        <Contacts id="contact">
           <Title>
             <h1>{titleContact}</h1>
           </Title>
