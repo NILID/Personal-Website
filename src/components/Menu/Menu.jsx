@@ -68,12 +68,16 @@ function Menu() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <a href="" activeClassName="active" className="nav-links">
-                  {languages[language].about}
+                  <Link to="about" smooth={true} duration={1000}>
+                    {languages[language].about}
+                  </Link>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="" activeClassName="active" className="nav-links">
-                  {languages[language].project}
+                  <Link to="project" smooth={true} duration={1000}>
+                    {languages[language].project}
+                  </Link>
                 </a>
               </li>
               <li className="nav-item">

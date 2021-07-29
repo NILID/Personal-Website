@@ -20,7 +20,7 @@ function About() {
   return (
     <>
       {dictionary[language].map(({ titleAboutMe, messageAboutMe }) => (
-        <Container>
+        <Container id="about">
           <Techs>
             <img src={javascript} alt="JavaScript" />
             <img src={react} alt="React" />

@@ -12,7 +12,7 @@ function Projects() {
   return (
     <>
       {dictionary[language].map(({ titleProjects }) => (
-        <Project>
+        <Project id="project">
           <Container>
             <Title>
               <h1>{titleProjects}</h1>
