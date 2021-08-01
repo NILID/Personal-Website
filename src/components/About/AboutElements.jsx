@@ -35,7 +35,11 @@ export const Techs = styled.div`
     height: 20vh;
     cursor: pointer;
   }
-
+  img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
   @media (max-width: 768px) {
     width: 80%;
     margin: auto;
@@ -54,10 +58,15 @@ export const ContainerTwo = styled.div`
 export const Description = styled.div`
   height: 100%;
   color: #2e186a;
+  border: 1px solid pink;
+
+  h1 {
+    font-size: 2rem;
+  }
 
   p {
-    font-family: sans-serif;
-    margin-top: 1em;
+    margin-top: 1rem;
+    font-size: 1rem;
   }
 
   @media (max-width: 768px) {
@@ -65,24 +74,4 @@ export const Description = styled.div`
     height: 100%;
     margin: auto;
   }
-`;
-
-// TAB TEST
-export const Tabs2 = styled.div`
-  width: 100%;
-  margin-top: 20px;
-`;
-
-export const Wrapper = styled.div`
-  display: flex;
-`;
-
-export const Button = styled.div`
-  width: 100px;
-  height: 20px;
-`;
-
-export const TabDesc = styled.div`
-  width: 100%;
-  height: 20px;
 `;

@@ -8,7 +8,11 @@ const dictionary = {
       button: "Learn more",
       titleAboutMe: "About Me",
       messageAboutMe:
-        "Hi, my name is Flávio and I'm currently a Team Manager of Olymp Trade Forex company and a web developer. Currently, I am pursuing my last of my Bacherlor in Software Engineering at Siberian Federal University. Overthe past 6 years, coding has developed a passion of mine, specifically, in the realm of web development and blockchain. I have dedicated my time to gaining proficiency in development to better myself as a developer and problem solver. I am able to create clean and functional websites and confidently deliver products to my clients knowing that they are of high quality.",
+        "Hi, my name is Flávio and I'm currently a Team Manager of Olymp Trade Forex company and a web developer. Currently, I am pursuing my last of my Bacherlor in Software Engineering at Siberian Federal University.",
+      messageAboutMeSecondParagraph:
+        "Overthe past 6 years, coding has developed a passion of mine, specifically, in the realm of web development and blockchain. I have dedicated my time to gaining proficiency in development to better myself as a developer and problem solver. ",
+      messageAboutMeThirdParagraph:
+        "I am able to create clean and functional websites and confidently deliver products to my clients knowing that they are of high quality.",
       titleProjects: "Projects",
       titleContact: "Contact",
     },

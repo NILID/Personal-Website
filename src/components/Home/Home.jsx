@@ -19,7 +19,9 @@ function Home() {
             and I design the <span>Code</span>.
             <br /> */}
             <Button>
-              <a href="">{button}</a>
+              <div>
+                <a href="">{button}</a>
+              </div>
             </Button>
           </ContentOne>
           <ContentTwo>

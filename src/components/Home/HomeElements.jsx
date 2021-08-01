@@ -3,14 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin: auto;
   width: 80%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   border: 1px solid black;
 
   @media (max-width: 768px) {
     flex-direction: column;
     height: 100%;
-    /* border: 1px solid black; */
   }
 `;
 
@@ -23,7 +22,6 @@ export const ContentOne = styled.div`
   margin: auto;
 
   p {
-    /* margin-top: 30%; */
     font-size: 2rem;
   }
 
@@ -59,15 +57,22 @@ export const ContentTwo = styled.div`
 
 export const Button = styled.div`
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   a {
     text-decoration: none;
     text-align: center;
     cursor: pointer;
     color: white;
-    background: linear-gradient(135deg, #fe7624, #fe7624);
+    background-color: #fe7624;
+    /* background: linear-gradient(135deg, #fe7624, #fe7624); */
     padding: 0.3rem 2rem;
+  }
+
+  div:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
   }
 
   @media (max-width: 768px) {
