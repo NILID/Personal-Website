@@ -16,13 +16,15 @@ export const Container = styled.div`
 
 export const ContentOne = styled.div`
   width: 50%;
-  height: 100%;
-  font-size: 3rem;
+  height: 20%;
   color: #2e186a;
+  border: 1px solid pink;
+  text-align: center;
+  margin: auto;
 
   p {
-    font-family: "Qahiri", sans-serif;
-    margin-top: 30%;
+    /* margin-top: 30%; */
+    font-size: 2rem;
   }
 
   span {
@@ -55,11 +57,9 @@ export const ContentTwo = styled.div`
   }
 `;
 
-// BUTTON
 export const Button = styled.div`
   width: 100%;
-  font-size: 1.5rem;
-  margin-top: 10%;
+  margin-top: 1rem;
 
   a {
     text-decoration: none;

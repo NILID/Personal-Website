@@ -33,8 +33,10 @@ function About() {
             <Description>
               <h1>{titleAboutMe}</h1>
               <p>{messageAboutMe}</p>
+              <br />
+              <p></p>
+              <br />
             </Description>
-            {/* <Tabs>tabs</Tabs> */}
           </ContainerTwo>
         </Container>
       ))}
