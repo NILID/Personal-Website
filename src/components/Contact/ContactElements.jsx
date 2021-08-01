@@ -11,7 +11,7 @@ export { facebook, github, linkedin, email };
 // Styling
 
 export const Contacts = styled.div`
-  /* border: 1px solid black; */
+  border: 1px solid black;
   width: 80%;
   height: 70vh;
   margin: auto;
@@ -53,6 +53,10 @@ export const Container = styled.div`
 `;
 export const FormContainer = styled.div`
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export const LeftContainer = styled.div`
   display: flex;
