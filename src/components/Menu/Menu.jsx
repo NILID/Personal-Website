@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import "./MenuStyle.scss";
 import { FaBars } from "react-icons/fa";
+
 import br from "../../assets/menu/brazil.svg";
 import en from "../../assets/menu/eua.svg";
 import ru from "../../assets/menu/russia.svg";
