@@ -37,13 +37,12 @@ function Contact() {
             <FormContainer>
               <LeftContainer>
                 <LeftInnerContainer>
-                  <h2>Let's chat</h2>
+                  <h1>Let's chat</h1>
                   <p>
                     Whether you have a question, want to start a project or
-                    simply want to connect
+                    simply want to connect. Feel free to send me a message in
+                    the contact form.
                   </p>
-                  <br />
-                  <p>Feel free to send me a message in the contact form</p>
                 </LeftInnerContainer>
               </LeftContainer>
               <RightContainer>
@@ -51,7 +50,7 @@ function Contact() {
                   <Form>
                     <input type="text" placeholder="Name *" />
                     <input type="email" placeholder="Email *" />
-                    <textarea rows="4" placeholder="Message"></textarea>
+                    <textarea rows="10" placeholder="Message"></textarea>
                     <button>Submit</button>
                   </Form>
                 </RightInnerContainer>

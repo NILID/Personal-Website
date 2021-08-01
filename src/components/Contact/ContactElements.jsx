@@ -8,12 +8,9 @@ import email from "../../assets/contact/email.svg";
 
 export { facebook, github, linkedin, email };
 
-// Styling
-
 export const Contacts = styled.div`
-  border: 1px solid black;
   width: 80%;
-  height: 70vh;
+  height: 90vh;
   margin: auto;
 `;
 
@@ -45,30 +42,40 @@ export const Icons = styled.div`
   }
 `;
 
-// NEW STUFF
-
 export const Container = styled.div`
-  width: 80%;
+  width: 100%;
+  height: 100%;
   margin: auto;
 `;
 export const FormContainer = styled.div`
   display: flex;
-
+  /* border: 1px solid blue; */
+  height: 100%;
   @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
+
 export const LeftContainer = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid pink; */
+  height: 100%;
 `;
 export const LeftInnerContainer = styled.div`
   height: 50%;
   width: 80%;
-  text-align: center;
-  line-height: 22px;
+  /* border: 1px dotted pink; */
+  color: #2e186a;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
 `;
 export const RightContainer = styled.div`
   display: flex;
@@ -77,9 +84,10 @@ export const RightContainer = styled.div`
   align-items: center;
 `;
 export const RightInnerContainer = styled.div`
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 50%;
   text-align: center;
+  /* border: 1px dotted pink; */
 `;
 
 export const Form = styled.div`
@@ -87,26 +95,24 @@ export const Form = styled.div`
   textarea {
     background-color: #eee;
     border: none;
-    padding: 12px 15px;
-    margin: 8px 0;
+    padding: 1rem;
+    margin: 0.5rem 0;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   input:focus,
   textarea:focus {
-    outline: 1px solid black;
+    outline: 1px solid #fe7624;
   }
 
   button {
-    border-radius: 20px;
-    border: 1px solid #00b4cf;
-    background-color: #00b4cf;
+    border: none;
+    background-color: #fe7624;
     color: #ffffff;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
     cursor: pointer;
@@ -116,15 +122,3 @@ export const Form = styled.div`
     opacity: 0.7;
   }
 `;
-
-// export const Illustration = styled.div`
-//   width: 50%;
-//   border: 1px dotted black;
-
-//   @media (max-width: 768px) {
-//     flex-direction: column;
-//     width: 100%;
-//     height: 100%;
-//     margin: auto;
-//   }
-// `;
