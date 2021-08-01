@@ -8,6 +8,8 @@ import {
   Form,
 } from "./ContactElements";
 
+import FormEmail from "./Email";
+
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
 
@@ -32,7 +34,9 @@ function Contact() {
             <Illustration>
               <img src={email} alt="" />
             </Illustration>
-            <Form></Form>
+            <Form>
+              <FormEmail></FormEmail>
+            </Form>
           </Container>
         </Contacts>
       ))}

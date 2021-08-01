@@ -1,16 +1,16 @@
 import React from "react";
 
-import { Form } from "./EmailElements";
+import { FormEmail } from "./EmailElements";
 
 function Email() {
   return (
     <>
-      <Form>
+      <FormEmail>
         <label htmlFor="name"></label>
         <input type="text" />
         <label htmlFor=""></label>
         <input type="email" />
-      </Form>
+      </FormEmail>
     </>
   );
 }
