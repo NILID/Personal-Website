@@ -31,8 +31,6 @@ function Email() {
               <Form>
                 <input type="text" placeholder="Name *" />
                 <input type="email" placeholder="Email *" />
-                <input type="text" placeholder="Company" />
-                <input type="phone" placeholder="Phone" />
                 <textarea rows="4" placeholder="Message"></textarea>
                 <button>Submit</button>
               </Form>
