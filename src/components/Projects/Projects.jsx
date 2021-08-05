@@ -1,7 +1,9 @@
 import React, { useContext } from "react";
 import "./Projects.scss";
 
-import { Project, Container, Title, Card, Images } from "./ProjectsElements";
+import { Project, Container, Title, Images } from "./ProjectsElements";
+
+import CardComponent from "./Card";
 
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
@@ -17,7 +19,7 @@ function Projects() {
             <Title>
               <h1>{titleProjects}</h1>
             </Title>
-            <Card></Card>
+            <CardComponent></CardComponent>
           </Container>
         </Project>
       ))}

@@ -58,7 +58,7 @@ export const ContainerTwo = styled.div`
 export const Description = styled.div`
   height: 100%;
   color: #2e186a;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 
   h1 {
     font-size: 2rem;

@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 80%;
   height: 100vh;
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -17,7 +17,7 @@ export const ContentOne = styled.div`
   width: 50%;
   height: 20%;
   color: #2e186a;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   text-align: center;
   margin: auto;
 
