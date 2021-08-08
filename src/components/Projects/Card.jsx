@@ -19,8 +19,8 @@ function CardComponent(props) {
         <CardName>{props.name}</CardName>
         <Description>{props.description}</Description>
         <Links>
-          <Button>{props.button}</Button>
-          <Button>{props.button}</Button>
+          <Button>{props.livePreview}</Button>
+          <Button>{props.github}</Button>
         </Links>
       </Card>
     </>

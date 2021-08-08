@@ -15,11 +15,28 @@ function Projects() {
     <>
       {dictionary[language].map(({ titleProjects }) => (
         <Project id="project">
+          <Title>
+            <h1>{titleProjects}</h1>
+          </Title>
           <Container>
-            <Title>
-              <h1>{titleProjects}</h1>
-            </Title>
-            <CardComponent></CardComponent>
+            <CardComponent
+              name="Flavio"
+              description="Make Up"
+              livePreview="live"
+              github="link"
+            ></CardComponent>
+            <CardComponent
+              name="Flavio"
+              description="Make Up"
+              livePreview="live"
+              github="link"
+            ></CardComponent>
+            <CardComponent
+              name="Flavio"
+              description="Make Up"
+              livePreview="live"
+              github="link"
+            ></CardComponent>
           </Container>
         </Project>
       ))}
