@@ -1,6 +1,13 @@
 import React from "react";
 
-import { Card, CardImage, CardName, Description, Button } from "./CardElements";
+import {
+  Card,
+  CardImage,
+  CardName,
+  Description,
+  Links,
+  Button,
+} from "./CardElements";
 
 import "./Projects.scss";
 
@@ -11,7 +18,10 @@ function CardComponent(props) {
         <CardImage>{props.img}</CardImage>
         <CardName>{props.name}</CardName>
         <Description>{props.description}</Description>
-        <Button>{props.button}</Button>
+        <Links>
+          <Button>{props.button}</Button>
+          <Button>{props.button}</Button>
+        </Links>
       </Card>
     </>
   );
