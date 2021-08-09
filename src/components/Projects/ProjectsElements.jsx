@@ -5,9 +5,19 @@ export const Project = styled.div`
   width: 80%;
   height: 100vh;
   margin: auto;
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 `;
+
 export const Container = styled.div`
   display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.div`

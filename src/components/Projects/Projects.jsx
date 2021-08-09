@@ -1,7 +1,9 @@
 import React, { useContext } from "react";
 import "./Projects.scss";
 
-import { Project, Container, Title, Images } from "./ProjectsElements";
+import landscapePlaceholder from "../../assets/landscape_placeholder.svg";
+
+import { Project, Container, Title } from "./ProjectsElements";
 
 import CardComponent from "./Card";
 
@@ -20,19 +22,22 @@ function Projects() {
           </Title>
           <Container>
             <CardComponent
-              name="Flavio"
+              img={landscapePlaceholder}
+              name="Project"
               description="Make Up"
               livePreview="live"
               github="link"
             ></CardComponent>
             <CardComponent
-              name="Flavio"
+              img={landscapePlaceholder}
+              name="Project"
               description="Make Up"
               livePreview="live"
               github="link"
             ></CardComponent>
             <CardComponent
-              name="Flavio"
+              img={landscapePlaceholder}
+              name="Project"
               description="Make Up"
               livePreview="live"
               github="link"

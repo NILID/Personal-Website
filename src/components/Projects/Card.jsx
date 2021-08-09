@@ -15,13 +15,15 @@ function CardComponent(props) {
   return (
     <>
       <Card>
-        <CardImage>{props.img}</CardImage>
-        <CardName>{props.name}</CardName>
+        <CardImage>
+          <img src={props.img} alt="" />
+        </CardImage>
+        {/* <CardName>{props.name}</CardName>
         <Description>{props.description}</Description>
         <Links>
           <Button>{props.livePreview}</Button>
           <Button>{props.github}</Button>
-        </Links>
+        </Links> */}
       </Card>
     </>
   );
