@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Projects.scss";
 
-import landscapePlaceholder from "../../assets/landscape_placeholder.svg";
+import landscapePlaceholder from "../../assets/landtest.jpg";
 
 import { Project, Container, Title } from "./ProjectsElements";
 
@@ -23,8 +23,8 @@ function Projects() {
           <Container>
             <CardComponent
               img={landscapePlaceholder}
-              name="Project"
-              description="Make Up"
+              name="Algorithm"
+              description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview="live"
               github="link"
             ></CardComponent>

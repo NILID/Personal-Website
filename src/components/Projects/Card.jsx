@@ -18,12 +18,12 @@ function CardComponent(props) {
         <CardImage>
           <img src={props.img} alt="" />
         </CardImage>
-        {/* <CardName>{props.name}</CardName>
+        <CardName>{props.name}</CardName>
         <Description>{props.description}</Description>
         <Links>
           <Button>{props.livePreview}</Button>
           <Button>{props.github}</Button>
-        </Links> */}
+        </Links>
       </Card>
     </>
   );
