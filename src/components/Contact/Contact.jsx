@@ -3,7 +3,6 @@ import {
   Contacts,
   Container,
   Title,
-  Illustration,
   Icons,
   FormContainer,
   LeftContainer,

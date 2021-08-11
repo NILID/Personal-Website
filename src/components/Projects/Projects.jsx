@@ -3,6 +3,9 @@ import "./Projects.scss";
 
 import landscapePlaceholder from "../../assets/landtest.jpg";
 
+import preview from "../../assets/projects/preview.svg";
+import github from "../../assets/projects/github.svg";
+
 import { Project, Container, Title } from "./ProjectsElements";
 
 import CardComponent from "./Card";
@@ -25,22 +28,22 @@ function Projects() {
               img={landscapePlaceholder}
               name="Algorithm"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
-              livePreview="live"
-              github="link"
+              livePreview={preview}
+              github={github}
             ></CardComponent>
             <CardComponent
               img={landscapePlaceholder}
               name="Project"
-              description="Make Up"
-              livePreview="live"
-              github="link"
+              description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
+              livePreview={preview}
+              github={github}
             ></CardComponent>
             <CardComponent
               img={landscapePlaceholder}
               name="Project"
-              description="Make Up"
-              livePreview="live"
-              github="link"
+              description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
+              livePreview={preview}
+              github={github}
             ></CardComponent>
           </Container>
         </Project>

@@ -6,7 +6,8 @@ import {
   CardName,
   Description,
   Links,
-  Button,
+  Preview,
+  Github,
 } from "./CardElements";
 
 import "./Projects.scss";
@@ -18,11 +19,17 @@ function CardComponent(props) {
         <CardImage>
           <img src={props.img} alt="" />
         </CardImage>
-        <CardName>{props.name}</CardName>
+        <CardName>
+          <p>{props.name}</p>
+        </CardName>
         <Description>{props.description}</Description>
         <Links>
-          <Button>{props.livePreview}</Button>
-          <Button>{props.github}</Button>
+          <Preview>
+            <img src={props.livePreview} alt="" />
+          </Preview>
+          <Github>
+            <img src={props.github} alt="" />
+          </Github>
         </Links>
       </Card>
     </>
