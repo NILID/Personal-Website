@@ -4,7 +4,11 @@ const dictionary = {
       about: "about",
       project: "project",
       contact: "contact",
-      slogan: "Think the Design and I Design the code",
+      sloganFirstPart: "Think the Design,",
+      sloganSecondPart: "and I design the code.",
+      intro: "Beautiful designed websites using ReactJS. ",
+      introSecondPart: "Coding since 2016 to provide you the best result.",
+      span: "Design",
       button: "Learn more",
       titleAboutMe: "About Me",
       messageAboutMe:

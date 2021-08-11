@@ -5,7 +5,6 @@ export const Container = styled.div`
   width: 80%;
   height: 100vh;
   display: flex;
-  /* border: 1px solid black; */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -15,14 +14,13 @@ export const Container = styled.div`
 
 export const ContentOne = styled.div`
   width: 50%;
-  height: 20%;
+  height: 50%;
   color: #2e186a;
-  /* border: 1px solid pink; */
-  text-align: center;
+  text-align: left;
   margin: auto;
 
-  p {
-    font-size: 2rem;
+  h2 {
+    font-size: 4rem;
   }
 
   span {
@@ -32,6 +30,14 @@ export const ContentOne = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     text-align: center;
+  }
+`;
+
+export const Intro = styled.div`
+  margin-top: 2rem;
+
+  p {
+    font-size: 2rem;
   }
 `;
 
@@ -57,7 +63,9 @@ export const ContentTwo = styled.div`
 
 export const Button = styled.div`
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: left;
 
   a {
     text-decoration: none;
@@ -65,8 +73,7 @@ export const Button = styled.div`
     cursor: pointer;
     color: white;
     background-color: #fe7624;
-    /* background: linear-gradient(135deg, #fe7624, #fe7624); */
-    padding: 0.3rem 2rem;
+    padding: 1rem 2rem;
   }
 
   div:hover {
