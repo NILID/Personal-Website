@@ -25,32 +25,40 @@ export const CardImage = styled.div`
 `;
 
 export const CardName = styled.div`
-  /* border: 1px solid black; */
+  margin: auto;
+  border: 1px solid black;
+  height: 5vh;
   text-align: center;
-  margin-top: 1rem;
+  width: 90%;
+  /* margin-top: 1rem; */
 `;
 
 export const Description = styled.div`
   text-align: center;
   border: 1px solid pink;
   width: 90%;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  height: 5vh;
 `;
 
 export const Links = styled.div`
+  width: 90%;
   display: flex;
-  /* border: 1px solid pink; */
-  justify-content: center;
+  border: 1px solid pink;
+  justify-content: space-between;
+  margin: auto;
 `;
 
 export const Button = styled.div`
-  border: 1px solid black;
+  border: none;
   background-color: #fe7624;
+  justify-content: center;
   color: #ffffff;
   font-size: 1rem;
   padding: 1rem 3rem;
-  letter-spacing: 0.1rem;
+  /* letter-spacing: 0.1rem; */
   text-transform: uppercase;
   transition: transform 80ms ease-in;
   cursor: pointer;
+  height: 5vh;
 `;
