@@ -5,6 +5,9 @@ export const Card = styled.div`
   height: 70vh;
   border: 1px dotted black;
   margin-top: 20vh;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  border: 1px solid #2e186a;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -12,7 +15,7 @@ export const Card = styled.div`
 `;
 
 export const CardImage = styled.div`
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 90%;
   height: 50vh;
   margin: auto;
@@ -20,8 +23,11 @@ export const CardImage = styled.div`
   img {
     width: 100%;
     height: 100%;
+    border-radius: 0.2rem;
   }
   img:hover {
+    cursor: pointer;
+    transform: translateY(-2.5rem) scale(1.05);
   }
 `;
 
@@ -48,22 +54,35 @@ export const Description = styled.div`
 export const Links = styled.div`
   width: 90%;
   display: flex;
-  border: 1px solid pink;
-  justify-content: space-between;
+  /* border: 1px solid pink; */
+  justify-content: center;
   margin: auto;
 
   img {
     width: 7vh;
+    margin-left: 3.3vh;
   }
 `;
 
 export const Preview = styled.a`
   height: 8vh;
   width: 15vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+
+  img:hover {
+    transform: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
 `;
 export const Github = styled.a`
   height: 8vh;
   width: 15vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+
+  img:hover {
+    transform: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
 `;
