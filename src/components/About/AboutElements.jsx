@@ -33,8 +33,7 @@ export const Container = styled.div`
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin: auto;
-    border: 2px solid black;
+    margin: 4rem auto;
   }
 `;
 
@@ -44,6 +43,30 @@ export const Techs = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
+  /* border: 1px solid black; */
+  img {
+    /* margin: auto; */
+    width: 70%;
+    height: 20vh;
+    cursor: pointer;
+    /* border: 1px solid black; */
+  }
+  img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    width: 80%;
+    margin: auto;
+    display: none;
+  }
+`;
+export const TechsMobile = styled.div`
+  width: 50%;
+  height: 70%;
+  grid-template-columns: repeat(3, 1fr);
+  display: none;
   /* border: 1px solid black; */
   img {
     /* margin: auto; */
@@ -77,7 +100,6 @@ export const ContainerTwo = styled.div`
 export const Description = styled.div`
   height: 100%;
   color: #2e186a;
-  /* border: 1px solid pink; */
 
   h1 {
     font-size: 2rem;
@@ -92,5 +114,9 @@ export const Description = styled.div`
     width: 80%;
     height: 100%;
     margin: auto;
+
+    h1 {
+      text-align: center;
+    }
   }
 `;

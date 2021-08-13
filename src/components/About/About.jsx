@@ -4,6 +4,7 @@ import {
   Container,
   ContainerTwo,
   Techs,
+  TechsMobile,
   Description,
 } from "./AboutElements.jsx";
 
@@ -35,7 +36,7 @@ function About() {
           messageAboutMeThirdParagraph,
         }) => (
           <Container id="about">
-            <Techs>
+            <Techs className="toHide">
               <img src={javascript} alt="ES6" />
               <img src={react} alt="React" />
               <img src={postgresql} alt="sql" />
@@ -52,6 +53,17 @@ function About() {
                 <p>{messageAboutMe}</p>
                 <p>{messageAboutMeSecondParagraph}</p>
                 <p>{messageAboutMeThirdParagraph}</p>
+                <TechsMobile>
+                  <img src={javascript} alt="ES6" />
+                  <img src={react} alt="React" />
+                  <img src={postgresql} alt="sql" />
+                  <img src={mongodb} alt="Mongo" />
+                  <img src={node} alt="node" />
+                  <img src={typescript} alt="typescript" />
+                  <img src={node} alt="styled components" />
+                  <img src={sass} alt="sass" />
+                  <img src={node} alt="sass" />
+                </TechsMobile>
               </Description>
             </ContainerTwo>
           </Container>
