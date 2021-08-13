@@ -7,8 +7,21 @@ import html from "../../assets/about/html.svg";
 import css from "../../assets/about/css.svg";
 import sass from "../../assets/about/sass.svg";
 import node from "../../assets/about/nodejs.svg";
+import mongodb from "../../assets/about/mongodb.svg";
+import postgresql from "../../assets/about/postgresql.svg";
+import typescript from "../../assets/about/typescript.svg";
 
-export { react, javascript, html, css, sass, node };
+export {
+  react,
+  javascript,
+  html,
+  css,
+  sass,
+  node,
+  mongodb,
+  postgresql,
+  typescript,
+};
 
 export const Container = styled.div`
   width: 80%;
@@ -27,6 +40,7 @@ export const Container = styled.div`
 
 export const Techs = styled.div`
   width: 50%;
+  height: 70%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -36,7 +50,7 @@ export const Techs = styled.div`
     width: 70%;
     height: 20vh;
     cursor: pointer;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   img:hover {
     transition: all 0.2s ease-in-out;
