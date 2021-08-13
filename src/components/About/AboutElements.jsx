@@ -21,19 +21,22 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     margin: auto;
-    margin: 2px solid black;
+    border: 2px solid black;
   }
 `;
 
 export const Techs = styled.div`
   width: 50%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  /* border: 1px solid black; */
   img {
-    margin: auto;
-    width: 40%;
+    /* margin: auto; */
+    width: 70%;
     height: 20vh;
     cursor: pointer;
+    border: 1px solid black;
   }
   img:hover {
     transition: all 0.2s ease-in-out;

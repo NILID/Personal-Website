@@ -28,12 +28,15 @@ function About() {
         }) => (
           <Container id="about">
             <Techs>
-              <img src={javascript} alt="JavaScript" />
+              <img src={javascript} alt="ES6" />
               <img src={react} alt="React" />
-              <img src={html} alt="Html" />
-              <img src={css} alt="CSS" />
-              <img src={sass} alt="Sass" />
-              <img src={node} alt="Node" />
+              <img src={html} alt="Node" />
+              <img src={css} alt="Mongo" />
+              <img src={sass} alt="SQL" />
+              <img src={node} alt="styled components" />
+              <img src={node} alt="git" />
+              <img src={node} alt="sass" />
+              <img src={node} alt="sass" />
             </Techs>
             <ContainerTwo>
               <Description>
