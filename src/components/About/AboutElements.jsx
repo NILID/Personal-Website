@@ -65,6 +65,8 @@ export const Techs = styled.div`
 
 export const ContainerTwo = styled.div`
   width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
 
   @media (max-width: 768px) {
     width: 100%;

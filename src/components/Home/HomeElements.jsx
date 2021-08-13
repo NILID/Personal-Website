@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    height: 100%;
+    height: 90vh;
   }
 `;
 
@@ -23,6 +23,10 @@ export const ContentOne = styled.div`
     font-size: 4rem;
   }
 
+  .sloganFirstPart {
+    margin-top: 1rem;
+  }
+
   span {
     color: #fe7624;
   }
@@ -30,14 +34,29 @@ export const ContentOne = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
+
+    h2 {
+      font-size: 2rem;
+      text-align: left;
+    }
   }
 `;
 
 export const Intro = styled.div`
-  margin-top: 2rem;
-
   p {
     font-size: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    .introFirstPart {
+      margin-top: 1rem;
+    }
   }
 `;
 
@@ -83,6 +102,13 @@ export const Button = styled.div`
   }
 
   @media (max-width: 768px) {
+    /* border: 1px solid black; */
+
+    div {
+      margin: auto;
+      width: 100%;
+    }
+
     a {
       display: flex;
       justify-content: center;

@@ -25,10 +25,10 @@ function Home() {
         }) => (
           <Container>
             <ContentOne>
-              <h2>{sloganFirstPart}</h2>
+              <h2 className="sloganFirstPart">{sloganFirstPart}</h2>
               <h2>{sloganSecondPart}</h2>
               <Intro>
-                <p>{intro}</p>
+                <p className="introFirstPart">{intro}</p>
                 <p>{introSecondPart}</p>
               </Intro>
               <Button>
