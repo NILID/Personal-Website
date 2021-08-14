@@ -43,13 +43,10 @@ export const Techs = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  /* border: 1px solid black; */
   img {
-    /* margin: auto; */
     width: 70%;
     height: 20vh;
     cursor: pointer;
-    /* border: 1px solid black; */
   }
   img:hover {
     transition: all 0.2s ease-in-out;
@@ -62,34 +59,35 @@ export const Techs = styled.div`
     display: none;
   }
 `;
+
 export const TechsMobile = styled.div`
   width: 50%;
   height: 70%;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   display: none;
-  /* border: 1px solid black; */
+
   img {
-    /* margin: auto; */
     width: 70%;
     height: 20vh;
     cursor: pointer;
-    /* border: 1px solid black; */
   }
   img:hover {
     transition: all 0.2s ease-in-out;
     transform: scale(1.5);
     cursor: pointer;
   }
+
   @media (max-width: 768px) {
-    width: 80%;
+    width: 100%;
     margin: auto;
+    display: grid;
   }
 `;
 
 export const ContainerTwo = styled.div`
   width: 50%;
   height: 100%;
-  /* border: 1px solid black; */
 
   @media (max-width: 768px) {
     width: 100%;

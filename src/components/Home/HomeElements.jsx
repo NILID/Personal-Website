@@ -20,7 +20,7 @@ export const ContentOne = styled.div`
   margin: auto;
 
   h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .sloganFirstPart {
@@ -37,15 +37,17 @@ export const ContentOne = styled.div`
     margin-top: 1rem;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1rem;
       text-align: left;
     }
   }
 `;
 
 export const Intro = styled.div`
+  margin-top: 2rem;
+
   p {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   @media (max-width: 768px) {
