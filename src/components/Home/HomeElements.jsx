@@ -37,7 +37,7 @@ export const ContentOne = styled.div`
     margin-top: 1rem;
 
     h2 {
-      font-size: 1rem;
+      font-size: 2rem;
       text-align: left;
     }
   }

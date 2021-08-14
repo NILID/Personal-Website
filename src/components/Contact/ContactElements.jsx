@@ -11,7 +11,11 @@ export { facebook, github, linkedin, email };
 export const Contacts = styled.div`
   width: 80%;
   height: 90vh;
-  margin: auto;
+  margin: 10% auto;
+
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
 `;
 
 export const Title = styled.div`
@@ -43,8 +47,11 @@ export const Icons = styled.div`
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  margin: auto;
+  @media (max-width: 768px) {
+    height: 70vh;
+  }
 `;
+
 export const FormContainer = styled.div`
   display: flex;
   height: 100%;
@@ -60,10 +67,12 @@ export const LeftContainer = styled.div`
   align-items: center;
   height: 100%;
 `;
+
 export const LeftInnerContainer = styled.div`
   height: 50%;
   width: 80%;
   color: #2e186a;
+
   h1 {
     font-size: 2rem;
   }
@@ -71,7 +80,18 @@ export const LeftInnerContainer = styled.div`
     font-size: 1rem;
     margin-top: 1rem;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    h1 {
+      display: none;
+    }
+    p {
+      text-align: left;
+    }
+  }
 `;
+
 export const RightContainer = styled.div`
   display: flex;
   flex: 1;
@@ -80,7 +100,7 @@ export const RightContainer = styled.div`
 `;
 export const RightInnerContainer = styled.div`
   width: 100%;
-  height: 50%;
+  height: 70%;
   text-align: center;
 `;
 

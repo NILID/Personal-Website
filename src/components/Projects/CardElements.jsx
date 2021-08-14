@@ -36,17 +36,18 @@ export const CardName = styled.div`
   color: #2e186a;
   width: 90%;
   font-size: 2rem;
+  /* border: 1px solid black; */
   p {
     text-align: center;
   }
 `;
 
 export const Description = styled.div`
+  /* border: 1px solid black; */
   text-align: left;
-  /* border: 1px solid pink; */
-  width: 90%;
+  width: 80%;
   margin: auto;
-  height: 8vh;
+  height: 10vh;
   color: #2e186a;
 `;
 
@@ -65,7 +66,6 @@ export const Links = styled.div`
 export const Preview = styled.a`
   height: 8vh;
   width: 15vh;
-  /* border: 1px solid black; */
 
   img:hover {
     transform: all 0.2s ease-in-out;
@@ -76,7 +76,6 @@ export const Preview = styled.a`
 export const Github = styled.a`
   height: 8vh;
   width: 15vh;
-  /* border: 1px solid black; */
 
   img:hover {
     transform: all 0.2s ease-in-out;
