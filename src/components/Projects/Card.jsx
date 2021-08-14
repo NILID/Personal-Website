@@ -7,7 +7,8 @@ import {
   Description,
   Links,
   Preview,
-  Github,
+  ButtonPreview,
+  ButtonGithub,
 } from "./CardElements";
 
 import "./Projects.scss";
@@ -24,12 +25,12 @@ function CardComponent(props) {
         </CardName>
         <Description>{props.description}</Description>
         <Links>
-          <Preview>
-            <img src={props.livePreview} alt="" />
-          </Preview>
-          <Github>
-            <img src={props.github} alt="" />
-          </Github>
+          <ButtonPreview>
+            <a href="">LIVE</a>
+          </ButtonPreview>
+          <ButtonGithub>
+            <a href="">GITHUB</a>
+          </ButtonGithub>
         </Links>
       </Card>
     </>
@@ -37,3 +38,8 @@ function CardComponent(props) {
 }
 
 export default CardComponent;
+
+// ADD A DESCENT BUTTON LATER
+{
+  /* <img src={props.livePreview} alt="" /> */
+}

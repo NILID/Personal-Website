@@ -18,7 +18,6 @@ export const Title = styled.div`
   display: flex;
   justify-content: center;
   color: #2e186a;
-  /* border: 1px solid pink; */
 
   h1:hover {
     cursor: pointer;
@@ -28,7 +27,6 @@ export const Title = styled.div`
 export const Icons = styled.div`
   display: flex;
   justify-content: center;
-  /* border: 1px solid pink; */
 
   img {
     width: 4vh;
@@ -49,7 +47,6 @@ export const Container = styled.div`
 `;
 export const FormContainer = styled.div`
   display: flex;
-  /* border: 1px solid blue; */
   height: 100%;
   @media (max-width: 768px) {
     flex-direction: column;
@@ -61,13 +58,11 @@ export const LeftContainer = styled.div`
   flex: 1;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid pink; */
   height: 100%;
 `;
 export const LeftInnerContainer = styled.div`
   height: 50%;
   width: 80%;
-  /* border: 1px dotted pink; */
   color: #2e186a;
   h1 {
     font-size: 2rem;
@@ -87,7 +82,6 @@ export const RightInnerContainer = styled.div`
   width: 100%;
   height: 50%;
   text-align: center;
-  /* border: 1px dotted pink; */
 `;
 
 export const Form = styled.div`

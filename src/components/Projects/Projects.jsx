@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Projects.scss";
 
 import landscapePlaceholder from "../../assets/landtest.jpg";
+import algo from "../../assets/projects/algo.jpg";
 
 import preview from "../../assets/projects/preview.svg";
 import github from "../../assets/projects/github.svg";
@@ -25,7 +26,7 @@ function Projects() {
           </Title>
           <Container>
             <CardComponent
-              img={landscapePlaceholder}
+              img={algo}
               name="Algorithm"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview={preview}
