@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
 import "./Projects.scss";
 
+//IMPORTING IMAGES FOR PROJECTS
 import landscapePlaceholder from "../../assets/landtest.jpg";
 import algo from "../../assets/projects/algo.jpg";
+import econocargo from "../../assets/projects/econocargo.svg";
+// import troika from "../../assets/projects/transiberia.svg";
 
 import preview from "../../assets/projects/preview.svg";
 import github from "../../assets/projects/github.svg";
-
 import { Project, Container, Title } from "./ProjectsElements";
-
 import CardComponent from "./Card";
-
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
 
@@ -26,21 +26,21 @@ function Projects() {
           </Title>
           <Container>
             <CardComponent
-              img={algo}
+              img={econocargo}
               name="Algorithm"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview={preview}
               github={github}
             ></CardComponent>
             <CardComponent
-              img={landscapePlaceholder}
+              img={econocargo}
               name="Project"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview={preview}
               github={github}
             ></CardComponent>
             <CardComponent
-              img={landscapePlaceholder}
+              img={econocargo}
               name="Project"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview={preview}

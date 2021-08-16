@@ -3,10 +3,8 @@ import styled from "styled-components";
 export const Card = styled.div`
   width: 20vw;
   height: 70vh;
-  /* border: 1px dotted black; */
   margin-top: 20vh;
   background-color: #fff;
-  /* border-radius: 0.2rem; */
   border: 2px solid #2e186a;
 
   @media (max-width: 768px) {
@@ -15,19 +13,21 @@ export const Card = styled.div`
 `;
 
 export const CardImage = styled.div`
-  /* border: 1px solid pink; */
-  width: 90%;
-  height: 50vh;
+  width: 100%;
+  height: 45vh;
   margin: auto;
-  margin-top: -50px;
+
+  /* margin-top: -50px; */
   img {
     width: 100%;
     height: 100%;
+    cursor: pointer;
   }
-  img:hover {
+
+  /* img:hover {
     cursor: pointer;
     transform: translateY(-2.5rem) scale(1.05);
-  }
+  } */
 `;
 
 export const CardName = styled.div`
@@ -36,14 +36,13 @@ export const CardName = styled.div`
   color: #2e186a;
   width: 90%;
   font-size: 2rem;
-  /* border: 1px solid black; */
+
   p {
     text-align: center;
   }
 `;
 
 export const Description = styled.div`
-  /* border: 1px solid black; */
   text-align: left;
   width: 80%;
   margin: auto;
