@@ -39,8 +39,8 @@ function Contact() {
                   <h1>Let's chat</h1>
                   <p>
                     Whether you have a question, want to start a project or
-                    simply want to connect. Feel free to send me a message in
-                    the contact form.
+                    simply want to connect. <br /> Feel free to send me a
+                    message in the contact form.
                   </p>
                 </LeftInnerContainer>
               </LeftContainer>

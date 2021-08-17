@@ -69,8 +69,8 @@ export const LeftContainer = styled.div`
 `;
 
 export const LeftInnerContainer = styled.div`
-  height: 50%;
-  width: 80%;
+  height: 70%;
+  width: 100%;
   color: #2e186a;
 
   h1 {

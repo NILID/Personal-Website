@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import "./Projects.scss";
 
 //IMPORTING IMAGES FOR PROJECTS
-import landscapePlaceholder from "../../assets/landtest.jpg";
-import algo from "../../assets/projects/algo.jpg";
+import troika from "../../assets/projects/troika.svg";
 import econocargo from "../../assets/projects/econocargo.svg";
 // import troika from "../../assets/projects/transiberia.svg";
 
@@ -33,7 +32,7 @@ function Projects() {
               github={github}
             ></CardComponent>
             <CardComponent
-              img={econocargo}
+              img={troika}
               name="Project"
               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
               livePreview={preview}
