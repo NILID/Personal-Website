@@ -26,7 +26,7 @@ function CardComponent(props) {
         <Description>{props.description}</Description>
         <Links>
           <ButtonPreview>
-            <a href="">LIVE</a>
+            <a href="https://econocargo.herokuapp.com/">LIVE</a>
           </ButtonPreview>
           <ButtonGithub>
             <a href="">GITHUB</a>

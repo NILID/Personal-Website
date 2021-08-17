@@ -3,7 +3,7 @@ import "./Projects.scss";
 
 //IMPORTING IMAGES FOR PROJECTS
 import troika from "../../assets/projects/troika.svg";
-import econocargo from "../../assets/projects/econocargo.svg";
+import econocargo from "../../assets/projects/econocargo.png";
 // import troika from "../../assets/projects/transiberia.svg";
 
 import preview from "../../assets/projects/preview.svg";
