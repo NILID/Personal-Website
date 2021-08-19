@@ -6,6 +6,7 @@ import {
   Button,
   Intro,
 } from "./HomeElements";
+
 import dev from "../../assets/dev.svg";
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
@@ -48,3 +49,5 @@ function Home() {
 }
 
 export default Home;
+
+// coment here to see if it'll change something on github
