@@ -19,6 +19,12 @@ const dictionary = {
         "I am able to create clean and functional websites and confidently deliver products to my clients knowing that they are of high quality.",
       titleProjects: "Projects",
       titleContact: "Contact",
+      leftInnerContainerTitle: "Let's chat",
+      leftInnerContainerMessage:
+        " Whether you have a question, want to start a project or simply want to connect. ",
+      leftInnerContainerSecondMessage:
+        " Feel free to send me message in the contact form. ",
+      contactSubmit: "Submit",
     },
   ],
   ptbr: [
@@ -42,6 +48,12 @@ const dictionary = {
         " Eu dediquei meu tempo para ganhar proficiência em desenvolvimento para me aprimorar como desenvolvedor e solucionador de problemas. Sou capaz de criar sites limpos e funcionais e entregar produtos aos meus clientes com confiança, sabendo que eles são de alta qualidade. ",
       titleProjects: "Projetos",
       titleContact: "Contatos",
+      leftInnerContainerTitle: "Vamos conversar.",
+      leftInnerContainerMessage:
+        "Se você tem uma pergunta, queira começar um projeto ou simplesmente conversar.",
+      leftInnerContainerSecondMessage:
+        " Pode me contatar a qualquer momento através do formulário. ",
+      contactSubmit: "Enviar",
     },
   ],
   jp: [
@@ -64,6 +76,12 @@ const dictionary = {
         "私は時間をかけて開発能力を身に付け、開発者および問題解決者としての自分自身を向上させてきました。 クリーンで機能的なウェブサイトを作成し、顧客が高品質であることを確信して、自信を持って製品を顧客に届けることができます。",
       titleProjects: "プロジェクト",
       titleContact: "コンタクト",
+      leftInnerContainerTitle: "チャットしよう",
+      leftInnerContainerMessage:
+        " 質問がある場合でも、プロジェクトを開始したい場合でも、単に接続したい場合でも。 ",
+      leftInnerContainerSecondMessage:
+        " お問い合わせフォームからお気軽にメッセージを送ってください。 ",
+      contactSubmit: "送信",
     },
   ],
   ru: [
@@ -87,6 +105,12 @@ const dictionary = {
         " Я потратил время на то, чтобы приобрести навыки разработки, чтобы улучшить себя как разработчик и решатель проблем. Я могу создавать чистые, функциональные веб-сайты и с уверенностью доставлять продукты своим клиентам, зная, что они имеют высокое качество. ",
       titleProjects: "проекты",
       titleContact: "контакт",
+      leftInnerContainerTitle: "Давай поговорим",
+      leftInnerContainerMessage:
+        " Есть ли у вас вопрос, хотите ли вы начать проект или просто хотите подключиться. ",
+      leftInnerContainerSecondMessage:
+        " Не стесняйтесь присылать мне сообщение через контактную форму. ",
+      contactSubmit: "отправлять",
     },
   ],
 };
