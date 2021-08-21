@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin: auto;
   width: 80%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
+
+  border: 1px dotted blue;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -14,10 +16,12 @@ export const Container = styled.div`
 
 export const ContentOne = styled.div`
   width: 50%;
-  height: 50%;
+  height: 100%;
   color: #2e186a;
   text-align: left;
   margin: auto;
+
+  border: 1px dotted pink;
 
   h2 {
     font-size: 3rem;
@@ -43,6 +47,30 @@ export const ContentOne = styled.div`
   }
 `;
 
+export const Wrap = styled.div``;
+
+export const ContentTwo = styled.div`
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  border: 1px dotted pink;
+
+  img {
+    width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    img {
+      width: 100%;
+      margin: auto;
+    }
+  }
+`;
+
 export const Intro = styled.div`
   margin-top: 2rem;
 
@@ -58,26 +86,6 @@ export const Intro = styled.div`
 
     .introFirstPart {
       margin-top: 1rem;
-    }
-  }
-`;
-
-export const ContentTwo = styled.div`
-  width: 50%;
-  height: 100%;
-
-  img {
-    width: 90%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  @media (max-width: 768px) {
-    width: 100%;
-
-    img {
-      width: 100%;
-      margin: auto;
     }
   }
 `;

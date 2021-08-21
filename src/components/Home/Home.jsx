@@ -5,6 +5,7 @@ import {
   ContentTwo,
   Button,
   Intro,
+  Wrap,
 } from "./HomeElements";
 
 import dev from "../../assets/dev.svg";
@@ -26,17 +27,19 @@ function Home() {
         }) => (
           <Container>
             <ContentOne>
-              <h2 className="sloganFirstPart">{sloganFirstPart}</h2>
-              <h2>{sloganSecondPart}</h2>
-              <Intro>
-                <p className="introFirstPart">{intro}</p>
-                <p>{introSecondPart}</p>
-              </Intro>
-              <Button>
-                <div>
-                  <a href="">{button}</a>
-                </div>
-              </Button>
+              <Wrap>
+                <h2 className="sloganFirstPart">{sloganFirstPart}</h2>
+                <h2>{sloganSecondPart}</h2>
+                <Intro>
+                  <p className="introFirstPart">{intro}</p>
+                  <p>{introSecondPart}</p>
+                </Intro>
+                <Button>
+                  <div>
+                    <a href="">{button}</a>
+                  </div>
+                </Button>
+              </Wrap>
             </ContentOne>
             <ContentTwo>
               <img src={dev} alt="" />
