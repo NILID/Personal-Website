@@ -53,3 +53,42 @@ function Projects() {
 }
 
 export default Projects;
+
+// function Projects() {
+//   const [language] = useContext(LanguageContext);
+
+//   return (
+//     <>
+//       {dictionary[language].map(({ titleProjects }) => (
+//         <Project id="project">
+//           <Title>
+//             <h1>{titleProjects}</h1>
+//           </Title>
+//           <Container>
+//             <CardComponent
+//               img={econocargo}
+//               name="Algorithm"
+//               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
+//               livePreview={preview}
+//               github={github}
+//             ></CardComponent>
+//             <CardComponent
+//               img={troika}
+//               name="Project"
+//               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
+//               livePreview={preview}
+//               github={github}
+//             ></CardComponent>
+//             <CardComponent
+//               img={econocargo}
+//               name="Project"
+//               description="Visualization of three algorithms. This project was done fully with ReactJS and Javascript."
+//               livePreview={preview}
+//               github={github}
+//             ></CardComponent>
+//           </Container>
+//         </Project>
+//       ))}
+//     </>
+//   );
+// }
