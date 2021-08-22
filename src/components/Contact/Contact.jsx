@@ -85,7 +85,6 @@ function Contact() {
                         name="message"
                       ></textarea>
                       <button type="submit">{contactSubmit}</button>
-                      <input type="submit" />
                     </Form>
                   </RightInnerContainer>
                 </RightContainer>
