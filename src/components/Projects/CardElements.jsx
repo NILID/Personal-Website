@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  margin: auto;
+  margin: 10% auto;
   border: 1px dotted pink;
   width: 80%;
 
   img {
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    /* display: flex;
+    flex-direction: column; */
   }
 `;
 

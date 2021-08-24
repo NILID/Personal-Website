@@ -8,6 +8,11 @@ export const Container = styled.div`
   height: 100vh;
   width: 80%;
   margin: auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 100%;
+  }
 `;
 
 export const Columns = styled.div`
