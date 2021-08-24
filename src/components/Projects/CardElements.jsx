@@ -1,18 +1,62 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+  margin: auto;
+  border: 1px dotted pink;
+  width: 80%;
+
   img {
     width: 100%;
   }
 `;
 
 export const CardImages = styled.div``;
+export const CardTitle = styled.div`
+  text-align: center;
+`;
+export const CardDescription = styled.div`
+  text-align: center;
+`;
 
-export const CardTitle = styled.div``;
-export const CardDescription = styled.div``;
-export const Links = styled.div``;
-export const ButtonPreview = styled.div``;
-export const ButtonGithub = styled.div``;
+export const Links = styled.div`
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  img {
+    width: 7vh;
+    margin-left: 3.3vh;
+  }
+`;
+
+export const ButtonPreview = styled.button`
+  width: 40%;
+  border: none;
+  background-color: #2e186a;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+`;
+
+export const ButtonGithub = styled.button`
+  width: 40%;
+  border: 0.5px solid black;
+  background-color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+`;
 
 // import styled from "styled-components";
 
@@ -96,33 +140,5 @@ export const ButtonGithub = styled.div``;
 //     transform: all 0.2s ease-in-out;
 //     transform: scale(1.5);
 //     cursor: pointer;
-//   }
-// `;
-
-// export const ButtonPreview = styled.button`
-//   width: 40%;
-//   border: none;
-//   background-color: #2e186a;
-//   padding: 0.5rem;
-//   cursor: pointer;
-
-//   a {
-//     color: #fff;
-//     text-decoration: none;
-//     font-size: 1rem;
-//   }
-// `;
-
-// export const ButtonGithub = styled.button`
-//   width: 40%;
-//   border: 0.5px solid black;
-//   background-color: #fff;
-//   padding: 0.5rem;
-//   cursor: pointer;
-
-//   a {
-//     color: black;
-//     text-decoration: none;
-//     font-size: 1rem;
 //   }
 // `;

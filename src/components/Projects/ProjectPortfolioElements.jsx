@@ -12,7 +12,12 @@ export const Container = styled.div`
 
 export const Columns = styled.div`
   flex-basis: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 `;
 
-export const Title = styled.div``;
+export const Title = styled.div`
+  h1 {
+    text-align: center;
+    color: #2e186a;
+  }
+`;

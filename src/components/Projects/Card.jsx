@@ -20,11 +20,16 @@ function CardComponent(props) {
           <img src={props.image} alt="" />
         </CardImages>
 
-        <CardTitle>{props.title}</CardTitle>
-        <CardDescription>{props.description}</CardDescription>
+        <CardTitle>
+          <p>{props.title}</p>
+        </CardTitle>
+        <CardDescription>
+          <p>{props.description}</p>
+        </CardDescription>
+
         <Links>
-          <ButtonPreview></ButtonPreview>
-          <ButtonGithub></ButtonGithub>
+          <ButtonPreview>LIVE</ButtonPreview>
+          <ButtonGithub>GITHUB</ButtonGithub>
         </Links>
       </Card>
     </>
