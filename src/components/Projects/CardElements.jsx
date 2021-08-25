@@ -8,26 +8,29 @@ export const Card = styled.div`
   img {
     width: 100%;
   }
-
-  @media (max-width: 768px) {
-    /* display: flex;
-    flex-direction: column; */
+  img:hover {
+    cursor: pointer;
   }
 `;
 
 export const CardImages = styled.div``;
 export const CardTitle = styled.div`
   text-align: center;
+  font-size: 2rem;
+  color: #2e186a;
 `;
+
 export const CardDescription = styled.div`
   text-align: center;
+  font-size: 1rem;
+  color: #2e186a;
 `;
 
 export const Links = styled.div`
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 5% auto;
 
   img {
     width: 7vh;
@@ -40,6 +43,7 @@ export const ButtonPreview = styled.button`
   border: none;
   background-color: #2e186a;
   padding: 0.5rem;
+  cursor: pointer;
   cursor: pointer;
 
   a {
@@ -57,7 +61,7 @@ export const ButtonGithub = styled.button`
   cursor: pointer;
 
   a {
-    color: black;
+    color: #000;
     text-decoration: none;
     font-size: 1rem;
   }

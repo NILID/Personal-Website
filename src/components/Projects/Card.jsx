@@ -23,13 +23,25 @@ function CardComponent(props) {
         <CardTitle>
           <p>{props.title}</p>
         </CardTitle>
+
         <CardDescription>
           <p>{props.description}</p>
         </CardDescription>
 
         <Links>
-          <ButtonPreview>LIVE</ButtonPreview>
-          <ButtonGithub>GITHUB</ButtonGithub>
+          <ButtonPreview>
+            <a href="https://econocargo.herokuapp.com/" target="_blank">
+              LIVE
+            </a>
+          </ButtonPreview>
+          <ButtonGithub>
+            <a
+              href="https://github.com/drrh12/econocargo_portfolio"
+              target="_blank"
+            >
+              GITHUB
+            </a>
+          </ButtonGithub>
         </Links>
       </Card>
     </>

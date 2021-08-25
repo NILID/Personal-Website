@@ -1,7 +1,5 @@
 import Main from "./components/Main";
 import React, { useState, useEffect } from "react";
-import Home from "./components/Menu/Menu";
-import Menu from "./components/Home/Home.jsx";
 
 import "./styles/Main.css";
 
