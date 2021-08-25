@@ -48,118 +48,118 @@ function Menu() {
 
   return (
     <div>
-      {dictionary[language].map((about, project, contract) => {})}
+      {dictionary[language].map((about, project, contract) => {
+        <nav className="navbar" onClick={(e) => e.stopPropagation()}>
+          <div className="nav-container">
+            <div exact to="/" className="nav-logo">
+              <h1>Flávio</h1>
+            </div>
+
+            <div className="links">
+              <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li className="nav-item">
+                  <a href="" activeClassName="active" className="nav-links">
+                    <Link to="about" smooth={true} duration={1000}>
+                      {languages[language].about}
+                    </Link>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="" activeClassName="active" className="nav-links">
+                    <Link to="project" smooth={true} duration={1000}>
+                      {languages[language].project}
+                    </Link>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="" activeClassName="active" className="nav-links">
+                    <Link to="contact" smooth={true} duration={1000}>
+                      {languages[language].contact}
+                    </Link>
+                  </a>
+                </li>
+
+                <div className="flags-desktop">
+                  <li>
+                    <img
+                      src={en}
+                      alt="en"
+                      onClick={() => {
+                        setLanguage("en");
+                      }}
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={br}
+                      alt="ptbr"
+                      onClick={() => {
+                        setLanguage("ptbr");
+                      }}
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={ru}
+                      alt="ru"
+                      onClick={() => {
+                        setLanguage("ru");
+                      }}
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={jp}
+                      alt="jp"
+                      onClick={() => {
+                        setLanguage("jp");
+                      }}
+                    />
+                  </li>
+                </div>
+              </ul>
+            </div>
+
+            <div className="flags">
+              <img
+                src={en}
+                alt="en"
+                onClick={() => {
+                  setLanguage("en");
+                }}
+              />
+              <img
+                src={br}
+                alt="ptbr"
+                onClick={() => {
+                  setLanguage("ptbr");
+                }}
+              />
+              <img
+                src={ru}
+                alt="ru"
+                onClick={() => {
+                  setLanguage("ru");
+                }}
+              />
+              <img
+                src={jp}
+                alt="jp"
+                onClick={() => {
+                  setLanguage("jp");
+                }}
+              />
+            </div>
+
+            <div className="nav-icon" onClick={handleClick}>
+              <i className={click ? "fa fa-times" : "fa fa-bars"}>
+                <FaBars />
+              </i>
+            </div>
+          </div>
+        </nav>;
+      })}
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-
-      <nav className="navbar" onClick={(e) => e.stopPropagation()}>
-        <div className="nav-container">
-          <div exact to="/" className="nav-logo">
-            <h1>Flávio</h1>
-          </div>
-
-          <div className="links">
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links">
-                  <Link to="about" smooth={true} duration={1000}>
-                    {languages[language].about}
-                  </Link>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links">
-                  <Link to="project" smooth={true} duration={1000}>
-                    {languages[language].project}
-                  </Link>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="" activeClassName="active" className="nav-links">
-                  <Link to="contact" smooth={true} duration={1000}>
-                    {languages[language].contact}
-                  </Link>
-                </a>
-              </li>
-
-              <div className="flags-desktop">
-                <li>
-                  <img
-                    src={en}
-                    alt="en"
-                    onClick={() => {
-                      setLanguage("en");
-                    }}
-                  />
-                </li>
-                <li>
-                  <img
-                    src={br}
-                    alt="ptbr"
-                    onClick={() => {
-                      setLanguage("ptbr");
-                    }}
-                  />
-                </li>
-                <li>
-                  <img
-                    src={ru}
-                    alt="ru"
-                    onClick={() => {
-                      setLanguage("ru");
-                    }}
-                  />
-                </li>
-                <li>
-                  <img
-                    src={jp}
-                    alt="jp"
-                    onClick={() => {
-                      setLanguage("jp");
-                    }}
-                  />
-                </li>
-              </div>
-            </ul>
-          </div>
-
-          <div className="flags">
-            <img
-              src={en}
-              alt="en"
-              onClick={() => {
-                setLanguage("en");
-              }}
-            />
-            <img
-              src={br}
-              alt="ptbr"
-              onClick={() => {
-                setLanguage("ptbr");
-              }}
-            />
-            <img
-              src={ru}
-              alt="ru"
-              onClick={() => {
-                setLanguage("ru");
-              }}
-            />
-            <img
-              src={jp}
-              alt="jp"
-              onClick={() => {
-                setLanguage("jp");
-              }}
-            />
-          </div>
-
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"}>
-              <FaBars />
-            </i>
-          </div>
-        </div>
-      </nav>
     </div>
   );
 }
