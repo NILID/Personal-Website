@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 import "./styles/Main.css";
 
-const defaultLanguage = "br";
+const defaultLanguage = "en";
 export const LanguageContext = React.createContext();
 
 function App() {
