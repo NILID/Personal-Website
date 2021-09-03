@@ -47,7 +47,7 @@ function Menu() {
   console.log("language", language);
 
   return (
-    <div>
+    <div className="menu-container">
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <div exact to="/" className="nav-logo">
@@ -157,7 +157,6 @@ function Menu() {
           </div>
         </div>
       </nav>
-      ;
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
     </div>
   );
