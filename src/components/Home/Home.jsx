@@ -5,9 +5,12 @@ import {
   ContentTwo,
   Button,
   Intro,
+  Link,
 } from "./HomeElements";
 
-import dev from "../../assets/dev.svg";
+import githubIcon from "../../assets/home/github.svg";
+import linkedinIcon from "../../assets/home/linkedin.svg";
+
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
 
@@ -26,6 +29,14 @@ function Home() {
         }) => (
           <Container>
             <ContentOne>
+              <Link>
+                <img src={githubIcon} alt="" />
+              </Link>
+              <Link>
+                <img src={linkedinIcon} alt="" />
+              </Link>
+            </ContentOne>
+            <ContentTwo>
               <h2 className="sloganFirstPart">{sloganFirstPart}</h2>
               <h2>{sloganSecondPart}</h2>
               <Intro>
@@ -37,9 +48,6 @@ function Home() {
                   <a href="">{button}</a>
                 </div>
               </Button>
-            </ContentOne>
-            <ContentTwo>
-              <img src={dev} alt="" />
             </ContentTwo>
           </Container>
         )

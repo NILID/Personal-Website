@@ -13,39 +13,22 @@ export const Container = styled.div`
 `;
 
 export const ContentOne = styled.div`
-  width: 50%;
-  height: 50%;
-  color: #2e186a;
-  text-align: left;
-  margin: auto;
+  width: 10%;
+  height: 100%;
+  border: 1px solid pink;
+`;
 
-  h2 {
-    font-size: 3rem;
-  }
-
-  .sloganFirstPart {
-    margin-top: 1rem;
-  }
-
-  span {
-    color: #fe7624;
-  }
-
-  @media (max-width: 768px) {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-
-    h2 {
-      font-size: 2rem;
-      text-align: left;
-    }
+export const Link = styled.div`
+  img {
+    width: 2rem;
+    border: 1px solid black;
   }
 `;
 
 export const ContentTwo = styled.div`
-  width: 50%;
-  height: 60%;
+  width: 90%;
+  height: 100%;
+  border: 1px solid black;
   /* margin: auto; */
 
   img {
