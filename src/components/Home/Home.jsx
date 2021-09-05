@@ -31,8 +31,6 @@ function Home() {
             <ContentOne>
               <Link>
                 <img src={githubIcon} alt="" />
-              </Link>
-              <Link>
                 <img src={linkedinIcon} alt="" />
               </Link>
             </ContentOne>
@@ -57,5 +55,3 @@ function Home() {
 }
 
 export default Home;
-
-// coment here to see if it'll change something on github

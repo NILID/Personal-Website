@@ -13,23 +13,36 @@ export const Container = styled.div`
 `;
 
 export const ContentOne = styled.div`
-  width: 10%;
+  width: 5%;
   height: 100%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 `;
 
 export const Link = styled.div`
+  margin-top: 45vh;
+  display: flex;
+  flex-direction: column;
+
   img {
     width: 2rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-top: 0.5rem;
   }
 `;
 
 export const ContentTwo = styled.div`
   width: 90%;
   height: 100%;
-  border: 1px solid black;
-  /* margin: auto; */
+  /* border: 1px solid black; */
+  color: #2e186a;
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  .sloganFirstPart {
+    margin-top: 15vh;
+  }
 
   img {
     width: 100%;
