@@ -30,8 +30,12 @@ export const Link = styled.div`
 
   img {
     width: 2rem;
-    margin-top: 2em;
   }
+
+  .linkedin {
+    margin-top: 1.2em;
+  }
+
   img:hover {
     cursor: pointer;
     transition: all 0.2s ease-in-out;

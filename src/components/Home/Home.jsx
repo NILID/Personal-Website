@@ -30,14 +30,19 @@ function Home() {
           <Container>
             <ContentOne>
               <Link>
-                <a href="https://github.com/drrh12" target="_blank">
+                <a
+                  href="https://github.com/drrh12"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/fl%C3%A1vio-andrade-9b74a01a5/"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  <img src={linkedinIcon} alt="" />
+                  <img className="linkedin" src={linkedinIcon} alt="" />
                 </a>
               </Link>
             </ContentOne>

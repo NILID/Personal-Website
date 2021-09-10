@@ -11,7 +11,7 @@ function ProjectPortfolio() {
   const [language] = useContext(LanguageContext);
 
   return (
-    <>
+    <div className="project">
       {dictionary[language].map(({ project }) => (
         <>
           <Title>
@@ -35,7 +35,7 @@ function ProjectPortfolio() {
           </Container>
         </>
       ))}
-    </>
+    </div>
   );
 }
 

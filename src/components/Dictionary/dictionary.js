@@ -9,7 +9,7 @@ const dictionary = {
       intro: "Beautifully designed websites using ReactJS. ",
       introSecondPart: "Coding since 2016 to provide you the best result.",
       span: "Design",
-      button: "Learn more",
+      button: "Contact me",
       titleAboutMe: "About Me",
       messageAboutMe:
         "Hi, my name is Flávio and I'm currently a Team Manager of Olymp Trade Forex company and a web developer. Currently, I am pursuing my last of my Bacherlor in Software Engineering at Siberian Federal University.",
