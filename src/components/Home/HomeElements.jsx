@@ -30,7 +30,12 @@ export const Link = styled.div`
 
   img {
     width: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 2em;
+  }
+  img:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
   }
 
   @media (max-width: 768px) {

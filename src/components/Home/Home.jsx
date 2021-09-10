@@ -30,8 +30,15 @@ function Home() {
           <Container>
             <ContentOne>
               <Link>
-                <img src={githubIcon} alt="" />
-                <img src={linkedinIcon} alt="" />
+                <a href="https://github.com/drrh12" target="_blank">
+                  <img src={githubIcon} alt="" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/fl%C3%A1vio-andrade-9b74a01a5/"
+                  target="_blank"
+                >
+                  <img src={linkedinIcon} alt="" />
+                </a>
               </Link>
             </ContentOne>
             <ContentTwo>
