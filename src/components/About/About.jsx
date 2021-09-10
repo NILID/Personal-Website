@@ -16,6 +16,7 @@ import {
   mongodb,
   postgresql,
   typescript,
+  solidity,
 } from "./AboutElements.jsx";
 
 import dictionary from "../Dictionary/dictionary";
@@ -42,10 +43,11 @@ function About() {
               <img src={postgresql} alt="sql" />
               <img src={mongodb} alt="Mongo" />
               <img src={node} alt="node" />
-              <img src={typescript} alt="typescript" />
-              <img src={node} alt="styled components" />
               <img src={sass} alt="sass" />
-              <img src={node} alt="sass" />
+
+              <img src={solidity} alt="solidity" />
+              <img src={typescript} alt="typescript" />
+              {/* <img src={node} alt="sass" /> */}
             </Techs>
             <ContainerTwo>
               <Description>

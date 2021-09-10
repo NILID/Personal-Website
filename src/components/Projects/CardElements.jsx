@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   margin: 10% auto;
-  border: 1px dotted pink;
+  border: 1px dotted black;
   width: 80%;
 
   img {

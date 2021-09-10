@@ -10,6 +10,7 @@ import node from "../../assets/about/nodejs.svg";
 import mongodb from "../../assets/about/mongodb.svg";
 import postgresql from "../../assets/about/postgresql.svg";
 import typescript from "../../assets/about/typescript.svg";
+import solidity from "../../assets/about/solidity.svg";
 
 export {
   react,
@@ -21,6 +22,7 @@ export {
   mongodb,
   postgresql,
   typescript,
+  solidity,
 };
 
 export const Container = styled.div`
