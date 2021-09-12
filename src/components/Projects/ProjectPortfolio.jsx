@@ -3,6 +3,7 @@ import React, { useContext } from "react";
 import { Container, Columns, Title } from "./ProjectPortfolioElements";
 import Card from "../Projects/Card";
 import desktopMockup from "../../assets/projects/modern-browser-mockup.png";
+import algoGif from "../../assets/projects/algo.gif";
 
 import dictionary from "../Dictionary/dictionary";
 import { LanguageContext } from "../../App";
@@ -27,9 +28,9 @@ function ProjectPortfolio() {
             </Columns>
             <Columns>
               <Card
-                image={desktopMockup}
-                title="Logistic Website"
-                description="This website was fully done with ReactJS"
+                image={algoGif}
+                title="Merge Sort"
+                description="This was a project done with ReactJS and JavaScript to study algorithms. I'm implementing sorting algorithms and visualization."
               />
             </Columns>
           </Container>
