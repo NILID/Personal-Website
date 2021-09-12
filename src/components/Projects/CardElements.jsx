@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Card = styled.div`
   margin: 10% auto;
   border: 1px dotted black;
-  width: 80%;
+  width: 95%;
+  height: 80vh;
 
   img {
     width: 100%;
@@ -13,8 +14,17 @@ export const Card = styled.div`
   }
 `;
 
-export const CardImages = styled.div``;
+export const CardImages = styled.div`
+  border: 1px solid black;
+  height: 55vh;
+  img {
+    max-height: 100%;
+  }
+`;
+
 export const CardTitle = styled.div`
+  height: 5vh;
+  border: 1px solid pink;
   text-align: center;
   font-size: 2rem;
   color: #2e186a;
