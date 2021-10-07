@@ -10,7 +10,7 @@ import {
   ButtonGithub,
 } from "./CardElements";
 
-import "./Projects.scss";
+// import "./Projects.scss";
 
 function CardComponent(props) {
   return (
@@ -30,15 +30,12 @@ function CardComponent(props) {
 
         <Links>
           <ButtonPreview>
-            <a href="https://econocargo.herokuapp.com/" target="_blank">
+            <a href={props.portfolio_link} target="_blank">
               LIVE
             </a>
           </ButtonPreview>
           <ButtonGithub>
-            <a
-              href="https://github.com/drrh12/econocargo_portfolio"
-              target="_blank"
-            >
+            <a href={props.github_portfolio_link} target="_blank">
               GITHUB
             </a>
           </ButtonGithub>
