@@ -35,7 +35,7 @@ function CardComponent(props) {
             </a>
           </ButtonPreview>
           <ButtonGithub>
-            <a href={props.github_portfolio_link} target="_blank">
+            <a href={props.github_link} target="_blank">
               GITHUB
             </a>
           </ButtonGithub>
