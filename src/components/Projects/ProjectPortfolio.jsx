@@ -20,20 +20,20 @@ function ProjectPortfolio() {
             <h1>{project}</h1>
           </Title>
           <Container>
-            <Columns>
+            {/* <Columns>
               <Card
                 image={desktopMockup}
                 title="Logistic Website"
                 description="This website was fully done with ReactJS"
                 portfolio_link={"https://troika.herokuapp.com/"}
-                github_link={""}
+                github_link={"https://github.com/drrh12/econocargo_portfolio"}
               />
-            </Columns>
+            </Columns> */}
             <Columns>
               <Card
                 image={troikaPortfolio}
                 title="Troika Idiomas"
-                description=""
+                description="Website done for a Russian language school"
                 portfolio_link={"https://troika.herokuapp.com/"}
                 github_link={"https://github.com/drrh12/troika"}
               />
@@ -42,9 +42,11 @@ function ProjectPortfolio() {
               <Card
                 image={algoGif}
                 title="Merge Sort"
-                description="This was a project done with ReactJS and JavaScript to study algorithms. I'm implementing sorting algorithms and visualization."
-                portfolio_link={"https://github.com/drrh12/troika"}
-                github_link={"https://github.com/drrh12/troika"}
+                description="Project done with ReactJS and JavaScript to study algorithms."
+                portfolio_link={"https://sort-algo.herokuapp.com/"}
+                github_link={
+                  "https://github.com/drrh12/Sort-Algorithms-Visualization"
+                }
               />
             </Columns>
           </Container>
