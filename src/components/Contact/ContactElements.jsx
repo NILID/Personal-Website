@@ -104,7 +104,7 @@ export const RightInnerContainer = styled.div`
   text-align: center;
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
   input,
   textarea {
     background-color: #eee;

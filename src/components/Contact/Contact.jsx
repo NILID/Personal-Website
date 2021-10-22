@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import emailjs from "emailjs-com";
 
 import {
@@ -24,20 +24,23 @@ function Contact() {
   const [language] = useContext(LanguageContext);
 
   const sendEmail = (e) => {
-    e.preventDefault(
-      "service_m2gcgsu",
-      "service_m2gcgsu",
-      e.target,
-      "user_K7jfotuJyQQt3XbVn6diZ"
-    )
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    e.preventDefault();
 
-    emailjs.sendForm();
+    emailjs
+      .sendForm(
+        "service_m2gcgsu",
+        "template_t31fogb",
+        e.target,
+        "user_K7jfotuJyQQt3XbVn6diZ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -74,11 +77,7 @@ function Contact() {
                   <RightInnerContainer>
                     <Form onSubmit={sendEmail}>
                       <input type="text" name="name" placeholder="Name *" />
-                      <input
-                        type="email"
-                        name="userEmail"
-                        placeholder="Email *"
-                      />
+                      <input type="email" name="email" placeholder="Email *" />
                       <textarea
                         rows="10"
                         placeholder="Message"
