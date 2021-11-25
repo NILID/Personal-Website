@@ -12,11 +12,11 @@ const dictionary = {
       button: "Contact me",
       titleAboutMe: "About Me",
       messageAboutMe:
-        "Hi, my name is Flávio and I'm currently a Team Manager of Olymp Trade Forex company and a web developer. Currently, I am pursuing my last of my Bacherlor in Software Engineering at Siberian Federal University.",
+        "building",
       messageAboutMeSecondParagraph:
-        "Overthe past 6 years, coding has developed a passion of mine, specifically, in the realm of web development and blockchain. I have dedicated my time to gaining proficiency in development to better myself as a developer and problem solver. ",
+        "building",
       messageAboutMeThirdParagraph:
-        "I am able to create clean and functional websites and confidently deliver products to my clients knowing that they are of high quality.",
+        "building",
       titleProjects: "Projects",
       titleContact: "Contact",
       leftInnerContainerTitle: "Let's chat",
@@ -41,11 +41,11 @@ const dictionary = {
       button: "Saiba mais",
       titleAboutMe: "Sobre",
       messageAboutMe:
-        " Olá, meu nome é Flávio e atualmente sou Team Manager da empresa Olymp Trade Forex e desenvolvedor web. Atualmente, estou cursando meu último bacharelado em Engenharia de Software na Universidade Federal da Sibéria. ",
+        " b ",
       messageAboutMeSecondParagraph:
-        " Nos últimos 6 anos, a programação desenvolveu uma paixão minha, especificamente, na área de desenvolvimento web e blockchain. ",
+        " b",
       messageAboutMeThirdParagraph:
-        " Eu dediquei meu tempo para ganhar proficiência em desenvolvimento para me aprimorar como desenvolvedor e solucionador de problemas. Sou capaz de criar sites limpos e funcionais e entregar produtos aos meus clientes com confiança, sabendo que eles são de alta qualidade. ",
+        " b",
       titleProjects: "Projetos",
       titleContact: "Contatos",
       leftInnerContainerTitle: "Vamos conversar.",
@@ -69,11 +69,11 @@ const dictionary = {
       button: "もっと",
       titleAboutMe: "だいたい",
       messageAboutMe:
-        "こんにちは。私の名前はFlávioです。現在、Olymp TradeForexのチームマネージャーおよびWeb開発者です。 私は現在、シベリア連邦大学でソフトウェア工学の最後の学士号を勉強しています。",
+        "こんにちは。私士号。",
       messageAboutMeSecondParagraph:
-        "過去6年間で、プログラミングは、特にWebおよびブロックチェーン開発の分野で私の情熱を育ててきました。",
+        "過去6年間で、。",
       messageAboutMeThirdParagraph:
-        "私は時間をかけて開発能力を身に付け、開発者および問題解決者としての自分自身を向上させてきました。 クリーンで機能的なウェブサイトを作成し、顧客が高品質であることを確信して、自信を持って製品を顧客に届けることができます。",
+        "私は時",
       titleProjects: "プロジェクト",
       titleContact: "コンタクト",
       leftInnerContainerTitle: "チャットしよう",
@@ -93,16 +93,16 @@ const dictionary = {
       sloganSecondPart: "и я разрабатываю код.",
       intro: "Красиво оформленные веб-сайты с использованием ReactJS.",
       introSecondPart:
-        "Программирую с 2016 года, чтобы предоставить вам лучший результат.",
+        "Программир",
       span: "Lorem Ipsum",
       button: "Узнать больше",
       titleAboutMe: "Oбо мне",
       messageAboutMe:
-        " Привет, меня зовут Флавио, и я в настоящее время являюсь менеджером команды в Olymp Trade Forex и веб-разработчиком. В настоящее время я учусь на последней степени бакалавра программной инженерии в Сибирском федеральном университете. ",
+        " Прие. ",
       messageAboutMeSecondParagraph:
-        " За последние 6 лет программирование стало моей страстью, особенно в области разработки веб-технологий и блокчейнов. ",
+        " За . ",
       messageAboutMeThirdParagraph:
-        " Я потратил время на то, чтобы приобрести навыки разработки, чтобы улучшить себя как разработчик и решатель проблем. Я могу создавать чистые, функциональные веб-сайты и с уверенностью доставлять продукты своим клиентам, зная, что они имеют высокое качество. ",
+        " Я п",
       titleProjects: "проекты",
       titleContact: "контакт",
       leftInnerContainerTitle: "Давай поговорим",

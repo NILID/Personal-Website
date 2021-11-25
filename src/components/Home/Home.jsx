@@ -35,14 +35,14 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="" />
+                  {/* <img src={githubIcon} alt="" /> */}
                 </a>
                 <a
                   href="https://www.linkedin.com/in/fl%C3%A1vio-andrade-9b74a01a5/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img className="linkedin" src={linkedinIcon} alt="" />
+                  {/* <img className="linkedin" src={linkedinIcon} alt="" /> */}
                 </a>
               </Link>
             </ContentOne>
