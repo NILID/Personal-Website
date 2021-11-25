@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 80%;
   height: 90vh;
   display: flex;
+  border: 1px solid black;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -15,11 +16,47 @@ export const Container = styled.div`
 export const ContentOne = styled.div`
   width: 5%;
   height: 100%;
+  border: 1px solid black;
 
   @media (max-width: 768px) {
     width: 100%;
     height: 10vh;
     display: none;
+  }
+`;
+
+export const ContentTwo = styled.div`
+  width: 90%;
+  height: 100%;
+  color: #2e186a;
+  border: 1px solid black;
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  .sloganFirstPart {
+    margin-top: 15vh;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    img {
+      width: 100%;
+      margin: auto;
+    }
   }
 `;
 
@@ -50,39 +87,7 @@ export const Link = styled.div`
   }
 `;
 
-export const ContentTwo = styled.div`
-  width: 90%;
-  height: 100%;
-  color: #2e186a;
 
-  h2 {
-    font-size: 5rem;
-  }
-
-  .sloganFirstPart {
-    margin-top: 15vh;
-  }
-
-  img {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-  }
-
-  @media (max-width: 768px) {
-    width: 100%;
-
-    h2 {
-      font-size: 2rem;
-    }
-
-    img {
-      width: 100%;
-      margin: auto;
-    }
-  }
-`;
 
 export const Intro = styled.div`
   margin-top: 2rem;
