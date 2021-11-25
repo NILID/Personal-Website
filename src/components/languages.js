@@ -3,7 +3,7 @@ const text = {
     about: "about",
     project: "project",
     contact: "contact",
-    slogan: "Think the Design, and I design the Code.",
+    slogan: "Password Software Engineer.",
     button: "Learn more",
   },
   ptbr: {
