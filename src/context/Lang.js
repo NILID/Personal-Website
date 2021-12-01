@@ -30,11 +30,11 @@ export default function Lang({ children }) {
       button: "nihon",
     },
     ru: {
-      about: "руский",
-      project: "руский",
-      contact: "руский",
-      slogan: "руский",
-      button: "руский",
+      about: "русский",
+      project: "русский",
+      contact: "русский",
+      slogan: "русский",
+      button: "русский",
     },
   };
 
